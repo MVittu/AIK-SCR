@@ -1,0 +1,9 @@
+design_group,n,relative_frequency
+randomized_crossover,9,0.2647058823529412
+crossover,6,0.17647058823529413
+other_or_unclear,6,0.17647058823529413
+parallel_or_controlled_trial,4,0.11764705882352941
+repeated_measures,3,0.08823529411764706
+unclear,3,0.08823529411764706
+single_group_or_observational,2,0.058823529411764705
+retrospective,1,0.029411764705882353
