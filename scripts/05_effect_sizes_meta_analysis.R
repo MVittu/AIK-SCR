@@ -25,11 +25,24 @@ effect_data <- tab4_long %>%
       select(paper_id, outcome_index, cg_n_num, cg_mean_num, cg_sd_num, effect_estimate),
     by = c("paper_id", "outcome_index")
   ) %>%
-  left_join(tab3_clean %>% select(paper_id, bt_classification, bt_category), by = "paper_id") %>%
+  left_join(
+    tab3_clean %>%
+      group_by(paper_id) %>%
+      summarise(
+        bt_classification = paste(unique(na.omit(bt_classification)), collapse = "; "),
+        bt_category = first(na.omit(bt_category), default = NA_character_),
+        .groups = "drop"
+      ),
+    by = "paper_id"
+  ) %>%
   mutate(
     outcome_metric = str_squish(outcome_metric),
     outcome_lower = str_to_lower(outcome_metric),
-    direction_multiplier = if_else(str_detect(outcome_lower, lower_is_better_pattern), -1, 1),
+    direction_multiplier = if_else(
+      replace_na(str_detect(outcome_lower, lower_is_better_pattern), FALSE),
+      -1,
+      1
+    ),
     analysis_cluster = case_when(
       bt_category == "hypoventilation" & str_detect(outcome_lower, rsa_pattern) ~ "hypoventilation_rsa",
       bt_category == "hyperventilation" & str_detect(outcome_lower, power_pattern) ~ "hyperventilation_power",

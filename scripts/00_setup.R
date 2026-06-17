@@ -85,13 +85,10 @@ safe_weighted_mean <- function(x, w) {
 }
 
 write_table_outputs <- function(sheets, workbook_name) {
-  workbook_path <- file.path(tables_dir, paste0(workbook_name, ".xlsx"))
-  writexl::write_xlsx(sheets, workbook_path)
-
   purrr::iwalk(sheets, function(data, sheet_name) {
     csv_name <- paste0(workbook_name, "__", sheet_name, ".csv")
     readr::write_csv(data, file.path(tables_dir, csv_name), na = "")
   })
 
-  invisible(workbook_path)
+  invisible(file.path(tables_dir, paste0(workbook_name, "__*.csv")))
 }

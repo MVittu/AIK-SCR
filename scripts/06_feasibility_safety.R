@@ -4,7 +4,12 @@ if (!exists("tab6_clean") || !exists("tab2_clean") || !exists("tab3_clean")) {
 
 feasibility <- tab6_clean %>%
   left_join(tab2_clean %>% select(paper_id, n_total_num), by = "paper_id") %>%
-  left_join(tab3_clean %>% select(paper_id, bt_category), by = "paper_id")
+  left_join(
+    tab3_clean %>%
+      group_by(paper_id) %>%
+      summarise(bt_category = first(na.omit(bt_category), default = NA_character_), .groups = "drop"),
+    by = "paper_id"
+  )
 
 dropout_summary <- feasibility %>%
   filter(!is.na(dropout_prop), !is.na(n_total_num)) %>%
