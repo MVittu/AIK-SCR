@@ -1,0 +1,35 @@
+Paper_ID,Publication_Year,Study_Design,Sport_Discipline,Athlete_Level,N_Total,Age_Mean,Age_Measure_of_Spread,Sex_Ratio_Male_Pct,Race_Ethnicity_Reported,Anthropometrics_Baseline,Attrition_Noted
+Durand2004,2004,Observational - Cross-sectional,Endurance,Competitive,22,23.88,1.15,100,False,"Height, Body Mass, FEV1",False
+Spiering2004,2004,Observational - Retrospective,Winter sports,Elite,78,,,32.05,False,"FEV1, VEmax",False
+Lindholm2005,2005,Experimental - Other,Freediving,Elite,,,,,,False,,False
+Malakhov2014,2014,Observational - Cross-sectional,Various,Competitive,66,20.9,2.8,43.94,False,,False
+Sakamoto2014,2014,Experimental - Other,Various,Competitive,13,21.2,1.9,100,False,"Height, Body mass",False
+Sakamoto2015,2015,Experimental - Other,Various,Competitive,15,21.2,3.7,66.67,False,"Height, Mass",False
+Stavrou2015,2015,Experimental - RCT,Swimming,Competitive,28,15.6,1.2,50,False,"Body height, Body mass, Body fat, Tanner stage",False
+Hakked2017,2017,Experimental - RCT,Swimming,Competitive,30,15.15,1.42,48.15,False,"Height, Weight",True
+Sakamoto2018,2018,Experimental - Other,Various,Competitive,21,20.36,0.9,82.35,False,"Height, Body mass",True
+Fernandez2019,2019,Experimental - Other,Freediving,Elite,,,,,,False,,False
+Citherlet2021,2021,Experimental - Other,Running,Recreational,16,24.5,2.3,100,False,Weight,True
+Taylor2021,2021,Experimental - Other,None,Recreational,47,,,36.17,False,BMI,True
+Vaidya2021,2021,Experimental - Other,Cricket,Competitive,,,,,,False,,False
+bahensky2021,2021,Experimental - RCT,Running,Competitive,46,,,,,,False,,False
+Marko2022,2022,Experimental - RCT,Running,Elite,19,16.6,1.53,57.89,False,,False
+You2023,2023,Experimental - Other,None,Recreational,78,22.32,2.11,70.67,False,"BMI, Waist-to-hips ratio",True
+Braham2024,2024,Experimental - RCT,Soccer,Competitive,24,,,0,False,,False
+Li2024,2024,Experimental - Other,None,Recreational,30,19.6,1.2,81.82,False,"Height, Body weight",True
+Merlin2024,2024,Experimental - RCT,Swimming,Elite,13,13.7,0.46,38.46,False,"Height, Weight",False
+Sikora2024,2024,Observational - Cross-sectional,Various,Competitive,113,21.58,1.27,50.44,False,"BMI, BSA",False
+Woorons2024,2024,Experimental - RCT,Judo,Elite,20,20.6,2.5,50,False,"Height, Weight",False
+Deniz2025,2025,Experimental - Other,Resistance Training,Recreational,12,27.92,7.38,100,False,"Height, Body weight, BMI, Body fat",False
+Fernandez2025,2025,Experimental - Other,Freediving,Elite,13,42,9,100,False,"Height, Body mass, BMI, Resting HR, Resting SpO2",False
+Fesseler2025,2025,Experimental - Other,Running,Recreational,36,24.0,1.8,50,False,"Height, Weight, BMI, VO2max",False
+Fox2025,2025,Experimental - RCT,None,Recreational,556,37,9.95,43.81,False,,True
+Kasap2025,2025,Experimental - Other,Cycling,Recreational,40,20.95,1.75,62.5,False,"Height, Body Weight, BMI",False
+Yilmaz2025,2025,Experimental - Other,Team sports,Competitive,17,22.6,1.9,100,False,"Height, Body mass, Body fat",False
+Chiron2026,2026,Experimental - RCT,Track and Field,Elite,22,22.32,2.85,68.18,False,"Weight, Height",False
+Devipriya2026,2026,Experimental - Before-After,None,Recreational,60,21.35,1.79,50,False,"Height, Weight, BMI",False
+FernandezBarradas2026,2026,Experimental - Before-After,American Football,Competitive,34,16.97,0.80,100,False,,False
+Iskra2026,2026,Experimental - Other,None,Recreational,58,23.0,2.4,60.34,False,,True
+Katz2026,2026,Experimental - Other,Resistance Training,Recreational,40,24.8,6.8,80,False,"Height, Body mass",False
+Raidl2026,2026,Experimental - Other,None,Recreational,,,,,,False,,False
+Tomita2026,2026,Experimental - Other,Skating,Competitive,26,19.0,1.8,46.15,False,"Height, Body weight",False
