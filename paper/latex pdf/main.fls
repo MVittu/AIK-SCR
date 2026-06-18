@@ -346,6 +346,11 @@ INPUT ./tables/prisma_flow.tex
 INPUT ./tables/prisma_flow.tex
 INPUT ./tables/prisma_flow.tex
 INPUT tables/prisma_flow.tex
+INPUT ./tables/table1_descriptive.tex
+INPUT ./tables/table1_descriptive.tex
+INPUT ./tables/table1_descriptive.tex
+INPUT ./tables/table1_descriptive.tex
+INPUT tables/table1_descriptive.tex
 INPUT ./tables/summary_tables.tex
 INPUT ./tables/summary_tables.tex
 INPUT ./tables/summary_tables.tex

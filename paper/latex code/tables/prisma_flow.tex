@@ -1,30 +1,6 @@
 \begin{figure}[p]
 \centering
-\resizebox{\textwidth}{!}{%
-\begin{tikzpicture}[
-  node distance=8mm and 12mm,
-  box/.style={draw, rounded corners=2pt, align=center, text width=0.38\textwidth, minimum height=12mm, font=\small},
-  smallbox/.style={draw, rounded corners=2pt, align=center, text width=0.30\textwidth, minimum height=10mm, font=\small},
-  arrow/.style={-{Latex[length=2.5mm]}, thick}
-]
-\node[box] (identified) {Records identified from PubMed\\$n=272$};
-\node[box, below=of identified] (screened) {Records screened by title and abstract\\$n=272$};
-\node[smallbox, right=of screened] (excluded_ta) {Records excluded after title/abstract screening\\$n=229$};
-\node[box, below=of screened] (fulltext) {Full-text reports assessed for eligibility\\$n=43$};
-\node[smallbox, right=of fulltext] (excluded_ft) {Full-text reports excluded\\$n=12$};
-\node[box, below=of fulltext] (eligible) {Reports included after full-text screening\\$n=31$};
-\node[smallbox, left=of eligible] (backtrack) {Additional reports recovered by citation backtracking\\$n=3$\\Taylor 2021; Fernandez 2019; Fernandez 2025};
-\node[box, below=of eligible] (included) {Sources included in this scoping review\\$n=34$};
-
-\draw[arrow] (identified) -- (screened);
-\draw[arrow] (screened) -- (fulltext);
-\draw[arrow] (fulltext) -- (eligible);
-\draw[arrow] (eligible) -- (included);
-\draw[arrow] (screened) -- (excluded_ta);
-\draw[arrow] (fulltext) -- (excluded_ft);
-\draw[arrow] (backtrack) -- (eligible);
-\end{tikzpicture}
-}
-\caption{PRISMA-ScR source selection flow. Duplicate-removal counts and full-text exclusion reasons were not available in the project files and should be completed if those logs are recovered.}
+\includegraphics[width=\textwidth]{prisma_flow.png}
+\caption{PRISMA 2020 source selection flow. Duplicate-removal counts and full-text exclusion reasons were not available in the project files and should be completed if those logs are recovered.}
 \label{fig:prisma}
 \end{figure}
