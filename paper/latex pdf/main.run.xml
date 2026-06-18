@@ -85,6 +85,7 @@
     </requires>
     <requires type="editable">
       <file>included_articles.bib</file>
+      <file>background_references.bib</file>
       <file>methods_references.bib</file>
     </requires>
   </external>

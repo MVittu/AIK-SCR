@@ -7,6 +7,7 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{longtable}
+\usepackage{tabularx}
 \usepackage{pdflscape}
 \usepackage{array}
 \usepackage{caption}
@@ -19,11 +20,13 @@
 
 \usetikzlibrary{arrows.meta,positioning}
 \graphicspath{{figures/}}
-\addbibresource{../reference/articles.bib}
+\addbibresource{included_articles.bib}
+\addbibresource{background_references.bib}
 \addbibresource{methods_references.bib}
 
 \setmainfont{TeX Gyre Termes}
 \onehalfspacing
+\setlength{\emergencystretch}{3em}
 \hypersetup{
   colorlinks=true,
   linkcolor=black,
@@ -47,13 +50,15 @@
 \noindent\textbf{Keywords:} scoping review; PRISMA-ScR; breathing training; breathwork; hyperventilation; hypoventilation; paced breathing; sport performance; athletes
 
 \section{Introduction}
-Breathing is both an automatic physiological process and a deliberately modifiable behavior. In sport and exercise settings, athletes and practitioners use breath-regulation strategies to influence arousal, autonomic control, acid-base balance, tolerance to hypoxia or hypercapnia, respiratory muscle function, recovery, and perceived exertion. The practical appeal is clear: breathing techniques are low cost, portable, and easy to combine with warm-up, recovery, psychological preparation, or technical routines. The scientific challenge is equally clear: the term ``breathing training'' covers several mechanistically different practices that should not be assumed to have the same effects.
+Optimal respiratory strategies represent a physiological mechanism capable of modulating autonomic nervous-system activity, psychological stress, arousal regulation, and physical execution in competitive sport \parencite{sports11050103}. Breathing is therefore both an automatic physiological process and a deliberately modifiable behavior. In sport and exercise settings, athletes and practitioners use breath-regulation strategies to influence acid-base balance, tolerance to hypoxia or hypercapnia, respiratory muscle function, perceived exertion, recovery, attention, and emotional control.
 
-The interventions represented in the AIK-SCR extraction files range from acute hyperventilation or Wim Hof-type breathing to repeated-sprint hypoventilation, slow-paced or coherent breathing, box breathing, pranayama, Bhramari breathing, breath holding, Valsalva-type strategies, hook breathing in freediving, and observational comparisons of breathing patterns. These practices plausibly act through different pathways. Hyperventilation may acutely alter carbon dioxide, pH, ventilatory discomfort, and repeated high-intensity exercise tolerance. Hypoventilation or breath-holding strategies may expose athletes to hypoxemic or hypercapnic stress. Paced breathing is more often framed as an autonomic, attentional, or anxiety-regulation strategy. Pranayama and related yogic methods combine respiratory control with broader psychophysiological training.
+Despite increasing integration into athletic training, the categorization and validation of breathing techniques performed without external devices remain fragmented and lack standardized empirical protocols \parencite{Laborde31122024}. The term ``breathing technique'' is often used as if it described a single intervention class, but the practices grouped under that label are mechanistically diverse. The interventions represented in the AIK-SCR extraction files range from acute hyperventilation or Wim Hof-type breathing to repeated-sprint hypoventilation, slow-paced or coherent breathing, box breathing, pranayama, Bhramari breathing, breath holding, Valsalva-type strategies, hook breathing in freediving, and observational comparisons of breathing patterns.
 
-This heterogeneity makes a scoping review more appropriate than a narrowly framed systematic review of efficacy. Scoping reviews are designed to map a body of literature, clarify concepts, identify types of available evidence, and locate gaps where later systematic reviews or trials may be justified \parencite{arksey2005scoping,levac2010scoping,peters2020jbi}. Reporting followed the PRISMA extension for scoping reviews (PRISMA-ScR), which emphasizes transparent reporting of eligibility criteria, evidence sources, selection, data charting, and synthesis \parencite{tricco2018prisma}.
+This heterogeneity matters for interpretation. Hyperventilation may acutely alter carbon dioxide, pH, ventilatory discomfort, and repeated high-intensity exercise tolerance. Hypoventilation or breath-holding strategies may expose athletes to hypoxemic or hypercapnic stress. Paced breathing is more often framed as an autonomic, attentional, or anxiety-regulation strategy. Pranayama and related yogic methods combine respiratory control with broader psychophysiological training. A systematic evaluation of the literature is therefore needed to consolidate empirical evidence, clarify how breathing techniques are being categorized, and evaluate their effects on sport performance.
 
-The objective of this review was to map evidence on breathing-training and acute breath-regulation strategies in sport, exercise, and performance-relevant contexts. Specifically, we aimed to describe publication trends, study designs, populations, breathing-intervention categories, dosing characteristics, outcome domains, feasibility and safety reporting, and any comparable quantitative outcome clusters emerging from the extracted material.
+This heterogeneity also makes a scoping review more appropriate than a narrowly framed systematic review of efficacy. Scoping reviews are designed to map a body of literature, clarify concepts, identify types of available evidence, and locate gaps where later systematic reviews or trials may be justified \parencite{arksey2005scoping,levac2010scoping,peters2020jbi}. Reporting followed the PRISMA extension for scoping reviews (PRISMA-ScR), which emphasizes transparent reporting of eligibility criteria, evidence sources, selection, data charting, and synthesis \parencite{tricco2018prisma}.
+
+The primary objectives of this scoping review were to map the literature on breathing techniques executed without external devices and evaluate the available evidence on their effects on sports performance. Specifically, we aimed to describe publication trends, study designs, populations, breathing-intervention categories, dosing characteristics, outcome domains, feasibility and safety reporting, and any comparable quantitative outcome clusters emerging from the extracted material.
 
 \section{Methods}
 \subsection{Design and reporting framework}
@@ -63,9 +68,26 @@ This manuscript is a scoping review reported according to PRISMA-ScR \parencite{
 Sources were considered eligible when they examined a breathing intervention, breathing maneuver, or breathing-related exposure relevant to sport, exercise, or performance. Eligible concepts included hyperventilation, hypoventilation, paced or coherent breathing, box breathing, pranayama or yogic breathing, breath holding, Valsalva-type strategies, hook breathing, Wim Hof-type breathing, diaphragmatic breathing, and similar practices. Eligible contexts included athletes, trained or recreationally active participants, sport-specific tasks, exercise performance, recovery, psychophysiological preparation, and laboratory performance tasks with plausible sport relevance. No formal restrictions on study design were applied during charting.
 
 \subsection{Information sources and selection}
-The review began with 272 records from PubMed. After title and abstract screening, 43 records were retained for full-text assessment. Thirty-one reports were retained after full-text screening. Citation backtracking recovered three additional reports: Taylor 2021, Fernandez 2019, and Fernandez 2025. The final extracted evidence base therefore contained 34 sources. The exact PubMed search string, search date, duplicate-removal log, and full-text exclusion reasons were not present in the current project files and should be inserted if recovered.
+The review began with a PubMed search performed on 15 June 2025, which returned 272 records. The search strategy was:
 
-\input{tables/prisma_flow}
+\begin{quote}
+\scriptsize
+\raggedright
+\texttt{(("Healthy Volunteers"[Mesh] OR "Athletes"[Mesh] OR healthy[Title/Abstract] OR}\\
+\texttt{athlete*[Title/Abstract] OR sport*[Title/Abstract]) AND}\\
+\texttt{("breath-holding"[Title/Abstract] OR "apnea"[Title/Abstract] OR}\\
+\texttt{"breathing exercise"[Title/Abstract] OR "controlled breathing"[Title/Abstract] OR}\\
+\texttt{"paced breathing"[Title/Abstract] OR "diaphragmatic breathing"[Title/Abstract] OR}\\
+\texttt{"hyperventilation"[Title/Abstract] OR "pranayama"[Title/Abstract] OR "Wim Hof"[Title/Abstract]) AND}\\
+\texttt{("performance"[Title/Abstract] OR "endurance"[Title/Abstract] OR}\\
+\texttt{"sports performance"[Title/Abstract] OR "competition"[Title/Abstract])) NOT}\\
+\texttt{("review"[Publication Type] OR "Respiratory Muscle Training"[Title/Abstract] OR}\\
+\texttt{"Inspiratory Muscle Training"[Title/Abstract] OR "COPD"[Title/Abstract] OR}\\
+\texttt{"asthma"[Title/Abstract] OR "sleep apnea"[Title/Abstract] OR "stroke"[Title/Abstract] OR}\\
+\texttt{"pulmonary disease"[Title/Abstract] OR "dyspnea"[Title/Abstract])}
+\end{quote}
+
+After title and abstract screening, 43 records were retained for full-text assessment. Thirty-one reports were retained after full-text screening. Citation backtracking recovered three additional reports: Taylor 2021, Fernandez 2019, and Fernandez 2025. The final extracted evidence base therefore contained 34 sources. Duplicate-removal details and full-text exclusion reasons were not present in the current project files and should be inserted if recovered.
 
 \subsection{Data charting}
 Data were charted into six source tables: bibliography, descriptive characteristics, intervention specifics, intervention outcomes, control/comparator outcomes, and feasibility/safety. The analysis scripts cleaned author-year identifiers, parsed numeric variables, standardized breathing categories, classified broad study design groups, and exported cleaned tables and plots. Charted variables included publication year, study design, sport discipline, athlete level, sample size, age, sex distribution, breathing classification, dose frequency, dose duration, comparator type, outcome metric, group sample sizes, group means and dispersions, effect estimates, adverse events, adherence, dropout, and feasibility scores.
@@ -80,93 +102,130 @@ Consistent with PRISMA-ScR, formal risk-of-bias appraisal was not required for t
 \subsection{Selection of sources}
 The selection process is shown in Figure~\ref{fig:prisma}. From 272 PubMed records, 43 were retained after title and abstract screening. Thirty-one were included after full-text screening, and three additional papers were recovered by citation backtracking, yielding 34 included sources.
 
+\input{tables/prisma_flow}
+
+The flow diagram shows a large reduction during title/abstract screening, with 229 records excluded before full-text assessment. The final corpus combines the 31 full-text inclusions with three citation-backtracked papers, which is important because the backtracked studies contributed directly to the final map rather than serving only as contextual references.
+
 \input{tables/summary_tables}
 
 \subsection{Characteristics of included sources}
-The cleaned dataset mapped 34 sources spanning 2004--2026, with one bibliographic discrepancy in which the extraction identifier `Durand2004' corresponds to a 2000 BibTeX record. Publication volume increased in recent years, with the highest annual counts in 2025 and 2026 in the cleaned extraction table. Most studies were experimental (31/34, 91.2\%), while two were observational and one remained unclear. However, only eight records were classified as parallel or controlled trials; most were crossover, repeated-measures, acute, pilot, or otherwise categorized as experimental-other.
+The cleaned dataset mapped 34 sources spanning 2004--2026, with one bibliographic discrepancy in which the extraction identifier `Durand2004' corresponds to a 2000 BibTeX record. Most studies were experimental (31/34, 91.2\%), while two were observational and one remained unclear. However, only eight records were classified as parallel or controlled trials; most were crossover, repeated-measures, acute, pilot, or otherwise categorized as experimental-other.
 
 Across studies with age data, 1185 participants contributed to a weighted mean age of 26.7 years. Sex data were available for 1234 participants and suggested an approximately balanced overall sample, with an estimated male proportion of 51.5\%. Sport contexts were dispersed. The most frequent categories were not sport-specific, mixed/various sports, freediving, running, and swimming, while many sport contexts appeared only once.
 
 \input{tables/study_characteristics}
 
-\subsection{Breathing-intervention categories and dose}
-The most frequent extracted categories were other/unclear breathing strategies, hyperventilation, and paced breathing. Hypoventilation, pranayama/yogic breathing, and breath holding or Valsalva-type strategies were less common. Dose reporting was uneven. Among parseable records, the median frequency was one session per week, and the median duration was one day, indicating that much of the literature concerns acute or short exposure protocols rather than extended training programs.
-
-\begin{figure}[tbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.82\textwidth]{bt_category_distribution.png}
-\caption{Distribution of breathing-training categories in the cleaned extraction.}
-\label{fig:bt-category}
+\includegraphics[width=0.78\textwidth]{sex_distribution.png}
+\caption{Estimated sex distribution in studies with extractable sex data.}
+\label{fig:sex-distribution}
 \end{figure}
 
-\begin{figure}[tbp]
-\centering
-\includegraphics[width=0.82\textwidth]{intervention_duration_distribution.png}
-\caption{Distribution of intervention duration among parseable records.}
-\label{fig:duration}
-\end{figure}
+The sex-distribution plot indicates that the extractable participant pool was approximately balanced overall, but this aggregate masks study-level imbalances. Several sport-specific subfields, such as freediving, resistance training, and some team-sport contexts, were male-dominant in the extraction, while other studies contained mixed or female samples. This limits certainty about whether effects generalize equally across sex and sport contexts.
 
-\subsection{Publication trends, design, and sport distribution}
-The available evidence appears to be expanding, especially in the most recent extraction years. The trend should be interpreted cautiously because 2026 sources may represent early online records and because the exact search date is not available in the project files.
-
-\begin{figure}[tbp]
+\subsection{Publication trends}
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.90\textwidth]{publication_trend.png}
 \caption{Annual publication counts and fitted exploratory trend lines.}
 \label{fig:publication-trend}
 \end{figure}
 
-\begin{figure}[tbp]
+Publication volume increased most clearly in the recent extraction years, with the highest annual counts in 2025 and 2026. This pattern suggests growing interest in non-device breathing techniques for sport and performance, although the apparent acceleration should be interpreted cautiously because 2026 records may represent early online publications and because the search was conducted on 15 June 2025 with subsequent project extraction updates.
+
+\subsection{Study design and sport context}
+\begin{figure}[H]
 \centering
-\begin{subfigure}{0.48\textwidth}
-  \includegraphics[width=\linewidth]{study_design_broad_distribution.png}
-  \caption{Broad design groups.}
-\end{subfigure}
-\hfill
-\begin{subfigure}{0.48\textwidth}
-  \includegraphics[width=\linewidth]{sport_distribution.png}
-  \caption{Sport contexts.}
-\end{subfigure}
-\caption{Distribution of study design and sport context.}
-\label{fig:design-sport}
+\includegraphics[width=0.78\textwidth]{study_design_broad_distribution.png}
+\caption{Broad study-design distribution.}
+\label{fig:design-broad}
 \end{figure}
+
+The broad design distribution shows that the evidence base is dominated by experimental studies. This is encouraging for intervention mapping, but the category is broad and includes acute crossover, repeated-measures, pilot, and before-after designs as well as randomized controlled trials.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.78\textwidth]{study_design_distribution.png}
+\caption{Detailed study-design distribution after cleaning.}
+\label{fig:design-detailed}
+\end{figure}
+
+The detailed design plot clarifies that most records were categorized as other or unclear experimental designs, while parallel or controlled trials represented a smaller portion of the map. This supports the main methodological conclusion: the literature is active, but many studies are not yet designed or reported in a way that supports strong causal or sport-practice recommendations.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\textwidth]{sport_distribution.png}
+\caption{Distribution of sport and performance contexts.}
+\label{fig:sport-distribution}
+\end{figure}
+
+Sport context was widely dispersed. Not sport-specific and mixed-sport studies formed the largest groups, followed by freediving, running, and swimming. The long tail of single-study sport contexts means that many practical sport-specific questions cannot yet be answered from replicated evidence.
+
+\subsection{Breathing-intervention categories and dose}
+The most frequent extracted categories were other/unclear breathing strategies, hyperventilation, and paced breathing. Hypoventilation, pranayama/yogic breathing, and breath holding or Valsalva-type strategies were less common. Dose reporting was uneven. Among parseable records, the median frequency was one session per week, and the median duration was one day, indicating that much of the literature concerns acute or short exposure protocols rather than extended training programs.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{bt_category_distribution.png}
+\caption{Distribution of breathing-training categories in the cleaned extraction.}
+\label{fig:bt-category}
+\end{figure}
+
+The breathing-category plot shows that the literature is not organized around one dominant intervention. Hyperventilation and paced breathing were equally represented among classified categories, whereas hypoventilation, pranayama/yogic breathing, and breath holding were less frequent. The large other/unclear category reflects both genuinely mixed interventions and inconsistent reporting terminology.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{intervention_duration_distribution.png}
+\caption{Distribution of intervention duration among parseable records.}
+\label{fig:duration}
+\end{figure}
+
+The duration plot reinforces that the mapped evidence is heavily weighted toward acute or very short protocols. A smaller subset used multi-week interventions, which makes it difficult to separate immediate psychophysiological effects from adaptations that require repeated training exposure.
 
 \subsection{Outcome synthesis}
 Outcome measures were highly heterogeneous, covering pulmonary function, blood gases, sprint and power outcomes, reaction and movement time, heart-rate variability, perceived exertion, anxiety, recovery states, oxygen saturation, and sport-specific performance. Because most outcome domains were represented by few studies, the scoping synthesis emphasizes mapping rather than definitive effect estimation.
 
 Exploratory quantitative synthesis was possible for two outcome clusters. Hyperventilation-related power outcomes showed a small pooled effect favoring the intervention ($g=0.30$, 95\% CI -0.00 to 0.60, $p=0.052$, $I^2=0.0\%$). This estimate is compatible with a small beneficial effect but is borderline and should not be read as conclusive. Paced-breathing reaction outcomes were inconclusive ($g=-0.15$, 95\% CI -0.45 to 0.15, $p=0.335$, $I^2=57.9\%$). A hypoventilation repeated-sprint cluster had only one eligible effect and was not pooled.
 
-\begin{figure}[tbp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.92\textwidth]{forest_hyperventilation_power.png}
 \caption{Exploratory forest plot for hyperventilation and power-related outcomes.}
 \label{fig:forest-hyper}
 \end{figure}
 
-\begin{figure}[tbp]
+The hyperventilation forest plot shows a small pooled effect close to conventional statistical significance. Individual effects were not uniformly large, but the low estimated heterogeneity indicates that this may be one of the more coherent outcome clusters in the current map. Even so, the confidence interval touches the null, so the result should be treated as a hypothesis for targeted trials rather than proof of ergogenic benefit.
+
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.92\textwidth]{forest_paced_breathing_reaction.png}
 \caption{Exploratory forest plot for paced breathing and reaction-related outcomes.}
 \label{fig:forest-paced}
 \end{figure}
 
+The paced-breathing forest plot does not show a clear pooled benefit for reaction-related outcomes, and heterogeneity was moderate. This suggests that paced breathing may be context-dependent: effects may depend on whether the target is arousal control, recovery, anxiety, attentional readiness, or immediate motor response.
+
 \subsection{Feasibility and safety}
 Feasibility reporting was sparse. The cleaned outputs contained no parseable adherence summaries and no parseable dropout summaries. Adverse-event extraction identified sensory symptoms associated with hyperventilation, including dizziness, heaviness, numbness, and tingling, and pulmonary edema in a freediving/hook-breathing context. These findings do not establish incidence rates because reporting was incomplete and inconsistent, but they indicate that safety reporting should be mandatory in future studies of respiratory maneuvers that alter carbon dioxide, oxygen saturation, intrathoracic pressure, or autonomic state.
 
-\begin{figure}[tbp]
+\begin{figure}[H]
 \centering
-\begin{subfigure}{0.48\textwidth}
-  \includegraphics[width=\linewidth]{adverse_events_by_bt.png}
-  \caption{Adverse-event mentions.}
-\end{subfigure}
-\hfill
-\begin{subfigure}{0.48\textwidth}
-  \includegraphics[width=\linewidth]{sex_distribution.png}
-  \caption{Sex distribution in studies with data.}
-\end{subfigure}
-\caption{Safety and participant reporting summaries.}
-\label{fig:safety-sex}
+\includegraphics[width=0.82\textwidth]{adverse_events_by_bt.png}
+\caption{Adverse-event mentions by breathing-technique category.}
+\label{fig:adverse-events}
 \end{figure}
+
+The adverse-event plot shows few reported events, but the pattern is clinically relevant. Hyperventilation-related sensory symptoms are plausible consequences of hypocapnia and respiratory discomfort, while pulmonary edema in a freediving context points to a higher-risk domain where breathing maneuvers interact with pressure, hypoxia, and post-dive recovery.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{dropout_rates.png}
+\caption{Dropout-rate plot generated from feasibility outputs.}
+\label{fig:dropout-rates}
+\end{figure}
+
+The dropout plot is included for completeness because it was generated in the analysis outputs, but the cleaned feasibility summary contained no parseable dropout data. The practical interpretation is therefore not that dropout was absent, but that dropout reporting was not extractable in a standardized way from the charted records.
 
 \section{Discussion}
 \subsection{Summary of evidence}
@@ -183,7 +242,7 @@ Practitioners should avoid treating ``breathwork'' as a single intervention clas
 Future studies should define the breathing intervention precisely, including respiratory rate, depth, timing relative to exercise, session frequency, total exposure, supervision, and safety monitoring. Trials should select outcomes that match the hypothesized mechanism, report adherence and dropout, and preregister analysis plans. Sport-specific studies should distinguish elite, competitive, recreational, and non-athlete populations. The field would also benefit from a shared taxonomy separating ventilatory manipulation, autonomic regulation, respiratory-muscle practice, apnea/hypoventilation exposure, and meditative or yogic breathing practices.
 
 \subsection{Limitations}
-This manuscript was generated from the available AIK-SCR extraction and analysis files. The project folder did not contain a populated `paper/docs/introduction.md`, an exact PubMed search strategy, a search date, duplicate-removal details, or full-text exclusion reasons. Some bibliographic records in `articles.bib` were difficult to reconcile with extraction IDs; Fernandez 2019, Fernandez 2025, and Devipriya 2026 were present in the extraction material but not reliably matched to a BibTeX entry by the available Rayyan export keys. One cleaned row lost the lowercase `bahensky2021' identifier because the cleaning rule expected uppercase AuthorYear formatting. These issues should be reconciled before journal submission.
+This manuscript was generated from the available AIK-SCR extraction and analysis files and from the project documents `paper/docs/introduction.md' and `paper/docs/pubmed-string.md'. The PubMed search string, search date, and initial yield were available, but duplicate-removal details and full-text exclusion reasons were not present in the current project files. Some bibliographic records in `articles.bib' were difficult to reconcile with extraction IDs; Fernandez 2019, Fernandez 2025, and Devipriya 2026 were present in the extraction material but not reliably matched to a BibTeX entry by the available Rayyan export keys. One cleaned row lost the lowercase `bahensky2021' identifier because the cleaning rule expected uppercase AuthorYear formatting. These issues should be reconciled before journal submission.
 
 The effect-size analyses also have limitations. They rely on extracted group means and dispersions treated as standard deviations, combine only small clusters, and normalize effect directions algorithmically. As a result, the quantitative summaries should be interpreted as exploratory signals within a scoping review, not as conclusive evidence of efficacy.
 

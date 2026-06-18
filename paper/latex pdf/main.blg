@@ -1,22 +1,25 @@
-[0] Config.pm:308> INFO - This is Biber 2.20
-[1] Config.pm:311> INFO - Logfile is 'C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.blg'
-[340] biber-MSWIN64:340> INFO - === 
-[441] Biber.pm:420> INFO - Reading 'C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.bcf'
-[935] Biber.pm:994> INFO - Found 35 citekeys in bib section 0
-[993] Biber.pm:4463> INFO - Processing section 0
-[1033] Biber.pm:4654> INFO - Looking for bibtex file 'included_articles.bib' for section 0
-[1205] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1368] bibtex.pm:1519> INFO - Found BibTeX data source 'included_articles.bib'
-[2261] Biber.pm:4654> INFO - Looking for bibtex file 'methods_references.bib' for section 0
-[2388] bibtex.pm:1713> INFO - LaTeX decoding ...
-[2412] bibtex.pm:1519> INFO - Found BibTeX data source 'methods_references.bib'
-[2839] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2840] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2841] Biber.pm:4283> INFO - Sorting list 'nyt/apasortcite//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[2841] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[3252] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3253] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3253] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[3253] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[3431] bbl.pm:676> INFO - Writing 'C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.bbl' with encoding 'UTF-8'
-[3743] bbl.pm:779> INFO - Output to C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.bbl
+[1] Config.pm:308> INFO - This is Biber 2.20
+[3] Config.pm:311> INFO - Logfile is 'C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.blg'
+[600] biber-MSWIN64:340> INFO - === 
+[803] Biber.pm:420> INFO - Reading 'C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.bcf'
+[1496] Biber.pm:994> INFO - Found 37 citekeys in bib section 0
+[1593] Biber.pm:4463> INFO - Processing section 0
+[1664] Biber.pm:4654> INFO - Looking for bibtex file 'included_articles.bib' for section 0
+[2038] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2290] bibtex.pm:1519> INFO - Found BibTeX data source 'included_articles.bib'
+[3420] Biber.pm:4654> INFO - Looking for bibtex file 'background_references.bib' for section 0
+[3728] bibtex.pm:1713> INFO - LaTeX decoding ...
+[3780] bibtex.pm:1519> INFO - Found BibTeX data source 'background_references.bib'
+[3876] Biber.pm:4654> INFO - Looking for bibtex file 'methods_references.bib' for section 0
+[4102] bibtex.pm:1713> INFO - LaTeX decoding ...
+[4144] bibtex.pm:1519> INFO - Found BibTeX data source 'methods_references.bib'
+[4945] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4946] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4947] Biber.pm:4283> INFO - Sorting list 'nyt/apasortcite//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[4947] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[5545] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[5546] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[5546] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[5546] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[5885] bbl.pm:676> INFO - Writing 'C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.bbl' with encoding 'UTF-8'
+[6426] bbl.pm:779> INFO - Output to C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.bbl

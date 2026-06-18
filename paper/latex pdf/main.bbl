@@ -836,6 +836,77 @@
       \verb https://pubmed.ncbi.nlm.nih.gov/42185035/
       \endverb
     \endentry
+    \entry{Laborde31122024}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=cada43a3e29a141a79f2a7fb39852b4c}{%
+           family={Laborde},
+           familyi={L\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d42ec4fdec2a28a1858cbf16d7a2fa46}{%
+           family={Zammit},
+           familyi={Z\bibinitperiod},
+           given={Nina},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec25d826eacf2a2168b45704d52ca190}{%
+           family={Iskra},
+           familyi={I\bibinitperiod},
+           given={Masa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ec323b52cd450a7491a0a67554febd8}{%
+           family={Mosley},
+           familyi={M\bibinitperiod},
+           given={Emma},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bfe002f18fb214ab2b7755752ba9d02}{%
+           family={Borges},
+           familyi={B\bibinitperiod},
+           given={Uirassu},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=642483bf2d5591d6eb6d53c389787fae}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Mark\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6455d1fad23b7d6960397d433ff8b495}{%
+           family={Javelle},
+           familyi={J\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7a3970537f39a77d2836157d6c9b3385}
+      \strng{fullhash}{3c96c50d7478e94cdf8371c7d95dfdaf}
+      \strng{fullhashraw}{3c96c50d7478e94cdf8371c7d95dfdaf}
+      \strng{bibnamehash}{3c96c50d7478e94cdf8371c7d95dfdaf}
+      \strng{authorbibnamehash}{3c96c50d7478e94cdf8371c7d95dfdaf}
+      \strng{authornamehash}{7a3970537f39a77d2836157d6c9b3385}
+      \strng{authorfullhash}{3c96c50d7478e94cdf8371c7d95dfdaf}
+      \strng{authorfullhashraw}{3c96c50d7478e94cdf8371c7d95dfdaf}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Review of Sport and Exercise Psychology}
+      \field{number}{2}
+      \field{title}{The influence of breathing techniques on physical sport performance: a systematic review and meta-analysis}
+      \field{volume}{17}
+      \field{year}{2024}
+      \field{pages}{1222\bibrangedash 1277}
+      \range{pages}{56}
+      \verb{doi}
+      \verb 10.1080/1750984X.2022.2145573
+      \endverb
+    \endentry
     \entry{levac2010scoping}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=1debf4fc6d2e0f908fc9310bdafb4764}{%
@@ -1240,6 +1311,59 @@
       \endverb
       \verb{url}
       \verb https://pubmed.ncbi.nlm.nih.gov/38063977/
+      \endverb
+    \endentry
+    \entry{sports11050103}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d16f096ea0896e5b196fe9ed1a18a64d}{%
+           family={Migliaccio},
+           familyi={M\bibinitperiod},
+           given={Gian\bibnamedelima Mario},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7d3820446da2dd10a0c1bafbfb10a19}{%
+           family={Russo},
+           familyi={R\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81b4b22bc2b4503e4f8fbc4644dcf8c6}{%
+           family={Maric},
+           familyi={M\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b03e1bff69b235e4650e768e520dff15}{%
+           family={Padulo},
+           familyi={P\bibinitperiod},
+           given={Johnny},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cb9b0736c68ccbb9733fa00eb0d40592}
+      \strng{fullhash}{426aab6c5bdb7be0dde3dc6c40e4f4b0}
+      \strng{fullhashraw}{426aab6c5bdb7be0dde3dc6c40e4f4b0}
+      \strng{bibnamehash}{426aab6c5bdb7be0dde3dc6c40e4f4b0}
+      \strng{authorbibnamehash}{426aab6c5bdb7be0dde3dc6c40e4f4b0}
+      \strng{authornamehash}{cb9b0736c68ccbb9733fa00eb0d40592}
+      \strng{authorfullhash}{426aab6c5bdb7be0dde3dc6c40e4f4b0}
+      \strng{authorfullhashraw}{426aab6c5bdb7be0dde3dc6c40e4f4b0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sports}
+      \field{number}{5}
+      \field{title}{Sports Performance and Breathing Rate: What Is the Connection? A Narrative Review on Breathing Strategies}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{103}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/sports11050103
       \endverb
     \endentry
     \entry{rayyan-587869980}{article}{}{}
@@ -3083,6 +3207,77 @@
       \verb https://pubmed.ncbi.nlm.nih.gov/42185035/
       \endverb
     \endentry
+    \entry{Laborde31122024}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=cada43a3e29a141a79f2a7fb39852b4c}{%
+           family={Laborde},
+           familyi={L\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d42ec4fdec2a28a1858cbf16d7a2fa46}{%
+           family={Zammit},
+           familyi={Z\bibinitperiod},
+           given={Nina},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec25d826eacf2a2168b45704d52ca190}{%
+           family={Iskra},
+           familyi={I\bibinitperiod},
+           given={Masa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ec323b52cd450a7491a0a67554febd8}{%
+           family={Mosley},
+           familyi={M\bibinitperiod},
+           given={Emma},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bfe002f18fb214ab2b7755752ba9d02}{%
+           family={Borges},
+           familyi={B\bibinitperiod},
+           given={Uirassu},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=642483bf2d5591d6eb6d53c389787fae}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Mark\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6455d1fad23b7d6960397d433ff8b495}{%
+           family={Javelle},
+           familyi={J\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7a3970537f39a77d2836157d6c9b3385}
+      \strng{fullhash}{3c96c50d7478e94cdf8371c7d95dfdaf}
+      \strng{fullhashraw}{3c96c50d7478e94cdf8371c7d95dfdaf}
+      \strng{bibnamehash}{3c96c50d7478e94cdf8371c7d95dfdaf}
+      \strng{authorbibnamehash}{3c96c50d7478e94cdf8371c7d95dfdaf}
+      \strng{authornamehash}{7a3970537f39a77d2836157d6c9b3385}
+      \strng{authorfullhash}{3c96c50d7478e94cdf8371c7d95dfdaf}
+      \strng{authorfullhashraw}{3c96c50d7478e94cdf8371c7d95dfdaf}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Review of Sport and Exercise Psychology}
+      \field{number}{2}
+      \field{title}{The influence of breathing techniques on physical sport performance: a systematic review and meta-analysis}
+      \field{volume}{17}
+      \field{year}{2024}
+      \field{pages}{1222\bibrangedash 1277}
+      \range{pages}{56}
+      \verb{doi}
+      \verb 10.1080/1750984X.2022.2145573
+      \endverb
+    \endentry
     \entry{levac2010scoping}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=1debf4fc6d2e0f908fc9310bdafb4764}{%
@@ -3487,6 +3682,59 @@
       \endverb
       \verb{url}
       \verb https://pubmed.ncbi.nlm.nih.gov/38063977/
+      \endverb
+    \endentry
+    \entry{sports11050103}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d16f096ea0896e5b196fe9ed1a18a64d}{%
+           family={Migliaccio},
+           familyi={M\bibinitperiod},
+           given={Gian\bibnamedelima Mario},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7d3820446da2dd10a0c1bafbfb10a19}{%
+           family={Russo},
+           familyi={R\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81b4b22bc2b4503e4f8fbc4644dcf8c6}{%
+           family={Maric},
+           familyi={M\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b03e1bff69b235e4650e768e520dff15}{%
+           family={Padulo},
+           familyi={P\bibinitperiod},
+           given={Johnny},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cb9b0736c68ccbb9733fa00eb0d40592}
+      \strng{fullhash}{426aab6c5bdb7be0dde3dc6c40e4f4b0}
+      \strng{fullhashraw}{426aab6c5bdb7be0dde3dc6c40e4f4b0}
+      \strng{bibnamehash}{426aab6c5bdb7be0dde3dc6c40e4f4b0}
+      \strng{authorbibnamehash}{426aab6c5bdb7be0dde3dc6c40e4f4b0}
+      \strng{authornamehash}{cb9b0736c68ccbb9733fa00eb0d40592}
+      \strng{authorfullhash}{426aab6c5bdb7be0dde3dc6c40e4f4b0}
+      \strng{authorfullhashraw}{426aab6c5bdb7be0dde3dc6c40e4f4b0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sports}
+      \field{number}{5}
+      \field{title}{Sports Performance and Breathing Rate: What Is the Connection? A Narrative Review on Breathing Strategies}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{103}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/sports11050103
       \endverb
     \endentry
     \entry{rayyan-587869980}{article}{}{}

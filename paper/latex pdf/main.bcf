@@ -3068,45 +3068,48 @@
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
     <bcf:datasource type="file" datatype="bibtex" glob="false">included_articles.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">background_references.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">methods_references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">arksey2005scoping</bcf:citekey>
-    <bcf:citekey order="1" intorder="2">levac2010scoping</bcf:citekey>
-    <bcf:citekey order="1" intorder="3">peters2020jbi</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">tricco2018prisma</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">tricco2018prisma</bcf:citekey>
-    <bcf:citekey order="4" intorder="1" nocite="1">rayyan-164849052</bcf:citekey>
-    <bcf:citekey order="5" intorder="2" nocite="1">rayyan-164849040</bcf:citekey>
-    <bcf:citekey order="6" intorder="3" nocite="1">rayyan-164849036</bcf:citekey>
-    <bcf:citekey order="7" intorder="4" nocite="1">rayyan-164848982</bcf:citekey>
-    <bcf:citekey order="8" intorder="5" nocite="1">rayyan-164849000</bcf:citekey>
-    <bcf:citekey order="9" intorder="6" nocite="1">rayyan-164848980</bcf:citekey>
-    <bcf:citekey order="10" intorder="7" nocite="1">rayyan-164848972</bcf:citekey>
-    <bcf:citekey order="11" intorder="8" nocite="1">rayyan-164848960</bcf:citekey>
-    <bcf:citekey order="12" intorder="9" nocite="1">rayyan-164848964</bcf:citekey>
-    <bcf:citekey order="13" intorder="10" nocite="1">rayyan-164848918</bcf:citekey>
-    <bcf:citekey order="14" intorder="11" nocite="1">rayyan-587891674</bcf:citekey>
-    <bcf:citekey order="15" intorder="12" nocite="1">rayyan-164848916</bcf:citekey>
-    <bcf:citekey order="16" intorder="13" nocite="1">rayyan-164848919</bcf:citekey>
-    <bcf:citekey order="17" intorder="14" nocite="1">rayyan-164848909</bcf:citekey>
-    <bcf:citekey order="18" intorder="15" nocite="1">rayyan-164848882</bcf:citekey>
-    <bcf:citekey order="19" intorder="16" nocite="1">rayyan-164848876</bcf:citekey>
-    <bcf:citekey order="20" intorder="17" nocite="1">rayyan-164848862</bcf:citekey>
-    <bcf:citekey order="21" intorder="18" nocite="1">rayyan-164848878</bcf:citekey>
-    <bcf:citekey order="22" intorder="19" nocite="1">rayyan-164848880</bcf:citekey>
-    <bcf:citekey order="23" intorder="20" nocite="1">rayyan-164848859</bcf:citekey>
-    <bcf:citekey order="24" intorder="21" nocite="1">rayyan-587869979</bcf:citekey>
-    <bcf:citekey order="25" intorder="22" nocite="1">rayyan-587870003</bcf:citekey>
-    <bcf:citekey order="26" intorder="23" nocite="1">rayyan-587869980</bcf:citekey>
-    <bcf:citekey order="27" intorder="24" nocite="1">rayyan-587869976</bcf:citekey>
-    <bcf:citekey order="28" intorder="25" nocite="1">rayyan-587869968</bcf:citekey>
-    <bcf:citekey order="29" intorder="26" nocite="1">rayyan-587869999</bcf:citekey>
-    <bcf:citekey order="30" intorder="27" nocite="1">rayyan-587870002</bcf:citekey>
-    <bcf:citekey order="31" intorder="28" nocite="1">rayyan-587870000</bcf:citekey>
-    <bcf:citekey order="32" intorder="29" nocite="1">rayyan-587870001</bcf:citekey>
-    <bcf:citekey order="33" intorder="30" nocite="1">rayyan-587869988</bcf:citekey>
-    <bcf:citekey order="34" intorder="31" nocite="1">rayyan-587869986</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">sports11050103</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">Laborde31122024</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">arksey2005scoping</bcf:citekey>
+    <bcf:citekey order="3" intorder="2">levac2010scoping</bcf:citekey>
+    <bcf:citekey order="3" intorder="3">peters2020jbi</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">tricco2018prisma</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">tricco2018prisma</bcf:citekey>
+    <bcf:citekey order="6" intorder="1" nocite="1">rayyan-164849052</bcf:citekey>
+    <bcf:citekey order="7" intorder="2" nocite="1">rayyan-164849040</bcf:citekey>
+    <bcf:citekey order="8" intorder="3" nocite="1">rayyan-164849036</bcf:citekey>
+    <bcf:citekey order="9" intorder="4" nocite="1">rayyan-164848982</bcf:citekey>
+    <bcf:citekey order="10" intorder="5" nocite="1">rayyan-164849000</bcf:citekey>
+    <bcf:citekey order="11" intorder="6" nocite="1">rayyan-164848980</bcf:citekey>
+    <bcf:citekey order="12" intorder="7" nocite="1">rayyan-164848972</bcf:citekey>
+    <bcf:citekey order="13" intorder="8" nocite="1">rayyan-164848960</bcf:citekey>
+    <bcf:citekey order="14" intorder="9" nocite="1">rayyan-164848964</bcf:citekey>
+    <bcf:citekey order="15" intorder="10" nocite="1">rayyan-164848918</bcf:citekey>
+    <bcf:citekey order="16" intorder="11" nocite="1">rayyan-587891674</bcf:citekey>
+    <bcf:citekey order="17" intorder="12" nocite="1">rayyan-164848916</bcf:citekey>
+    <bcf:citekey order="18" intorder="13" nocite="1">rayyan-164848919</bcf:citekey>
+    <bcf:citekey order="19" intorder="14" nocite="1">rayyan-164848909</bcf:citekey>
+    <bcf:citekey order="20" intorder="15" nocite="1">rayyan-164848882</bcf:citekey>
+    <bcf:citekey order="21" intorder="16" nocite="1">rayyan-164848876</bcf:citekey>
+    <bcf:citekey order="22" intorder="17" nocite="1">rayyan-164848862</bcf:citekey>
+    <bcf:citekey order="23" intorder="18" nocite="1">rayyan-164848878</bcf:citekey>
+    <bcf:citekey order="24" intorder="19" nocite="1">rayyan-164848880</bcf:citekey>
+    <bcf:citekey order="25" intorder="20" nocite="1">rayyan-164848859</bcf:citekey>
+    <bcf:citekey order="26" intorder="21" nocite="1">rayyan-587869979</bcf:citekey>
+    <bcf:citekey order="27" intorder="22" nocite="1">rayyan-587870003</bcf:citekey>
+    <bcf:citekey order="28" intorder="23" nocite="1">rayyan-587869980</bcf:citekey>
+    <bcf:citekey order="29" intorder="24" nocite="1">rayyan-587869976</bcf:citekey>
+    <bcf:citekey order="30" intorder="25" nocite="1">rayyan-587869968</bcf:citekey>
+    <bcf:citekey order="31" intorder="26" nocite="1">rayyan-587869999</bcf:citekey>
+    <bcf:citekey order="32" intorder="27" nocite="1">rayyan-587870002</bcf:citekey>
+    <bcf:citekey order="33" intorder="28" nocite="1">rayyan-587870000</bcf:citekey>
+    <bcf:citekey order="34" intorder="29" nocite="1">rayyan-587870001</bcf:citekey>
+    <bcf:citekey order="35" intorder="30" nocite="1">rayyan-587869988</bcf:citekey>
+    <bcf:citekey order="36" intorder="31" nocite="1">rayyan-587869986</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
