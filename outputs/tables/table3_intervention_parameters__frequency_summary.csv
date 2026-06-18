@@ -1,2 +1,2 @@
 n_parseable,median_sessions_per_week,q1_sessions_per_week,q3_sessions_per_week,iqr_sessions_per_week
-25,1,1,1,0
+26,1,1,1.75,0.75

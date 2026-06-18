@@ -12,6 +12,7 @@ document_id,document_name,paper_id,bt_classification,dose_frequency,dose_duratio
 ,,Citherlet2021,Wim Hof,1,1,Crossover baseline,,hyperventilation,1,1
 ,,Taylor2021,Paced Breathing,1,1,Crossover baseline,,paced_breathing,1,1
 ,,Vaidya2021,,Yoga/Pranayama,,,,other_unclear,,
+,,2021,7,56,Passive control,Subclavian Sector Engagement,,other_unclear,,56
 ,,Marko2022,Wim Hof,7,28,Passive control,,hyperventilation,28,7
 ,,You2023,Paced Breathing,1,1,Crossover baseline,,paced_breathing,1,1
 ,,Braham2024,Hypoventilation,2,42,Active control,,hypoventilation,42,2
@@ -29,6 +30,7 @@ document_id,document_name,paper_id,bt_classification,dose_frequency,dose_duratio
 ,,Devipriya2026,Yoga/Pranayama,1,1,None,,pranayama_yogic,1,1
 ,,FernandezBarradas2026,Paced Breathing,2,63,None,,paced_breathing,63,2
 ,,Iskra2026,Paced Breathing,1,1,Crossover baseline,,paced_breathing,1,1
+,,,,,,,,other_unclear,,
 ,,Katz2026,Other,1,1,Crossover baseline,,other_unclear,1,1
 ,,Raidl2026,,Paced Breathing,,,,other_unclear,,
 ,,Tomita2026,Paced Breathing,1,1,Crossover baseline,,paced_breathing,1,1

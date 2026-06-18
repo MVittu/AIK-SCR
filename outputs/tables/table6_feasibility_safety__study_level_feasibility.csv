@@ -11,7 +11,8 @@ document_id,document_name,paper_id,adverse_events,adherence_rate,dropout_rate,fe
 ,,Fernandez2019,,,,,,,,,other_unclear
 ,,Citherlet2021,tingling numbness dizziness heaviness,,,,,,,15,hyperventilation
 ,,Taylor2021,,,,,,,,47,paced_breathing
-,,Vaidya2021,,,,"bahensky2021,2021,Experimental - RCT,Running,Competitive,46,,,,Yoga/Pranayama,7,56,Passive control,Subclavian Sector Engagement,23,0.83,0.42,23,0.63,0.42,,,,,",,,,,other_unclear
+,,Vaidya2021,,,,bahensky2021,,,,,other_unclear
+,,2021,,,,,,,,,other_unclear
 ,,Marko2022,,,,,,,,19,hyperventilation
 ,,You2023,,,,,,,,75,paced_breathing
 ,,Braham2024,,,,,,,,24,hypoventilation
@@ -29,6 +30,7 @@ document_id,document_name,paper_id,adverse_events,adherence_rate,dropout_rate,fe
 ,,Devipriya2026,,,,,,,,60,pranayama_yogic
 ,,FernandezBarradas2026,,,,,,,,34,paced_breathing
 ,,Iskra2026,,,,,,,,38,paced_breathing
+,,,,,,,,,,,other_unclear
 ,,Katz2026,,,,,,,,40,other_unclear
 ,,Raidl2026,,,,,,,,,other_unclear
 ,,Tomita2026,,,,,,,,26,paced_breathing

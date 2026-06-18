@@ -170,14 +170,14 @@ make_forest_plot <- function(data, cluster_name, filename) {
 
   grDevices::png(
     filename = file.path(plots_dir, filename),
-    width = 2400,
-    height = max(1600, 260 * nrow(cluster_data) + 900),
+    width = 3600,
+    height = max(1800, 280 * nrow(cluster_data) + 950),
     res = 300
   )
   on.exit(grDevices::dev.off(), add = TRUE)
 
-  par(mar = c(9, 12, 4, 6))
-  weight_x <- -2.3
+  par(mar = c(9, 10, 4, 8))
+  weight_x <- -5.2
   total_row <- -1
 
   metafor::forest(
@@ -192,10 +192,10 @@ make_forest_plot <- function(data, cluster_name, filename) {
     refline = 0,
     shade = TRUE,
     addpred = TRUE,
-    cex = 0.9,
-    xlim = c(-6.5, 4),
+    cex = 0.75,
+    xlim = c(-16, 8),
     alim = c(-1.5, 1.5),
-    textpos = c(-6.5, 4),
+    textpos = c(-16, 8),
     slab.just = "left"
   )
   text(weight_x, total_row, "100%", cex = 0.9, font = 2)
