@@ -6,12 +6,13 @@ if (!file.exists(source_file)) {
   stop("Missing required data file: ", source_file)
 }
 
-raw_ext <- readr::read_csv(
+raw_ext <- utils::read.csv(
   source_file,
-  col_types = readr::cols(.default = readr::col_character()),
-  progress = FALSE,
-  show_col_types = FALSE,
-  locale = readr::locale(encoding = "UTF-8")
+  colClasses = "character",
+  check.names = FALSE,
+  stringsAsFactors = FALSE,
+  na.strings = c("", "--/--"),
+  fileEncoding = "UTF-8-BOM"
 ) %>%
   janitor::clean_names() %>%
   mutate(across(everything(), ~ str_squish(as.character(.x)))) %>%

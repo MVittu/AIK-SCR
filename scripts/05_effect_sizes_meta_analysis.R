@@ -166,7 +166,7 @@ make_forest_plot <- function(data, cluster_name, filename) {
     method = "REML"
   )
   labels <- paste(cluster_data$paper_id, cluster_data$outcome_metric, sep = ": ")
-  weight_pct <- 100 * metafor::weights(model) / sum(metafor::weights(model))
+  weight_pct <- 100 * weights(model) / sum(weights(model))
 
   grDevices::png(
     filename = file.path(plots_dir, filename),
