@@ -9,8 +9,7 @@ required_packages <- c(
   "stringr",
   "metafor",
   "meta",
-  "ggplot2",
-  "writexl"
+  "ggplot2"
 )
 
 install_missing_packages <- function(pkgs = required_packages) {
@@ -31,7 +30,6 @@ suppressPackageStartupMessages({
   library(metafor)
   library(meta)
   library(ggplot2)
-  library(writexl)
 })
 
 project_root <- normalizePath(file.path(dirname(sys.frame(1)$ofile %||% "."), ".."), mustWork = FALSE)
@@ -82,6 +80,11 @@ safe_weighted_mean <- function(x, w) {
   keep <- !is.na(x) & !is.na(w)
   if (!any(keep)) return(NA_real_)
   weighted.mean(x[keep], w[keep])
+}
+
+format_count_pct <- function(n, total = sum(n, na.rm = TRUE), digits = 1) {
+  pct <- ifelse(total > 0, 100 * n / total, NA_real_)
+  paste0(n, " (", sprintf(paste0("%.", digits, "f"), pct), "%)")
 }
 
 write_table_outputs <- function(sheets, workbook_name) {

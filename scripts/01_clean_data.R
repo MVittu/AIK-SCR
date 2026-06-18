@@ -8,6 +8,8 @@ if (!file.exists(source_file)) {
 
 raw_ext <- readr::read_csv(
   source_file,
+  col_types = readr::cols(.default = readr::col_character()),
+  progress = FALSE,
   show_col_types = FALSE,
   locale = readr::locale(encoding = "UTF-8")
 ) %>%

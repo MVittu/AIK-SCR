@@ -2,7 +2,10 @@ if (!exists("tab3_clean")) source(file.path("scripts", "01_clean_data.R"))
 
 bt_distribution <- tab3_clean %>%
   count(bt_category, sort = TRUE) %>%
-  mutate(relative_frequency = n / sum(n))
+  mutate(
+    relative_frequency = n / sum(n),
+    label = format_count_pct(n)
+  )
 
 duration_summary <- tab3_clean %>%
   summarise(
@@ -34,7 +37,9 @@ write_table_outputs(
 
 bt_plot <- ggplot(bt_distribution, aes(reorder(bt_category, n), n)) +
   geom_col(fill = "#238B45") +
+  geom_text(aes(label = label), hjust = -0.05, size = 3.2) +
   coord_flip() +
+  expand_limits(y = max(bt_distribution$n, na.rm = TRUE) * 1.25) +
   labs(x = NULL, y = "Number of studies")
 save_plot(bt_plot, "bt_category_distribution.png")
 

@@ -3,7 +3,8 @@ if (!exists("tab1_clean")) source(file.path("scripts", "01_clean_data.R"))
 annual_counts <- tab1_clean %>%
   filter(!is.na(publication_year)) %>%
   count(publication_year, name = "n_publications") %>%
-  arrange(publication_year)
+  arrange(publication_year) %>%
+  mutate(label = as.character(n_publications))
 
 linear_model <- lm(n_publications ~ publication_year, data = annual_counts)
 exponential_model <- lm(log(n_publications) ~ publication_year, data = annual_counts)
@@ -54,13 +55,19 @@ trend_summary <- tibble(
 
 design_distribution <- tab1_clean %>%
   count(design_group, sort = TRUE) %>%
-  mutate(relative_frequency = n / sum(n))
+  mutate(
+    relative_frequency = n / sum(n),
+    label = format_count_pct(n)
+  )
 
 sport_distribution <- tab1_clean %>%
   separate_rows(sport_discipline, sep = "\\s*;\\s*") %>%
   mutate(sport_discipline = replace_na(str_to_lower(sport_discipline), "unclear")) %>%
   count(sport_discipline, sort = TRUE) %>%
-  mutate(relative_frequency = n / sum(n))
+  mutate(
+    relative_frequency = n / sum(n),
+    label = format_count_pct(n)
+  )
 
 write_table_outputs(
   list(
@@ -75,6 +82,7 @@ write_table_outputs(
 
 trend_plot <- ggplot(annual_counts, aes(publication_year, n_publications)) +
   geom_col(fill = "#2C7FB8") +
+  geom_text(aes(label = label), vjust = -0.35, size = 3.2) +
   geom_line(
     data = trend_predictions,
     aes(y = predicted_publications, color = model),
@@ -87,20 +95,27 @@ trend_plot <- ggplot(annual_counts, aes(publication_year, n_publications)) +
   ) +
   scale_color_manual(values = c(linear = "#D95F0E", exponential = "#31A354")) +
   scale_x_continuous(breaks = annual_counts$publication_year) +
+  expand_limits(y = max(annual_counts$n_publications, trend_predictions$predicted_publications, na.rm = TRUE) * 1.15) +
   labs(x = "Publication year", y = "Number of publications", color = "Trend model")
 save_plot(trend_plot, "publication_trend.png")
 
 design_plot <- design_distribution %>%
   ggplot(aes(reorder(design_group, n), n)) +
   geom_col(fill = "#41AB5D") +
+  geom_text(aes(label = label), hjust = -0.05, size = 3.2) +
   coord_flip() +
+  expand_limits(y = max(design_distribution$n, na.rm = TRUE) * 1.25) +
   labs(x = NULL, y = "Number of studies")
 save_plot(design_plot, "study_design_distribution.png")
 
-sport_plot <- sport_distribution %>%
-  slice_max(n, n = 15) %>%
+sport_plot_data <- sport_distribution %>%
+  slice_max(n, n = 15)
+
+sport_plot <- sport_plot_data %>%
   ggplot(aes(reorder(sport_discipline, n), n)) +
   geom_col(fill = "#756BB1") +
+  geom_text(aes(label = label), hjust = -0.05, size = 3.2) +
   coord_flip() +
+  expand_limits(y = max(sport_plot_data$n, na.rm = TRUE) * 1.25) +
   labs(x = NULL, y = "Number of study mentions")
 save_plot(sport_plot, "sport_distribution.png")

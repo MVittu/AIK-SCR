@@ -1,4 +1,4 @@
 cluster,k,pooled_g,ci_lower,ci_upper,p_value,tau2,q_statistic,q_p_value,i2,status
 hypoventilation_rsa,1,,,,,,,,,fewer_than_two_effects
-hyperventilation_power,0,,,,,,,,,fewer_than_two_effects
-paced_breathing_reaction,0,,,,,,,,,fewer_than_two_effects
+hyperventilation_power,6,0.29696183692416167,-0.0020645427143292094,0.5959882165626526,0.05160287243718623,0,4.346804608377197,0.5006382115788868,0,model_fit
+paced_breathing_reaction,4,-0.14840858150299185,-0.45002971396656966,0.15321255096058595,0.3348586241944302,0.054575503650427876,7.003564773577826,0.07178423779213311,0.5716467117834013,model_fit

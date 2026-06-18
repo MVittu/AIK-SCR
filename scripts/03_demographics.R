@@ -50,10 +50,16 @@ write_table_outputs(
 sex_plot_data <- sex_summary %>%
   select(estimated_male_n, estimated_female_n) %>%
   pivot_longer(everything(), names_to = "sex", values_to = "estimated_n") %>%
-  mutate(sex = recode(sex, estimated_male_n = "Male", estimated_female_n = "Female"))
+  mutate(
+    sex = recode(sex, estimated_male_n = "Male", estimated_female_n = "Female"),
+    estimated_n = round(estimated_n, 1),
+    label = format_count_pct(estimated_n)
+  )
 
 sex_plot <- ggplot(sex_plot_data, aes(sex, estimated_n, fill = sex)) +
   geom_col(show.legend = FALSE) +
+  geom_text(aes(label = label), vjust = -0.35, size = 3.2) +
   scale_fill_manual(values = c(Male = "#2C7FB8", Female = "#F768A1")) +
+  expand_limits(y = max(sex_plot_data$estimated_n, na.rm = TRUE) * 1.15) +
   labs(x = NULL, y = "Estimated participants")
 save_plot(sex_plot, "sex_distribution.png", width = 5, height = 4)

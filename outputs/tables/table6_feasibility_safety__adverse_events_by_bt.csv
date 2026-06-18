@@ -1,14 +1,6 @@
-event,bt_category,study_mentions
-agitation,hyperventilation,1
-deafness,hyperventilation,1
-dizziness,hyperventilation,5
-heaviness,hyperventilation,1
-lightheadedness,hyperventilation,1
-no_adverse_events,hyperventilation,2
-no_adverse_events,other_unclear,1
-numbness,hyperventilation,1
-panic,hyperventilation,1
-paresthesia,hyperventilation,3
-pulmonary_edema,hook_breathing,1
-syncope,other_unclear,1
-tingling,hyperventilation,1
+event,bt_category,study_mentions,label
+dizziness,hyperventilation,1,1 (100.0%)
+heaviness,hyperventilation,1,1 (100.0%)
+numbness,hyperventilation,1,1 (100.0%)
+pulmonary_edema,other_unclear,1,1 (100.0%)
+tingling,hyperventilation,1,1 (100.0%)

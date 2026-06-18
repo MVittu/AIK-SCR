@@ -97,6 +97,22 @@ if (nrow(effect_input) > 0) {
     )
 }
 
+fit_meta_model <- function(cluster_data, cluster_name) {
+  meta::metagen(
+    TE = hedges_g_normalized,
+    seTE = sqrt(variance_normalized),
+    studlab = paste(paper_id, outcome_metric, sep = ": "),
+    data = cluster_data,
+    sm = "SMD",
+    common = FALSE,
+    random = TRUE,
+    method.tau = "REML",
+    method.random.ci = "classic",
+    prediction = TRUE,
+    title = cluster_name
+  )
+}
+
 run_meta <- function(data, cluster_name) {
   cluster_data <- data %>% filter(analysis_cluster == cluster_name)
   if (nrow(cluster_data) < 2) {
@@ -114,17 +130,17 @@ run_meta <- function(data, cluster_name) {
       status = "fewer_than_two_effects"
     ))
   }
-  model <- metafor::rma(yi = hedges_g_normalized, vi = variance_normalized, data = cluster_data, method = "REML")
+  model <- fit_meta_model(cluster_data, cluster_name)
   tibble(
     cluster = cluster_name,
     k = model$k,
-    pooled_g = as.numeric(model$b),
-    ci_lower = model$ci.lb,
-    ci_upper = model$ci.ub,
-    p_value = model$pval,
+    pooled_g = model$TE.random,
+    ci_lower = model$lower.random,
+    ci_upper = model$upper.random,
+    p_value = model$pval.random,
     tau2 = model$tau2,
-    q_statistic = model$QE,
-    q_p_value = model$QEp,
+    q_statistic = model$Q,
+    q_p_value = model$pval.Q,
     i2 = model$I2,
     status = "model_fit"
   )
@@ -149,23 +165,36 @@ write_table_outputs(
 
 make_forest_plot <- function(data, cluster_name, filename) {
   cluster_data <- data %>% filter(analysis_cluster == cluster_name)
-  if (nrow(cluster_data) < 1) return(invisible(NULL))
-  plot_data <- cluster_data %>%
-    mutate(label = paste(paper_id, outcome_metric, sep = ": ")) %>%
-    arrange(hedges_g_normalized) %>%
-    mutate(label = factor(label, levels = label))
-  p <- ggplot(plot_data, aes(hedges_g_normalized, label)) +
-    geom_vline(xintercept = 0, linetype = "dashed", color = "grey45") +
-    geom_errorbarh(
-      aes(
-        xmin = hedges_g_normalized - 1.96 * sqrt(variance_normalized),
-        xmax = hedges_g_normalized + 1.96 * sqrt(variance_normalized)
-      ),
-      height = 0.2
-    ) +
-    geom_point(size = 2.5, color = "#2C7FB8") +
-    labs(x = "Hedges' g (positive favors intervention)", y = NULL)
-  save_plot(p, filename, width = 9, height = max(4, 0.35 * nrow(plot_data) + 2))
+  if (nrow(cluster_data) < 2) return(invisible(NULL))
+
+  model <- fit_meta_model(cluster_data, cluster_name)
+  grDevices::png(
+    filename = file.path(plots_dir, filename),
+    width = 2400,
+    height = max(1700, 320 * nrow(cluster_data) + 900),
+    res = 300
+  )
+  on.exit(grDevices::dev.off(), add = TRUE)
+
+  meta::forest(
+    model,
+    sortvar = model$TE,
+    prediction = TRUE,
+    print.I2 = TRUE,
+    print.tau2 = TRUE,
+    print.Q = TRUE,
+    test.overall.random = TRUE,
+    leftcols = c("studlab"),
+    leftlabs = c("Study / outcome"),
+    rightcols = c("effect", "ci", "w.random"),
+    rightlabs = c("Hedges' g", "95% CI", "Weight"),
+    smlab = "Hedges' g (positive favors intervention)",
+    col.square = "#2C7FB8",
+    col.diamond = "#D95F0E",
+    col.diamond.lines = "#D95F0E",
+    col.predict = "#31A354",
+    pooled.events = FALSE
+  )
 }
 
 make_forest_plot(smd, "hypoventilation_rsa", "forest_hypoventilation_rsa.png")

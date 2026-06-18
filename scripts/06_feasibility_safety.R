@@ -41,7 +41,10 @@ adverse_event_counts <- event_dictionary %>%
   })) %>%
   select(event, data) %>%
   unnest(data) %>%
-  arrange(event, desc(study_mentions))
+  arrange(event, desc(study_mentions)) %>%
+  group_by(event) %>%
+  mutate(label = format_count_pct(study_mentions, total = sum(study_mentions))) %>%
+  ungroup()
 
 adherence_summary <- feasibility %>%
   summarise(
@@ -62,11 +65,18 @@ write_table_outputs(
 )
 
 if (nrow(adverse_event_counts) > 0) {
-  adverse_plot <- adverse_event_counts %>%
-    ggplot(aes(reorder(event, study_mentions), study_mentions, fill = bt_category)) +
-    geom_col() +
+  adverse_plot_data <- adverse_event_counts %>%
+    group_by(event) %>%
+    summarise(study_mentions = sum(study_mentions), .groups = "drop") %>%
+    mutate(label = format_count_pct(study_mentions))
+
+  adverse_plot <- adverse_plot_data %>%
+    ggplot(aes(reorder(event, study_mentions), study_mentions)) +
+    geom_col(fill = "#8856A7", show.legend = FALSE) +
+    geom_text(aes(label = label), hjust = -0.05, size = 3.0) +
     coord_flip() +
-    labs(x = NULL, y = "Study mentions", fill = "BT category")
+    expand_limits(y = max(adverse_plot_data$study_mentions, na.rm = TRUE) * 1.35) +
+    labs(x = NULL, y = "Study mentions")
   save_plot(adverse_plot, "adverse_events_by_bt.png")
 }
 
@@ -77,7 +87,9 @@ dropout_plot_data <- feasibility %>%
 if (nrow(dropout_plot_data) > 0) {
   dropout_plot <- ggplot(dropout_plot_data, aes(reorder(paper_id, dropout_percent), dropout_percent)) +
     geom_col(fill = "#FB6A4A") +
+    geom_text(aes(label = paste0(sprintf("%.1f", dropout_percent), "%")), hjust = -0.05, size = 3.2) +
     coord_flip() +
+    expand_limits(y = max(dropout_plot_data$dropout_percent, na.rm = TRUE) * 1.25) +
     labs(x = NULL, y = "Dropout rate (%)")
   save_plot(dropout_plot, "dropout_rates.png")
 }
