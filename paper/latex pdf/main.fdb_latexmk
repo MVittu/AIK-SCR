@@ -1,6 +1,6 @@
 # Fdb version 4
-["biber C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main"] 1781789765.36673 "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.bcf" "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.bbl" "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main" 1781790832.92489 0
-  "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.bcf" 1781790816 136588 db73681a909054d22f4e0eb92a6692e6 "xelatex"
+["biber C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main"] 1781794733.32514 "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.bcf" "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.bbl" "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main" 1781794753.47477 0
+  "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.bcf" 1781794746 136729 6ca33579dd791b89d9af737e971502a6 "xelatex"
   "background_references.bib" 1781789608 829 10c7cbadb141773530fc8020c9fc4393 ""
   "included_articles.bib" 1781788949 12706 e9b8147f21f71bc75b0065c1de282128 ""
   "methods_references.bib" 1781788473 1968 046fcd884d261bb98eec18574d323b19 ""
@@ -8,16 +8,16 @@
   "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.bbl"
   "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.blg"
   (rewritten before read)
-["xdvipdfmx"] 1781790817.8426 "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.xdv" "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.pdf" "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main" 1781790832.95697 0
-  "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.xdv" 1781790816 489480 15bc0c1d6e6dd4b88a86ebee555600ea "xelatex"
+["xdvipdfmx"] 1781794747.04408 "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.xdv" "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.pdf" "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main" 1781794753.48765 0
+  "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.xdv" 1781794746 517900 d95e97819493ab61f6f43470eee106ba "xelatex"
   (generated)
   "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.pdf"
   (rewritten before read)
-["xelatex"] 1781790802.5793 "main.tex" "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.xdv" "main" 1781790832.92575 0
-  "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.aux" 1781790816 16886 3d694dd9f42fa08bceff08f6197305d0 "xelatex"
-  "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.bbl" 1781789777 195569 eab1fd9d4aeaeb1eaebdca839201b859 "biber C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main"
-  "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.out" 1781790816 4099 c642f15c71bac41b09fa88f7e151f9c3 "xelatex"
-  "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.run.xml" 1781790816 2556 d5dffa6f1c0bbc07a7540c6483f54223 "xelatex"
+["xelatex"] 1781794741.64359 "main.tex" "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.xdv" "main" 1781794753.47518 0
+  "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.aux" 1781794746 16947 93687759c1bed558d50aec37a32f6520 "xelatex"
+  "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.bbl" 1781794736 195569 eab1fd9d4aeaeb1eaebdca839201b859 "biber C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main"
+  "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.out" 1781794746 4341 93ec7f2769ae0a0f75a322faabcfe5f9 "xelatex"
+  "C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.run.xml" 1781794746 2556 d5dffa6f1c0bbc07a7540c6483f54223 "xelatex"
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1768823223 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1768825499 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1768822701 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -193,15 +193,16 @@
   "figures/forest_hyperventilation_power.png" 1781780891 62206 b8b62c5a1c92faec8a5dd71b1d1ad0af ""
   "figures/forest_paced_breathing_reaction.png" 1781780892 47001 76d15960e5286f3c86692b535828a421 ""
   "figures/intervention_duration_distribution.png" 1781780890 45239 083ce944fa0bfb828b36edd6cf71f2bd ""
+  "figures/prisma_flow.png" 1781792901 281927 a9cdf888adfa9d60d3a2c4412b37c3a0 ""
   "figures/publication_trend.png" 1781780886 106442 bdca461c08e2abd06ab507838a53f1d6 ""
   "figures/sex_distribution.png" 1781780888 40870 2322221a8b0b43d4aadd3c8c9952a6b3 ""
   "figures/sport_distribution.png" 1781780888 158079 37851f482b7dfe195beafaf13bf11c80 ""
   "figures/study_design_broad_distribution.png" 1781780887 51286 156b56c6746362e13749a0524fc80360 ""
   "figures/study_design_distribution.png" 1781780887 56490 7078a26a98fa7d11ed68a6aeddf7b163 ""
-  "main.tex" 1781790757 28985 c2ebe477be6f5e7f4d3097ec5b5ae426 ""
-  "tables/prisma_flow.tex" 1781789122 1719 41d8dc84e854b012ac58b72fe073bb88 ""
+  "main.tex" 1781794707 33632 6c3df6abeb2e22ec102fc4124211db0d ""
+  "tables/prisma_flow.tex" 1781794713 158 0295dad075603f2f3212cd0946989579 ""
   "tables/prisma_scr_checklist.tex" 1781789123 2330 a465bd5b1f90def01beb95f269e24527 ""
-  "tables/study_characteristics.tex" 1781789123 3596 52821ce41e828c1e30326785059aa88f ""
+  "tables/study_characteristics.tex" 1781794713 3562 a340154a2bfc22249b0fae142992ac91 ""
   "tables/summary_tables.tex" 1781789220 3034 852be5cf14eb0bed7c9d2a45de2756ba ""
   "tables/table1_descriptive.tex" 1781790757 1917 ecdfe2c413a7493d9b05ad2aa9bab926 ""
   (generated)

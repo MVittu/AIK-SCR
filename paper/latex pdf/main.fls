@@ -337,15 +337,17 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-OUTPUT C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.xdv
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+OUTPUT C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.xdv
 INPUT ./tables/prisma_flow.tex
 INPUT ./tables/prisma_flow.tex
 INPUT ./tables/prisma_flow.tex
 INPUT ./tables/prisma_flow.tex
 INPUT tables/prisma_flow.tex
+INPUT ./figures/prisma_flow.png
+INPUT ./figures/prisma_flow.png
 INPUT ./tables/table1_descriptive.tex
 INPUT ./tables/table1_descriptive.tex
 INPUT ./tables/table1_descriptive.tex
