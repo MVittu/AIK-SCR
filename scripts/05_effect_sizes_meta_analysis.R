@@ -6,7 +6,8 @@ lower_is_better_pattern <- paste(
   c(
     "time", "reaction", "movement", "rpe", "rating of perceived exertion",
     "fatigue", "anxiety", "dyspnea", "blood lactate", "lactate",
-    "heart rate", "return time", "coefficient of variation"
+    "heart rate", "\\bhr\\b", "bpm", "return time", "coefficient of variation",
+    "decrement", "rsasdec", "cp displacement", "time at spo2"
   ),
   collapse = "|"
 )
@@ -159,6 +160,16 @@ make_forest_plot <- function(data, cluster_name, filename) {
   cluster_data <- data %>% filter(analysis_cluster == cluster_name)
   if (nrow(cluster_data) < 2) return(invisible(NULL))
 
+  initial_model <- metafor::rma(
+    yi = hedges_g_normalized,
+    vi = variance_normalized,
+    data = cluster_data,
+    method = "REML"
+  )
+  cluster_data <- cluster_data %>%
+    mutate(weight_pct = 100 * as.numeric(weights(initial_model)) / sum(weights(initial_model))) %>%
+    arrange(desc(weight_pct))
+
   model <- metafor::rma(
     yi = hedges_g_normalized,
     vi = variance_normalized,
@@ -166,12 +177,12 @@ make_forest_plot <- function(data, cluster_name, filename) {
     method = "REML"
   )
   labels <- paste(cluster_data$paper_id, cluster_data$outcome_metric, sep = ": ")
-  weight_pct <- 100 * weights(model) / sum(weights(model))
+  weight_pct <- 100 * as.numeric(weights(model)) / sum(weights(model))
 
   grDevices::png(
     filename = file.path(plots_dir, filename),
-    width = 3600,
-    height = max(1800, 280 * nrow(cluster_data) + 950),
+    width = 4200,
+    height = max(2200, 360 * nrow(cluster_data) + 1050),
     res = 300
   )
   on.exit(grDevices::dev.off(), add = TRUE)
@@ -192,13 +203,13 @@ make_forest_plot <- function(data, cluster_name, filename) {
     refline = 0,
     shade = TRUE,
     addpred = TRUE,
-    cex = 0.75,
+    cex = 0.95,
     xlim = c(-16, 8),
     alim = c(-1.5, 1.5),
     textpos = c(-16, 8),
     slab.just = "left"
   )
-  text(weight_x, total_row, "100%", cex = 0.9, font = 2)
+  text(weight_x, total_row, "100%", cex = 1.0, font = 2)
   mtext(
     sprintf(
       "Heterogeneity: Q = %.2f, df = %d, p = %.3f; I^2 = %.1f%%; tau^2 = %.3f",
@@ -207,7 +218,7 @@ make_forest_plot <- function(data, cluster_name, filename) {
     side = 1,
     line = 5.8,
     adj = 0,
-    cex = 0.9
+    cex = 1.0
   )
 }
 

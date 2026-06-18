@@ -1,0 +1,30 @@
+paper_id,bt_classification,ai,bi,ci,di,yi,vi,analysis_group
+Deniz2025,exhalation,0,12,0,12,0,3.8461538461538463,safety_adverse_events_rr
+Devipriya2026,Bhramari Pranayama,0,60,0,60,0,3.9672131147540988,safety_adverse_events_rr
+Fernandez2025,hook breathing,4,9,4,9,0,0.3015873015873016,safety_adverse_events_rr
+Fesseler2025,pre-exercise hyperventilation,0,36,0,36,0,3.9459459459459456,safety_adverse_events_rr
+Gray2018,slow-paced breathing (30s),0,7,0,7,0,3.75,safety_adverse_events_rr
+Grossman2021,breath holding (CONLD-BH),0,10,0,10,0,3.8181818181818183,safety_adverse_events_rr
+Hakked2017,pranayama/yogic breathing,0,14,0,13,-0.06899287148695166,3.861904761904762,safety_adverse_events_rr
+Kacoglu2017,hyperventilation,0,14,0,14,0,3.8666666666666667,safety_adverse_events_rr
+Kasap2025,box breathing,0,40,0,40,0,3.951219512195122,safety_adverse_events_rr
+Li2024,regulated breathing (Rhythm+Stand),0,22,0,22,0,3.913043478260869,safety_adverse_events_rr
+Lim2018,breath holding (CONT-BH),0,10,0,10,0,3.8181818181818183,safety_adverse_events_rr
+Malakhov2014,hyperventilation,0,38,0,38,0,3.948717948717949,safety_adverse_events_rr
+Merlin2024,slow-paced breathing,0,7,0,6,-0.1335313926245223,3.732142857142857,safety_adverse_events_rr
+Pelka2017,slow-paced breathing,0,27,0,27,0,3.928571428571429,safety_adverse_events_rr
+Robertson2020,pre-race apneas (WUAP),0,10,0,10,0,3.8181818181818183,safety_adverse_events_rr
+Sakamoto2014,hyperventilation,0,15,0,15,0,3.875,safety_adverse_events_rr
+Sakamoto2015,hyperventilation,0,15,0,15,0,3.875,safety_adverse_events_rr
+Stavrou2015,intermittent breath holding,0,14,0,14,0,3.8666666666666667,safety_adverse_events_rr
+Taylor2021,fast-paced breathing,47,0,47,0,0,4.3859649122807154e-4,safety_adverse_events_rr
+Tomita2026,controlled breathing,0,26,0,26,0,3.9259259259259256,safety_adverse_events_rr
+Trincat2017,hypoventilation,8,0,0,8,2.833213344056216,1.8954248366013071,safety_adverse_events_rr
+Woorons2017,hypoventilation (RSH-VHL),0,9,0,9,0,3.8,safety_adverse_events_rr
+Woorons2019b,hypoventilation (RSH-VHL),0,9,0,9,0,3.8,safety_adverse_events_rr
+Woorons2024,hypoventilation (RSH-VHL),0,9,0,8,-0.10536051565782589,3.7888888888888888,safety_adverse_events_rr
+You2023,slow-paced breathing (6 cpm),0,75,0,75,0,3.973684210526316,safety_adverse_events_rr
+Burtch2017,controlled frequency breathing (CFB),0,13,0,12,-0.07410797215372167,3.8516483516483517,safety_adverse_events_rr
+Buxton2024,slow-paced breathing (4-7-8 method),0,18,0,18,0,3.8947368421052633,safety_adverse_events_rr
+Chiron2026,slow-paced breathing (RELAX),0,11,0,11,0,3.8333333333333335,safety_adverse_events_rr
+Katz2026,diaphragmatic breathing,0,40,0,40,0,3.951219512195122,safety_adverse_events_rr

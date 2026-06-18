@@ -1,0 +1,39 @@
+paper_id,outcome_domain,outcome_metric,reason
+Trincat2017,Physiological,Time at SpO2 <= 88% (s),missing_or_invalid_n_mean_or_sd
+Bouten2020,Performance,3-km cycling time,missing_or_invalid_n_mean_or_sd
+Acute Apnea Does Not Improve 3-km Cycling Time Trial Performance,,,missing_or_invalid_n_mean_or_sd
+Braham2024,Performance,Repeated-sprint ability,missing_or_invalid_n_mean_or_sd
+Brocherie2022,Performance,RSA performance,missing_or_invalid_n_mean_or_sd
+Citherlet2021,Performance,RAST peak power,missing_or_invalid_n_mean_or_sd
+1 participant was excluded because of a muscular injury,,,missing_or_invalid_n_mean_or_sd
+Dobashi2021,Performance,Wingate performance,missing_or_invalid_n_mean_or_sd
+without affecting power outputs during Wingate anaerobic test.,,,missing_or_invalid_n_mean_or_sd
+Durand2000,Physiological,PaO2,missing_or_invalid_n_mean_or_sd
+Fall in PaO2 > 10 mmHg,,,missing_or_invalid_n_mean_or_sd
+Fernandez2019,Physiological,SaO2,missing_or_invalid_n_mean_or_sd
+FernandezBarradas2026,Psychological,Cognitive anxiety,missing_or_invalid_n_mean_or_sd
+FornasierSantos2018,Performance,RSA performance,missing_or_invalid_n_mean_or_sd
+Fox2025,Psychological,Energy level change,missing_or_invalid_n_mean_or_sd
+Fujii2015,Performance,Power,missing_or_invalid_n_mean_or_sd
+Guimard2014,Performance,Performance (time),missing_or_invalid_n_mean_or_sd
+Decrease in performance,,,missing_or_invalid_n_mean_or_sd
+Jacob2015,Performance,Average velocity,missing_or_invalid_n_mean_or_sd
+Jing2026,Physiological,lung capacity,missing_or_invalid_n_mean_or_sd
+Liapaki2025,Physiological,Heart Rate,missing_or_invalid_n_mean_or_sd
+Lindholm2005,Physiological,VC,missing_or_invalid_n_mean_or_sd
+Glossopharyngeal inhalation to increase lung volume,,,missing_or_invalid_n_mean_or_sd
+Lorinczi2025,Performance,RSA,missing_or_invalid_n_mean_or_sd
+Marko2022,Physiological,VE,missing_or_invalid_n_mean_or_sd
+Does Wim Hof Method Improve Breathing Economy,,,missing_or_invalid_n_mean_or_sd
+Raidl2026,Physiological,Recovery,missing_or_invalid_n_mean_or_sd
+Rosa2024,Performance,PPO,missing_or_invalid_n_mean_or_sd
+RS-VHL during arm cycle ergometer,,,missing_or_invalid_n_mean_or_sd
+Sakamoto2020,Performance,Lifting repetitions,missing_or_invalid_n_mean_or_sd
+"+27.1% reps BP, +35.2% reps LP",,,missing_or_invalid_n_mean_or_sd
+Spiering2004,Physiological,FEV1,missing_or_invalid_n_mean_or_sd
+Vaidya2021,Performance,Bowling speed,missing_or_invalid_n_mean_or_sd
+Woorons2008,Physiological,VO2max,missing_or_invalid_n_mean_or_sd
+Effects of a 4-week training with voluntary hypoventilation,,,missing_or_invalid_n_mean_or_sd
+Woorons2019,Physiological,SpO2,missing_or_invalid_n_mean_or_sd
+Woorons2020,Performance,RSA,missing_or_invalid_n_mean_or_sd
+Yilmaz2025,Performance,Power output,missing_or_invalid_n_mean_or_sd

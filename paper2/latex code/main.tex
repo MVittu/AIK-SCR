@@ -1,0 +1,286 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{fontspec}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{pdflscape}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{verbatim}
+\usepackage{seqsplit}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=apa,sorting=nyt]{biblatex}
+
+\usetikzlibrary{arrows.meta,positioning}
+\graphicspath{{figures/}}
+\addbibresource{AIK-scr.bib}
+
+\setmainfont{TeX Gyre Termes}
+\onehalfspacing
+\setlength{\emergencystretch}{3em}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=black,
+  pdftitle={Breathing Techniques and Breath-Regulation Strategies in Sport: A Scoping Review},
+  pdfauthor={Review authors}
+}
+
+\title{\textbf{Breathing Techniques and Breath-Regulation Strategies in Sport and Performance Contexts: A Scoping Review}}
+\author{Review authors}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\textbf{Background:} Breathing techniques are widely used in sport and performance settings, but the evidence spans many techniques, populations, outcomes, and reporting styles. \textbf{Objective:} This scoping review maps evidence on non-device breathing and breath-regulation strategies, integrating bibliometric, participant, intervention, efficacy, feasibility, and safety data. \textbf{Methods:} The review followed PRISMA-ScR principles. Sixty-five reports were charted and synthesized descriptively; exploratory quantitative syntheses were conducted when outcome data were extractable. Efficacy effects were standardized so that positive Hedges' $g$ values favored the breathing intervention. Safety and dropout outcomes were summarized as risk ratios when extractable. \textbf{Results:} The review included 65 reports from 2000--2026. Most reports were experimental (58/65, 89.2\%), with crossover designs forming the largest detailed group (28/65, 43.1\%). Sample size was extractable for 47 reports, totaling 1,799 participants. The most frequent breathing categories were hyperventilation (16/65, 24.6\%), hypoventilation (14/65, 21.5\%), paced breathing (13/65, 20.0\%), and breath holding/apnea (10/65, 15.4\%). Exploratory pooling showed small and uncertain effects for performance outcomes ($g=0.09$, 95\% CI -0.16 to 0.34) and physiological outcomes ($g=0.21$, 95\% CI -0.22 to 0.64). Safety and dropout risk-ratio syntheses did not show clear overall differences. \textbf{Conclusions:} Breathwork remains promising but methodologically uneven. The evidence supports more rigorous testing of sport-derived breathing routines, clearer intervention taxonomy, standardized outcome selection, and routine reporting of feasibility and adverse events.
+\end{abstract}
+
+\begin{center}
+\fbox{\begin{minipage}{0.92\textwidth}
+\textbf{Key takeaways}
+\begin{itemize}[leftmargin=*]
+\item The review includes 65 reports covering breathing techniques across sport, exercise, and performance contexts.
+\item Breathing interventions should not be treated as one uniform ``breathwork'' category.
+\item Pooled efficacy signals are small and uncertain, but the direction remains promising in several sport-relevant domains.
+\item Feasibility and safety reporting are still not strong enough for confident implementation guidance.
+\item Future studies should test empirically developed sport breathing routines with clear protocols, credible comparators, and complete reporting.
+\end{itemize}
+\end{minipage}}
+\end{center}
+
+\noindent\textbf{Keywords:} scoping review; PRISMA-ScR; breathing training; breathwork; hyperventilation; hypoventilation; paced breathing; sport performance; feasibility; safety
+
+\section{Introduction}
+Breathing is automatic, but several of its parameters can be deliberately regulated. Respiratory frequency, depth, inhalation-exhalation ratio, breath-hold timing, route of breathing, and lung volume can all be modified intentionally. This makes breathing unusual among performance-relevant physiological functions: it is continuously available, requires little equipment, and can be applied before exercise, during exertion, during recovery, or as part of repeated training. In sport, athletes and practitioners use breath-regulation strategies to influence arousal, anxiety, oxygen saturation, carbon dioxide tolerance, acid-base balance, perceived exertion, attentional control, respiratory mechanics, and recovery.
+
+The challenge is that ``breathwork'' is not one intervention. Hyperventilation, hypoventilation, paced breathing, breath holding, pranayama, diaphragmatic breathing, hook breathing, and breathing-pattern retraining have different mechanisms and risks. Some techniques aim to increase activation; others aim to down-regulate stress or support recovery. Some are single-session pre-performance routines; others are repeated training exposures. Some resemble sport-specific hypoxic or hypercapnic training, while others are better understood as psychophysiological regulation tools.
+
+Previous synthesis has shown why this distinction matters. In a systematic review and meta-analysis of breathing techniques for physical sport performance, Laborde and colleagues separated slow-paced breathing, fast-paced breathing, voluntary hyperventilation, breath holding, and nostril-breathing approaches, and found that longer-term slow-paced breathing and breath-holding interventions showed more promising performance signals than short-term applications, while substantial heterogeneity and risk-of-bias concerns remained \parencite{Laborde31122024}. Their review also highlighted a practical boundary that is important for sport: breathing techniques can often be performed in the field without devices that directly alter respiratory load or inspired gas composition, although biofeedback may be used to monitor or guide execution rather than to produce the respiratory stimulus itself.
+
+This heterogeneity makes a scoping review appropriate. The purpose is not only to ask whether breathing techniques work, but to map what has been studied, how techniques have been categorized, which sport contexts and populations have been examined, which outcomes have been used, and where feasibility and safety reporting remain incomplete. This manuscript reports the evidence map, descriptive synthesis, exploratory effect syntheses, and safety and feasibility findings for the included literature.
+
+\section{Methods}
+\subsection{Design and reporting}
+This manuscript is reported according to PRISMA-ScR principles. The review maps the available evidence rather than claiming a single definitive intervention effect. The unit of synthesis was the report or study row represented in the extraction table; quantitative syntheses used extractable effect rows from the accompanying meta-analysis dataset.
+
+\subsection{Eligibility concept}
+Eligible sources examined breathing techniques, breath-regulation routines, or breathing-related exposures relevant to sport, exercise, or performance. Eligible concepts included hyperventilation, hypoventilation, paced or slow breathing, breath holding/apnea, pranayama or yogic breathing, diaphragmatic breathing, hook breathing, Valsalva-type strategies, and related non-device approaches. Eligible contexts included athletes, physically active participants, laboratory exercise tasks, sport-specific testing, recovery, and performance-relevant psychophysiological outcomes.
+
+\subsection{Information sources and source selection}
+Searches were run in PubMed, Scopus, and SPORTDiscus, with additional reports identified through citation searching. After deduplication, title/abstract screening, full-text assessment, and citation backtracking, 65 reports were included. Figure~\ref{fig:prisma-flow} summarizes the study-selection flow.
+
+\input{tables/prisma_flow}
+
+Figure~\ref{fig:prisma-flow} shows that the database searches identified 2,066 records after duplicate removal. One hundred thirty-one reports were assessed for eligibility from database searching and 20 additional reports were assessed from other methods, leading to 65 included reports.
+
+\subsection{Data charting and quality control}
+Data were charted for bibliometry, study design, sport context, athlete level, sample size, age, sex distribution, baseline characteristics, breathing category, intervention dose, comparator, efficacy outcomes, uncertainty, feasibility, dropout, adverse events, and safety. Missing or unreported fields were retained as \texttt{NR} so that denominators and reporting gaps remained explicit.
+
+\subsection{Synthesis}
+Descriptive synthesis summarized publication year, study design, participant characteristics, sport context, breathing category, intervention duration, intervention frequency, feasibility, and safety. Exploratory meta-analysis used Hedges' $g$ for efficacy outcomes when group-level data were extractable. Effect direction was standardized so that positive values favored the breathing intervention; lower-is-better outcomes such as time, reaction time, heart rate, RPE, dyspnea, fatigue, lactate, and decrement scores were reversed. Safety and dropout were synthesized as risk ratios where event data were available. Very imprecise safety estimates were retained in tables but excluded from displayed forest plots when the interval made the figure unreadable.
+
+\subsection{Critical appraisal}
+Formal risk-of-bias appraisal was not the primary objective of this scoping review. Instead, the synthesis emphasizes reporting completeness, design heterogeneity, missing feasibility fields, and uncertainty around quantitative estimates.
+
+\section{Results}
+The Results are organized to move from source selection and cohort description to the structure of the evidence map, then to intervention categories, efficacy signals, and feasibility and safety. This order reflects the purpose of a scoping review: first to define what the evidence base contains, and only then to interpret what the extractable outcomes suggest.
+
+\subsection{Study and participant characteristics}
+\input{tables/table1_study_level}
+
+Table~\ref{tab:study-level} presents the included reports at study level before aggregation. This first table anchors the review in the actual studies rather than in summary statistics alone: the corpus spans more than two decades, multiple competitive and recreational contexts, and a mixture of observational, crossover, before-after, and randomized designs. The repeated \texttt{NR} entries are also informative, because they show where demographic or sample-size reporting was too incomplete to support clean denominators.
+
+\input{tables/table1_baseline}
+
+Table~\ref{tab:baseline-aggregate} summarizes the same corpus at aggregate level. The evidence base is dominated by experimental work, but this should not be read as uniform trial evidence: many reports use crossover, acute, or otherwise heterogeneous designs. The aggregate reported sample size was 1,799 participants, although sample size was not extractable in 18 rows, which limits precision when describing the population base.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{publication_trend.png}
+\caption{Annual publication counts and fitted trend lines.}
+\label{fig:publication}
+\end{figure}
+
+Figure~\ref{fig:publication} shows a clear increase in publication volume after 2014, with the highest counts in 2024--2026. The linear trend estimated approximately 0.25 additional publications per year, while the exponential model had slightly better fit metrics. The field therefore appears to be expanding, but the publication curve reflects interest and availability of studies, not necessarily maturation of methods.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.78\textwidth]{sex_distribution.png}
+\caption{Estimated sex distribution among studies with extractable sex data.}
+\label{fig:sex}
+\end{figure}
+
+Figure~\ref{fig:sex} indicates a male-predominant participant pool among reports with sex data. This imbalance matters for generalizability because breathing responses, sport participation patterns, and training contexts may differ across cohorts, yet several intervention categories remain underrepresented in female samples.
+
+\subsection{Evidence-map structure}
+\input{tables/table2_map}
+
+Table~\ref{tab:evidence-map} summarizes the key structural findings. The corpus is broad, but it remains uneven: many categories are represented by small clusters, and seven reports still required an other/unclear breathing label after broad classification. The map therefore supports a technique-specific interpretation rather than a single pooled claim about ``breathwork''.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{study_design_broad_distribution.png}
+\caption{Broad study-design distribution.}
+\label{fig:design-broad}
+\end{figure}
+
+Figure~\ref{fig:design-broad} shows that experimental reports dominate the corpus. This is encouraging for intervention mapping, but it does not by itself imply high certainty because the detailed design distribution is more fragmented and often oriented toward acute laboratory effects.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.86\textwidth]{study_design_distribution.png}
+\caption{Detailed study-design distribution.}
+\label{fig:design-detail}
+\end{figure}
+
+Figure~\ref{fig:design-detail} clarifies that crossover designs were the largest specific group, followed by other or unclear experimental designs. This pattern is consistent with a field that has many acute or laboratory-style studies but fewer large parallel-group trials able to test durable training effects or sport-specific implementation.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.96\textwidth]{sport_distribution.png}
+\caption{Distribution of sport and exercise contexts.}
+\label{fig:sports}
+\end{figure}
+
+Figure~\ref{fig:sports} shows the sport-context dispersion. Cycling and swimming were the most represented contexts, but the long tail of single-study sports limits sport-specific certainty and makes it difficult to infer whether a technique tested in one task transfers to another sport.
+
+\subsection{Breathing categories and dose}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.88\textwidth]{bt_category_distribution.png}
+\caption{Breathing-category distribution.}
+\label{fig:bt}
+\end{figure}
+
+Figure~\ref{fig:bt} reinforces the main conceptual point of the review: breathwork is a family of different interventions. Hyperventilation, hypoventilation, paced breathing, and breath holding together make up most of the corpus, but their mechanisms and safety profiles differ enough that they should be designed, tested, and interpreted separately.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{intervention_duration_distribution.png}
+\caption{Intervention-duration distribution among reports with parseable duration.}
+\label{fig:duration}
+\end{figure}
+
+Figure~\ref{fig:duration} shows that many interventions were acute or short-term. The median duration was one day, with a smaller subset extending across several weeks. This dose profile explains why the review can say more about immediate physiological or performance responses than about durable training adaptations.
+
+\subsection{Efficacy synthesis}
+\input{tables/table3_meta}
+
+Table~\ref{tab:meta} reports the main exploratory quantitative syntheses. Performance and physiological outcomes both showed positive pooled directions, but neither confidence interval excluded the null. Heterogeneity was high, especially for physiological outcomes, so the pooled effects are best interpreted as weak signals that justify targeted trials and technique-specific reviews, not as definitive efficacy estimates.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{meta65_forest_efficacy_performance.png}
+\caption{Forest plot for performance outcomes. Effects are standardized so positive Hedges' $g$ favors the breathing intervention.}
+\label{fig:forest-performance}
+\end{figure}
+
+Figure~\ref{fig:forest-performance} shows a mixed pattern across performance outcomes. Some reports favor the breathing intervention, while others are null or favor the comparator. The wide prediction interval is central to interpretation: a future study could plausibly show benefit, no effect, or harm depending on the technique, sport task, and outcome definition.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{meta65_forest_efficacy_physiological.png}
+\caption{Forest plot for physiological outcomes. Effects are standardized so positive Hedges' $g$ favors the breathing intervention.}
+\label{fig:forest-physiology}
+\end{figure}
+
+Figure~\ref{fig:forest-physiology} shows a slightly larger pooled direction than the performance forest plot, but heterogeneity is substantial. Physiological outcomes are mechanistically closer to breathing manipulation, yet they remain diverse: heart-rate, oxygenation, pulmonary-function, autonomic, and perceptual outcomes should not be treated as interchangeable.
+
+\subsection{Feasibility and safety}
+\input{tables/table4_safety}
+
+Table~\ref{tab:safety} shows that feasibility and safety reporting remain major weaknesses. Dropout was more extractable than adherence, but adherence was rarely reported in a useful form. Safety reporting was sparse and likely underpowered for uncommon but relevant events, which is a serious limitation for interventions that are often promoted as simple and low risk.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.86\textwidth]{adverse_events_by_bt.png}
+\caption{Adverse-event mentions by breathing-technique category.}
+\label{fig:ae-counts}
+\end{figure}
+
+Figure~\ref{fig:ae-counts} shows that adverse-event mentions were few. Hyperventilation was associated with sensory symptoms such as dizziness and tingling, while pulmonary edema appeared in breath-holding or hook-breathing contexts. These findings are not incidence estimates, but they identify the technique families where safety monitoring and adverse-event definitions should be strengthened first.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.86\textwidth]{dropout_rates.png}
+\caption{Dropout rates among reports with extractable dropout data.}
+\label{fig:dropout}
+\end{figure}
+
+Figure~\ref{fig:dropout} shows that dropout reporting was available in only a subset of the corpus. The pooled dropout proportion was 20.9\% among 871 participants with dropout data, but this should not be generalized to all breathing interventions because missingness is substantial and reasons for discontinuation were not consistently described.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{meta65_forest_safety_adverse_events_rr.png}
+\caption{Safety forest plot for adverse events. Trincat2017 was not displayed because its upper confidence interval was extreme.}
+\label{fig:forest-ae}
+\end{figure}
+
+Figure~\ref{fig:forest-ae} shows no clear pooled difference in adverse-event risk between breathing interventions and comparators. This should not be read as proof of safety; the event data are sparse, many studies were not designed primarily to detect adverse events, and rare risks may be invisible in small performance studies.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{meta65_forest_feasibility_dropout_rr.png}
+\caption{Feasibility forest plot for dropout risk.}
+\label{fig:forest-dropout}
+\end{figure}
+
+Figure~\ref{fig:forest-dropout} shows no clear overall difference in dropout risk. The estimate is compatible with either lower or higher dropout under breathing interventions, so future trials should report adherence, acceptability, and reasons for discontinuation as standard feasibility outcomes.
+
+\section{Discussion}
+\subsection{Principal findings}
+This scoping review maps a heterogeneous but increasingly active field. The main conclusion is that breathwork in sport is promising but not mature. There are enough studies to identify recurring intervention families, plausible mechanisms, and outcome clusters, but not enough consistency to make broad claims that breathing interventions reliably improve performance across sports.
+
+The evidence is strongest as a taxonomy and gap map. Hyperventilation, hypoventilation, paced breathing, breath holding, and pranayama/yogic breathing appear in different contexts and target different mechanisms. Pooling them as a single intervention would obscure more than it clarifies. The quantitative synthesis therefore separates performance, physiological, safety, and dropout outcomes, while retaining the broader scoping-review frame. The resulting narrative is consistent: interest is rising, protocols are diverse, efficacy signals are possible but uncertain, and feasibility and safety reporting have not kept pace with practical enthusiasm.
+
+\subsection{Contribution to the literature}
+The expanded extraction clarifies three points. First, the field is growing quickly, especially in the most recent years. Second, sport context remains dispersed, with cycling and swimming being the most represented but not dominant enough to anchor the whole field. Third, feasibility and safety reporting lag behind efficacy reporting. This is important because breathing routines are often promoted as low-cost and low-risk, but techniques that alter carbon dioxide, oxygen saturation, intrathoracic pressure, or autonomic state still require monitoring.
+
+The review extends the existing systematic-review literature in a different direction. Laborde and colleagues asked an efficacy question and separated breathing techniques for meta-analysis, concluding that some longer-term protocols were promising but that high risk of bias, sparse technique-specific evidence, and heterogeneous protocols limited firm recommendations \parencite{Laborde31122024}. The present review starts from that same problem but maps a broader evidence base, including study-level characteristics, athlete level, sport context, intervention dose, feasibility, dropout, and safety reporting. This adds practical information that is not captured by efficacy estimates alone.
+
+The review contributes by placing sport-related breathing techniques in a single structured map while preserving clinically and practically important distinctions between intervention families. It also standardizes effect direction before exploratory pooling. Direction standardization is essential: for outcomes such as final heart rate, reaction time, sprint time, RPE, or decrement score, lower values may represent better performance or recovery. Without this step, pooled Hedges' $g$ can be misleading.
+
+\subsection{Implications for practice}
+Practitioners should use breathing techniques as targeted tools rather than generic breathwork. Slow or paced breathing may be most relevant for regulation, recovery, or attentional control. Hyperventilation may be relevant in short high-intensity contexts but requires attention to symptoms and safety. Hypoventilation and breath-holding interventions belong closer to hypoxic or repeated-sprint training logic and need careful supervision. Hook breathing and freediving-related strategies have distinct risk considerations.
+
+\subsection{Implications for research}
+New sport-derived breathing routines should be tested rigorously instead of being adopted because they are plausible or popular. Future trials should prespecify the breathing rate, depth, breath-hold timing, lung volume, total exposure, comparator, and expected mechanism. They should also report adherence, dropout, acceptability, adverse events, and reasons for discontinuation. For efficacy, researchers should select outcomes that match the proposed mechanism and report group-level means and dispersions so that future meta-analyses can be less dependent on narrative extraction.
+
+\subsection{Limitations}
+Several limitations should be considered. Some reports did not provide complete sample-size, demographic, intervention-dose, feasibility, or adverse-event data, and these gaps limit denominator certainty. Quantitative syntheses are exploratory and combine outcome domains that remain heterogeneous. The safety and dropout analyses are limited by sparse events and incomplete reporting. The review should therefore be interpreted primarily as an evidence map and hypothesis-generating synthesis rather than as a definitive estimate of intervention efficacy.
+
+\section{Conclusions}
+Breathing techniques in sport and performance contexts are a growing and promising field, but the evidence is still fragmented. Exploratory performance and physiological pooled effects were positive but uncertain. Safety and dropout syntheses did not show clear overall excess risk, but reporting was too incomplete to support strong reassurance. The next phase of research should move from informal sport-derived routines toward clear protocols, credible controls, complete feasibility reporting, and mechanism-matched outcomes.
+
+\section*{Declarations}
+\textbf{Funding:} No external funding was declared.\\
+\textbf{Conflicts of interest:} The authors declare no conflicts of interest.\\
+\textbf{Data availability:} The extraction data, generated tables, plots, and scripts are available in the project repository.\\
+\textbf{Author contributions:} The authors contributed to study conception, data charting, analysis, interpretation, and manuscript preparation.
+
+\appendix
+\section{PRISMA-ScR Checklist Crosswalk}
+\input{tables/prisma_scr_checklist}
+
+Table~\ref{tab:prisma-checklist} provides a reporting crosswalk for the main PRISMA-ScR items. It is included to make the review structure transparent and to show where selection, charting, synthesis, limitations, and declarations are addressed in the manuscript.
+
+\section{Exact Search Strings}
+\verbatiminput{../docs/strings.md}
+
+\section{Bibliography}
+\nocite{*}
+\printbibliography[heading=none]
+
+\end{document}

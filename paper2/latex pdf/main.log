@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.1.19)  19 JUN 2026 00:01
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.1.19)  19 JUN 2026 00:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(c:/texlive/2025/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+(c:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count192
 \c@section=\count193
@@ -203,19 +203,6 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \TX@cols=\count295
 \TX@ftn=\toks23
 )
-(c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
-Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
-
-(c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
-F (HO)
-
-(c:/texlive/2025/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
-
-))
 (c:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
@@ -238,21 +225,27 @@ Package caption Info: longtable package is loaded.
 (c:/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 ))
-(c:/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
-Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count298
-Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count299
-)
 (c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count300
+\c@float@type=\count298
 \float@exts=\toks24
 \float@box=\box61
 \@float@everytoks=\toks25
 \@floatcapt=\box62
 )
+(c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+))
 (c:/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
 
@@ -294,15 +287,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (c:/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count301
+\c@section@level=\count299
 )
 (c:/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen185
-\Hy@linkcounter=\count302
-\Hy@pagecounter=\count303
+\Hy@linkcounter=\count300
+\Hy@pagecounter=\count301
 
 (c:/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
@@ -310,7 +303,7 @@ File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
 (c:/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count304
+\Hy@SavedSpaceFactor=\count302
 
 (c:/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
@@ -322,7 +315,7 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count305
+\c@Hy@tempcnt=\count303
 
 (c:/texlive/2025/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
@@ -338,7 +331,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count306
+\Fld@menulength=\count304
 \Field@Width=\dimen187
 \Fld@charsize=\dimen188
 Package hyperref Info: Hyper figures OFF on input line 6042.
@@ -353,19 +346,19 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count307
-\c@Item=\count308
-\c@Hfootnote=\count309
+\Hy@abspage=\count305
+\c@Item=\count306
+\c@Hfootnote=\count307
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
 (c:/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2024-11-05 v7.01l Hyperref driver for XeTeX
 \pdfm@box=\box63
-\c@Hy@AnnotLevel=\count310
-\HyField@AnnotCount=\count311
-\Fld@listcount=\count312
-\c@bookmark@seq@number=\count313
+\c@Hy@AnnotLevel=\count308
+\HyField@AnnotCount=\count309
+\Fld@listcount=\count310
+\c@bookmark@seq@number=\count311
 
 (c:/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -425,14 +418,14 @@ de.tex
 \pgf@yd=\dimen256
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count314
-\c@pgf@countb=\count315
-\c@pgf@countc=\count316
-\c@pgf@countd=\count317
+\c@pgf@counta=\count312
+\c@pgf@countb=\count313
+\c@pgf@countc=\count314
+\c@pgf@countd=\count315
 \t@pgf@toka=\toks30
 \t@pgf@tokb=\toks31
 \t@pgf@tokc=\toks32
-\pgf@sys@id@count=\count318
+\pgf@sys@id@count=\count316
  (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -447,12 +440,12 @@ File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )
-\pgfsys@objnum=\count319
+\pgfsys@objnum=\count317
 )))
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count320
-\pgfsyssoftpath@bigbuffer@items=\count321
+\pgfsyssoftpath@smallbuffer@items=\count318
+\pgfsyssoftpath@bigbuffer@items=\count319
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -481,7 +474,7 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen257
-\pgfmath@count=\count322
+\pgfmath@count=\count320
 \pgfmath@box=\box65
 \pgfmath@toks=\toks33
 \pgfmath@stack@operand=\toks34
@@ -506,7 +499,7 @@ x)
 etics.code.tex)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count323
+\c@pgfmathroundto@lastzeros=\count321
 ))
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
@@ -543,7 +536,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box66
 \pgf@hbox=\box67
 \pgf@layerbox@main=\box68
-\pgf@picture@serial@count=\count324
+\pgf@picture@serial@count=\count322
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
@@ -574,8 +567,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen281
-\pgf@sys@shading@range@num=\count325
-\pgf@shadingcount=\count326
+\pgf@sys@shading@range@num=\count323
+\pgf@shadingcount=\count324
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -629,7 +622,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
 de.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count327
+\pgf@plot@mark@count=\count325
 \pgfplotmarksize=\dimen286
 )
 \tikz@lastx=\dimen287
@@ -644,23 +637,42 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box72
 \tikz@tempbox=\box73
 \tikz@tempbox@bg=\box74
-\tikztreelevel=\count328
-\tikznumberofchildren=\count329
-\tikznumberofcurrentchild=\count330
-\tikz@fig@count=\count331
+\tikztreelevel=\count326
+\tikznumberofchildren=\count327
+\tikznumberofcurrentchild=\count328
+\tikz@fig@count=\count329
 
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count332
-\pgfmatrixcurrentcolumn=\count333
-\pgf@matrix@numberofcolumns=\count334
+\pgfmatrixcurrentrow=\count330
+\pgfmatrixcurrentcolumn=\count331
+\pgf@matrix@numberofcolumns=\count332
 )
-\tikz@expandcount=\count335
+\tikz@expandcount=\count333
 
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
+(c:/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip59
+\enit@outerparindent=\dimen295
+\enit@toks=\toks38
+\enit@inbox=\box75
+\enit@count@id=\count334
+\enitdp@description=\count335
+)
+(c:/texlive/2025/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks39
+\verbatim@line=\toks40
+\verbatim@in@stream=\read3
+)
+(c:/texlive/2025/texmf-dist/tex/latex/seqsplit/seqsplit.sty
+Package: seqsplit 2006/08/07 v0.1 Splitting long sequences (DNA, RNA, proteins,
+ etc.) 
+)
 (c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 \csq@reset=\count336
@@ -669,7 +681,7 @@ Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 \csq@qlevel=\count339
 \csq@maxlvl=\count340
 \csq@tshold=\count341
-\csq@ltx@everypar=\toks38
+\csq@ltx@everypar=\toks41
 
 (c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
@@ -736,15 +748,15 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \blx@sectionciteorderinternal@0=\count383
 \blx@entrysetcounter=\count384
 \blx@biblioinstance=\count385
-\labelnumberwidth=\skip59
-\labelalphawidth=\skip60
-\biblabelsep=\skip61
-\bibitemsep=\skip62
-\bibnamesep=\skip63
-\bibinitsep=\skip64
-\bibparsep=\skip65
-\bibhang=\skip66
-\blx@bcfin=\read3
+\labelnumberwidth=\skip60
+\labelalphawidth=\skip61
+\biblabelsep=\skip62
+\bibitemsep=\skip63
+\bibnamesep=\skip64
+\bibinitsep=\skip65
+\bibparsep=\skip66
+\bibhang=\skip67
+\blx@bcfin=\read4
 \blx@bcfout=\write4
 \blx@langwohyphens=\language90
 \c@mincomprange=\count386
@@ -842,20 +854,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedcitation=\count464
 \c@pageref=\count465
 \c@savedpageref=\count466
-\shorthandwidth=\skip67
-\shortjournalwidth=\skip68
-\shortserieswidth=\skip69
-\shorttitlewidth=\skip70
-\shortauthorwidth=\skip71
-\shorteditorwidth=\skip72
-\locallabelnumberwidth=\skip73
-\locallabelalphawidth=\skip74
-\localshorthandwidth=\skip75
-\localshortjournalwidth=\skip76
-\localshortserieswidth=\skip77
-\localshorttitlewidth=\skip78
-\localshortauthorwidth=\skip79
-\localshorteditorwidth=\skip80
+\shorthandwidth=\skip68
+\shortjournalwidth=\skip69
+\shortserieswidth=\skip70
+\shorttitlewidth=\skip71
+\shortauthorwidth=\skip72
+\shorteditorwidth=\skip73
+\locallabelnumberwidth=\skip74
+\locallabelalphawidth=\skip75
+\localshorthandwidth=\skip76
+\localshortjournalwidth=\skip77
+\localshortserieswidth=\skip78
+\localshorttitlewidth=\skip79
+\localshortauthorwidth=\skip80
+\localshorteditorwidth=\skip81
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -952,10 +964,10 @@ Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.cod
 e.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen295
-\pgfarrowlength=\dimen296
-\pgfarrowwidth=\dimen297
-\pgfarrowlinewidth=\dimen298
+\pgfarrowinset=\dimen296
+\pgfarrowlength=\dimen297
+\pgfarrowwidth=\dimen298
+\pgfarrowlinewidth=\dimen299
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarypositioning.code.tex
@@ -1000,7 +1012,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 37.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 
-(C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.aux)
+(C:/Users/vittu/Documents/AIK/AIK-SCR/paper2/latex pdf/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
@@ -1043,12 +1055,12 @@ LaTeX Font Info:    ... okay on input line 43.
 * \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=50.0pt
+* \marginparwidth=35.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1144,8 +1156,8 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 43.
-(C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.out)
-(C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.out)
+(C:/Users/vittu/Documents/AIK/AIK-SCR/paper2/latex pdf/main.out)
+(C:/Users/vittu/Documents/AIK/AIK-SCR/paper2/latex pdf/main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1185,217 +1197,513 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-(C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.bbl)
+(C:/Users/vittu/Documents/AIK/AIK-SCR/paper2/latex pdf/main.bbl)
 Package biblatex Info: Reference section=0 on input line 43.
 Package biblatex Info: Reference segment=0 on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 45.
+(Font)              <14.4> on input line 45.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 45.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 45.
+(Font)              <7> on input line 45.
 
 (c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 47.
+(Font)              <10.95> on input line 47.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 47.
+(Font)              <8> on input line 47.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 59.
+(Font)              <6> on input line 47.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 60.
 
 
 [1
 
 ]
 
-[2]
+[2] (./tables/prisma_flow.tex
+File: figures/prisma_AIK.png Graphic file (type bmp)
+<figures/prisma_AIK.png>
+)
+
+[3]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[3] (./tables/prisma_flow.tex
-File: figures/prisma_flow.png Graphic file (type bmp)
-<figures/prisma_flow.png>
-) (./tables/table1_descriptive.tex
-Underfull \hbox (badness 1466) in paragraph at lines 24--24
-[]|\TU/TeXGyreTermes(0)/m/n/10 Male: 827.0 (53.5%); Female: 720.0
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-[]|\TU/TeXGyreTermes(0)/m/n/10 Estimated among 1,547
- []
-
-
-Underfull \hbox (badness 2111) in paragraph at lines 24--24
-\TU/TeXGyreTermes(0)/m/n/10 Swimming: 3 (8.8%); Freediving: 3
- []
-
-
-Underfull \hbox (badness 1194) in paragraph at lines 24--24
-\TU/TeXGyreTermes(0)/m/n/10 (8.8%); Resistance training: 2 (5.9%);
- []
-
-)
-
-[4] (./tables/summary_tables.tex
-Underfull \hbox (badness 3271) in paragraph at lines 93--93
-[]|\TU/TeXGyreTermes(0)/m/n/10.95 Dizziness, heaviness, numbness, tingling, and
- pulmonary
- []
-
-)
+[4] (./tables/table1_study_level.tex
 
 [5]
-
-[6]
-
-[7] (./tables/study_characteristics.tex
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-[]|\TU/TeXGyreTermes(0)/m/n/10.95 Hyperventilation;
+Overfull \hbox (702.78308pt too wide) detected at line 8
+[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-[]|\TU/TeXGyreTermes(0)/m/n/10.95 Hyperventilation;
+Underfull \hbox (badness 10000) in alignment at lines 7--12
+[] [] [] [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-[]|\TU/TeXGyreTermes(0)/m/n/10.95 Breath holding;
+Overfull \hbox (702.78308pt too wide) detected at line 13
+[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-[]|\TU/TeXGyreTermes(0)/m/n/10.95 Hyperventilation;
+Underfull \hbox (badness 10000) in alignment at lines 12--17
+[] [] [] [] [] [] [] []
  []
 
-[9
 
-]
+Underfull \hbox (badness 10000) in alignment at lines 17--20
+[] [] [] [] [] [] [] []
+ []
 
-[10])
-File: figures/sex_distribution.png Graphic file (type bmp)
-<figures/sex_distribution.png>
+
+Underfull \hbox (badness 10000) in alignment at lines 20--22
+[] [] [] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[]|\TU/TeXGyreTermes(0)/m/n/10.95 Field athletics, combative and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\TU/TeXGyreTermes(0)/m/n/10.95 healthy non-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\TU/TeXGyreTermes(0)/m/n/10.95 recreationally
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+[]|\TU/TeXGyreTermes(0)/m/n/10.95 recreationally
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\TU/TeXGyreTermes(0)/m/n/10.95 recreationally
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]|\TU/TeXGyreTermes(0)/m/n/10.95 healthy non-
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 22--88
+[] [] [] [] [] [] [] []
+ []
+
+[6
+
+] [7] [8]
+
+[9]) (./tables/table1_baseline.tex)
 File: figures/publication_trend.png Graphic file (type bmp)
 <figures/publication_trend.png>
 
 
-[11
+[10
 
 ]
+File: figures/sex_distribution.png Graphic file (type bmp)
+<figures/sex_distribution.png>
+
+
+[11] (./tables/table2_map.tex
+Underfull \hbox (badness 7030) in paragraph at lines 16--16
+[]|\TU/TeXGyreTermes(0)/m/n/10.95 Hyperventilation: 16 (24.6%); hypoventilation
+: 14 (21.5%);
+ []
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 16--16
+[]|\TU/TeXGyreTermes(0)/m/n/10.95 23 parseable reports; median 1 session/week; 
+IQR 1–2.5 ses-
+ []
+
+)
+
+[12]
 File: figures/study_design_broad_distribution.png Graphic file (type bmp)
 <figures/study_design_broad_distribution.png>
 
 
-[12]
+[13]
 File: figures/study_design_distribution.png Graphic file (type bmp)
 <figures/study_design_distribution.png>
 File: figures/sport_distribution.png Graphic file (type bmp)
 <figures/sport_distribution.png>
 
 
-[13]
+[14]
 File: figures/bt_category_distribution.png Graphic file (type bmp)
 <figures/bt_category_distribution.png>
 
 
-[14]
+[15]
 File: figures/intervention_duration_distribution.png Graphic file (type bmp)
 <figures/intervention_duration_distribution.png>
+ (./tables/table3_meta.tex
+Underfull \hbox (badness 1917) in paragraph at lines 15--15
+\TU/TeXGyreTermes(0)/m/n/10.95 direction favoring breath-
+ []
 
 
-[15]
-File: figures/forest_hyperventilation_power.png Graphic file (type bmp)
-<figures/forest_hyperventilation_power.png>
-File: figures/forest_paced_breathing_reaction.png Graphic file (type bmp)
-<figures/forest_paced_breathing_reaction.png>
+Underfull \hbox (badness 2368) in paragraph at lines 15--15
+\TU/TeXGyreTermes(0)/m/n/10.95 ing intervention, but un-
+ []
 
+
+Underfull \hbox (badness 1490) in paragraph at lines 15--15
+\TU/TeXGyreTermes(0)/m/n/10.95 in reported adverse-event
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 15--15
+\TU/TeXGyreTermes(0)/m/n/10.95 and reporting limitations
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\TU/TeXGyreTermes(0)/m/n/10.95 No clear difference in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/TeXGyreTermes(0)/m/n/10.95 dropout risk between
+ []
+
+)
 
 [16]
+File: figures/meta65_forest_efficacy_performance.png Graphic file (type bmp)
+<figures/meta65_forest_efficacy_performance.png>
+
+
+[17]
+Overfull \vbox (236.35274pt too high) has occurred while \output is active []
+
+
+
+[18]
+File: figures/meta65_forest_efficacy_physiological.png Graphic file (type bmp)
+<figures/meta65_forest_efficacy_physiological.png>
+
+
+[19]
+Overfull \vbox (118.40388pt too high) has occurred while \output is active []
+
+
+
+[20] (./tables/table4_safety.tex)
 File: figures/adverse_events_by_bt.png Graphic file (type bmp)
 <figures/adverse_events_by_bt.png>
 
 
-[17]
+[21]
 File: figures/dropout_rates.png Graphic file (type bmp)
 <figures/dropout_rates.png>
 
 
-[18]
-
-[19]
-
-[20] (./tables/prisma_scr_checklist.tex
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-[]|\TU/TeXGyreTermes(0)/m/n/10.95 Information
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-[]|\TU/TeXGyreTermes(0)/m/n/10.95 Selection of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]|\TU/TeXGyreTermes(0)/m/n/10.95 Critical appraisal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-[]|\TU/TeXGyreTermes(0)/m/n/10.95 Individual-source
- []
-
-
-Underfull \hbox (badness 3547) in paragraph at lines 30--30
-[]|\TU/TeXGyreTermes(0)/m/n/10.95 Study-level characteristics and outcome clust
-ers
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[]|\TU/TeXGyreTermes(0)/m/n/10.95 Synthesis of
- []
-
-
-Underfull \hbox (badness 4316) in paragraph at lines 32--32
-[]|\TU/TeXGyreTermes(0)/m/n/10.95 Summary of evi-
- []
-
-[21])
-
 [22]
+File: figures/meta65_forest_safety_adverse_events_rr.png Graphic file (type bmp
+)
+<figures/meta65_forest_safety_adverse_events_rr.png>
+
 
 [23]
+Overfull \vbox (542.63313pt too high) has occurred while \output is active []
+
+
 
 [24]
+File: figures/meta65_forest_feasibility_dropout_rr.png Graphic file (type bmp)
+<figures/meta65_forest_feasibility_dropout_rr.png>
 
-[25] (C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.aux)
+
+[25]
+Overfull \vbox (723.24088pt too high) has occurred while \output is active []
+
+
+
+[26]
+Underfull \hbox (badness 2384) in paragraph at lines 251--252
+\TU/TeXGyreTermes(0)/m/n/12 technique-specific evidence, and heterogeneous prot
+ocols limited firm recommendations
+ []
+
+
+
+[27]
+
+[28] (./tables/prisma_scr_checklist.tex
+Underfull \hbox (badness 2582) in paragraph at lines 15--15
+[]|\TU/TeXGyreTermes(0)/m/n/12 Methods describe eligible breathing techniques,
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 21--21
+[]|\TU/TeXGyreTermes(0)/m/n/12 Discussion describes database/source-set, extrac
+-
+ []
+
+[29])
+File: "../docs/strings.md"  (verbatim)
+
+
+[30]
+
+[31]
+Overfull \hbox (20.61578pt too wide) in paragraph at lines 280--280
+[]  \TU/lmtt/m/n/12 "breath holding" OR "breath-holding" OR "breath hold*" OR "
+breath-hold*" OR[] 
+ []
+
+
+Overfull \hbox (88.59584pt too wide) in paragraph at lines 280--280
+[]  \TU/lmtt/m/n/12 "breathing exercise*" OR "controlled breathing" OR "control
+led frequency breathing" OR[] 
+ []
+
+
+Overfull \hbox (138.0358pt too wide) in paragraph at lines 280--280
+[]  \TU/lmtt/m/n/12 "slow breathing" OR "slow-paced breathing" OR "coherent bre
+athing" OR "coherence breathing" OR[] 
+ []
+
+
+Overfull \hbox (8.25583pt too wide) in paragraph at lines 280--280
+[]  \TU/lmtt/m/n/12 "diaphragmatic breathing" OR "abdominal breathing" OR "deep
+ breathing" OR[] 
+ []
+
+
+
+[32]
+Overfull \hbox (14.4358pt too wide) in paragraph at lines 280--280
+[]  \TU/lmtt/m/n/12 performance OR endurance OR competition OR sprint* OR power
+ OR strength OR[] 
+ []
+
+
+Overfull \hbox (416.13571pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 athlete* OR sport* OR "physically active" OR "recreationa
+lly active" OR trained OR exercis* OR swimmer* OR cyclist* OR runner* OR player
+*[] 
+ []
+
+
+Overfull \hbox (416.13571pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 athlete* OR sport* OR "physically active" OR "recreationa
+lly active" OR trained OR exercis* OR swimmer* OR cyclist* OR runner* OR player
+*[] 
+ []
+
+
+Overfull \hbox (131.85574pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 "breath holding" OR "breath-holding" OR "breath hold*" OR
+ "breath-hold*" OR apnea OR apnoea[] 
+ []
+
+
+Overfull \hbox (100.95583pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 OR "breathing exercise*" OR "controlled breathing" OR "co
+ntrolled frequency breathing"[] 
+ []
+
+
+Overfull \hbox (181.2958pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 OR "paced breathing" OR "paced respiration" OR "metronome
+ breathing" OR "metronome-paced breathing"[] 
+ []
+
+
+Overfull \hbox (150.39578pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 OR "slow breathing" OR "slow-paced breathing" OR "coheren
+t breathing" OR "coherence breathing"[] 
+ []
+
+
+Overfull \hbox (20.61581pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 OR "diaphragmatic breathing" OR "abdominal breathing" OR 
+"deep breathing"[] 
+ []
+
+
+
+[33]
+Overfull \hbox (243.0958pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 OR "nostril breathing" OR "alternate nostril" OR "alterna
+te-nostril" OR "uni-nostril" OR "unilateral nostril"[] 
+ []
+
+
+Overfull \hbox (131.85574pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 "breath holding" OR "breath-holding" OR "breath hold*" OR
+ "breath-hold*" OR apnea OR apnoea[] 
+ []
+
+
+Overfull \hbox (100.95583pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 OR "breathing exercise*" OR "controlled breathing" OR "co
+ntrolled frequency breathing"[] 
+ []
+
+
+Overfull \hbox (181.2958pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 OR "paced breathing" OR "paced respiration" OR "metronome
+ breathing" OR "metronome-paced breathing"[] 
+ []
+
+
+Overfull \hbox (150.39578pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 OR "slow breathing" OR "slow-paced breathing" OR "coheren
+t breathing" OR "coherence breathing"[] 
+ []
+
+
+Overfull \hbox (20.61581pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 OR "diaphragmatic breathing" OR "abdominal breathing" OR 
+"deep breathing"[] 
+ []
+
+
+Overfull \hbox (243.0958pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 OR "nostril breathing" OR "alternate nostril" OR "alterna
+te-nostril" OR "uni-nostril" OR "unilateral nostril"[] 
+ []
+
+
+Overfull \hbox (107.13577pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 performance OR endurance OR competition OR sprint* OR pow
+er OR strength OR "time trial"[] 
+ []
+
+
+Overfull \hbox (144.21577pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 OR "repeated sprint*" OR recovery OR fatigue OR "athletic
+ performance" OR "sport performance"[] 
+ []
+
+
+Overfull \hbox (107.13577pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 performance OR endurance OR competition OR sprint* OR pow
+er OR strength OR "time trial"[] 
+ []
+
+
+Overfull \hbox (144.21577pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 OR "repeated sprint*" OR recovery OR fatigue OR "athletic
+ performance" OR "sport performance"[] 
+ []
+
+
+Overfull \hbox (94.77577pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 review OR "systematic review" OR "scoping review" OR meta
+-analysis OR "meta analysis"[] 
+ []
+
+
+Overfull \hbox (236.91574pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 OR COPD OR asthma OR "sleep apnea" OR "sleep apnoea" OR s
+troke OR "pulmonary disease" OR dyspnea OR dyspnoea[] 
+ []
+
+
+
+[34]
+Overfull \hbox (32.97578pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 "systematic review" OR "scoping review" OR meta-analysis 
+OR "meta analysis"[] 
+ []
+
+
+Overfull \hbox (236.91574pt too wide) in paragraph at lines 280--280
+[]    \TU/lmtt/m/n/12 OR COPD OR asthma OR "sleep apnea" OR "sleep apnoea" OR s
+troke OR "pulmonary disease" OR dyspnea OR dyspnoea[] 
+ []
+
+
+
+[35]
+Underfull \hbox (badness 2158) in paragraph at lines 284--284
+[][]\TU/TeXGyreTermes(0)/m/n/12 Dobashi, K., Fujii, N., Ichinose, M., Fujimoto,
+ T., & Nishiyasu, T. (2021). Voluntary
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 284--284
+\TU/TeXGyreTermes(0)/m/n/12 hypocapnic hyperventilation lasting 5 min and 20 mi
+n similarly reduce aerobic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--284
+\TU/TeXGyreTermes(0)/m/n/12 https://onlinelibrary.wiley.com/doi/pdf/10.1080/174
+61391.2020.1812728]. \TU/TeXGyreTermes(0)/m/it/12 European
+ []
+
+
+
+[36]
+Underfull \hbox (badness 1552) in paragraph at lines 284--284
+\TU/TeXGyreTermes(0)/m/n/12 pressure, and lung CT imaging - The Journal of Spor
+ts Medicine and Physical
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 284--284
+\TU/TeXGyreTermes(0)/m/n/12 Fitness 2026 February;66(2):204-14. (n.d.). Retriev
+ed June 18, 2026, from [][]$[][][][][] []
+ []
+
+
+
+[37]
+
+[38]
+Overfull \hbox (0.29286pt too wide) in paragraph at lines 284--284
+\TU/TeXGyreTermes(0)/m/n/12 sponses during High-Intensity Interval Training in 
+Swimming. \TU/TeXGyreTermes(0)/m/it/12 Journal of human kinetics\TU/TeXGyreTerm
+es(0)/m/n/12 ,
+ []
+
+
+
+[39]
+
+[40]
+
+[41]
+
+[42] (C:/Users/vittu/Documents/AIK/AIK-SCR/paper2/latex pdf/main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 93EC7F2769AE0A0F75A322FAABCFE5F9;4341.
+(rerunfilecheck)             Checksum: 5D95EEF54C07106A9F104CB98DB3E5BC;3801.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34421 strings out of 473832
- 712023 string characters out of 5733158
- 1715613 words of memory out of 5000000
- 56992 multiletter control sequences out of 15000+600000
- 563097 words of font info for 80 fonts, out of 8000000 for 9000
+ 35179 strings out of 473832
+ 746653 string characters out of 5733158
+ 2056170 words of memory out of 5000000
+ 57731 multiletter control sequences out of 15000+600000
+ 563994 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,11n,93p,2613b,5094s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,10n,93p,3049b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on C:/Users/vittu/Documents/AIK/AIK-SCR/paper/latex pdf/main.xdv
- (25 pages, 517904 bytes).
+Output written on C:/Users/vittu/Documents/AIK/AIK-SCR/paper2/latex pdf/main.xd
+v (42 pages, 697452 bytes).
