@@ -97,22 +97,6 @@ if (nrow(effect_input) > 0) {
     )
 }
 
-fit_meta_model <- function(cluster_data, cluster_name) {
-  meta::metagen(
-    TE = hedges_g_normalized,
-    seTE = sqrt(variance_normalized),
-    studlab = paste(paper_id, outcome_metric, sep = ": "),
-    data = cluster_data,
-    sm = "SMD",
-    common = FALSE,
-    random = TRUE,
-    method.tau = "REML",
-    method.random.ci = "classic",
-    prediction = TRUE,
-    title = cluster_name
-  )
-}
-
 run_meta <- function(data, cluster_name) {
   cluster_data <- data %>% filter(analysis_cluster == cluster_name)
   if (nrow(cluster_data) < 2) {
@@ -130,17 +114,25 @@ run_meta <- function(data, cluster_name) {
       status = "fewer_than_two_effects"
     ))
   }
-  model <- fit_meta_model(cluster_data, cluster_name)
+  model <- metafor::rma(
+    yi = hedges_g_normalized,
+    vi = variance_normalized,
+    data = cluster_data,
+    method = "REML"
+  )
+  pred <- predict(model)
   tibble(
     cluster = cluster_name,
     k = model$k,
-    pooled_g = model$TE.random,
-    ci_lower = model$lower.random,
-    ci_upper = model$upper.random,
-    p_value = model$pval.random,
+    pooled_g = as.numeric(model$b),
+    ci_lower = model$ci.lb,
+    ci_upper = model$ci.ub,
+    prediction_lower = pred$pi.lb,
+    prediction_upper = pred$pi.ub,
+    p_value = model$pval,
     tau2 = model$tau2,
-    q_statistic = model$Q,
-    q_p_value = model$pval.Q,
+    q_statistic = model$QE,
+    q_p_value = model$QEp,
     i2 = model$I2,
     status = "model_fit"
   )
@@ -167,33 +159,55 @@ make_forest_plot <- function(data, cluster_name, filename) {
   cluster_data <- data %>% filter(analysis_cluster == cluster_name)
   if (nrow(cluster_data) < 2) return(invisible(NULL))
 
-  model <- fit_meta_model(cluster_data, cluster_name)
+  model <- metafor::rma(
+    yi = hedges_g_normalized,
+    vi = variance_normalized,
+    data = cluster_data,
+    method = "REML"
+  )
+  labels <- paste(cluster_data$paper_id, cluster_data$outcome_metric, sep = ": ")
+  weight_pct <- 100 * metafor::weights(model) / sum(metafor::weights(model))
+
   grDevices::png(
     filename = file.path(plots_dir, filename),
     width = 2400,
-    height = max(1700, 320 * nrow(cluster_data) + 900),
+    height = max(1600, 260 * nrow(cluster_data) + 900),
     res = 300
   )
   on.exit(grDevices::dev.off(), add = TRUE)
 
-  meta::forest(
+  par(mar = c(9, 12, 4, 6))
+  weight_x <- -2.3
+  total_row <- -1
+
+  metafor::forest(
     model,
-    sortvar = model$TE,
-    prediction = TRUE,
-    print.I2 = TRUE,
-    print.tau2 = TRUE,
-    print.Q = TRUE,
-    test.overall.random = TRUE,
-    leftcols = c("studlab"),
-    leftlabs = c("Study / outcome"),
-    rightcols = c("effect", "ci", "w.random"),
-    rightlabs = c("Hedges' g", "95% CI", "Weight"),
-    smlab = "Hedges' g (positive favors intervention)",
-    col.square = "#2C7FB8",
-    col.diamond = "#D95F0E",
-    col.diamond.lines = "#D95F0E",
-    col.predict = "#31A354",
-    pooled.events = FALSE
+    slab = labels,
+    ilab = sprintf("%.1f%%", weight_pct),
+    ilab.lab = "Weight",
+    ilab.xpos = weight_x,
+    header = "Study / outcome",
+    xlab = "Hedges' g",
+    mlab = expression(bold("Random-effects model")),
+    refline = 0,
+    shade = TRUE,
+    addpred = TRUE,
+    cex = 0.9,
+    xlim = c(-6.5, 4),
+    alim = c(-1.5, 1.5),
+    textpos = c(-6.5, 4),
+    slab.just = "left"
+  )
+  text(weight_x, total_row, "100%", cex = 0.9, font = 2)
+  mtext(
+    sprintf(
+      "Heterogeneity: Q = %.2f, df = %d, p = %.3f; I^2 = %.1f%%; tau^2 = %.3f",
+      model$QE, model$k - model$p, model$QEp, model$I2, model$tau2
+    ),
+    side = 1,
+    line = 5.8,
+    adj = 0,
+    cex = 0.9
   )
 }
 

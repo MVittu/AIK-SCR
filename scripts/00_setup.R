@@ -8,7 +8,6 @@ required_packages <- c(
   "janitor",
   "stringr",
   "metafor",
-  "meta",
   "ggplot2"
 )
 
@@ -28,7 +27,6 @@ suppressPackageStartupMessages({
   library(janitor)
   library(stringr)
   library(metafor)
-  library(meta)
   library(ggplot2)
 })
 
