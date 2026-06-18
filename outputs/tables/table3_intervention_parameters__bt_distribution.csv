@@ -1,7 +1,7 @@
 bt_category,n,relative_frequency,label
 other_unclear,11,0.3142857142857143,11 (31.4%)
-hyperventilation,9,0.2571428571428571,9 (31.4%)
-paced_breathing,9,0.2571428571428571,9 (31.4%)
-hypoventilation,3,0.08571428571428572,3 (31.4%)
-pranayama_yogic,2,0.05714285714285714,2 (31.4%)
-breath_holding,1,0.02857142857142857,1 (31.4%)
+hyperventilation,9,0.2571428571428571,9 (25.7%)
+paced_breathing,9,0.2571428571428571,9 (25.7%)
+hypoventilation,3,0.08571428571428572,3 (8.6%)
+pranayama_yogic,2,0.05714285714285714,2 (5.7%)
+breath_holding,1,0.02857142857142857,1 (2.9%)

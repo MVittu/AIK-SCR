@@ -2,10 +2,7 @@ if (!exists("tab3_clean")) source(file.path("scripts", "01_clean_data.R"))
 
 bt_distribution <- tab3_clean %>%
   count(bt_category, sort = TRUE) %>%
-  mutate(
-    relative_frequency = n / sum(n),
-    label = format_count_pct(n)
-  )
+  add_count_pct()
 
 duration_summary <- tab3_clean %>%
   summarise(

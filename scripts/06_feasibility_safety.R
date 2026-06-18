@@ -43,7 +43,11 @@ adverse_event_counts <- event_dictionary %>%
   unnest(data) %>%
   arrange(event, desc(study_mentions)) %>%
   group_by(event) %>%
-  mutate(label = format_count_pct(study_mentions, total = sum(study_mentions))) %>%
+  mutate(
+    event_total = sum(study_mentions, na.rm = TRUE),
+    relative_frequency = if_else(event_total > 0, study_mentions / event_total, NA_real_),
+    label = format_count_pct(study_mentions, total = first(event_total))
+  ) %>%
   ungroup()
 
 adherence_summary <- feasibility %>%
@@ -68,7 +72,7 @@ if (nrow(adverse_event_counts) > 0) {
   adverse_plot_data <- adverse_event_counts %>%
     group_by(event) %>%
     summarise(study_mentions = sum(study_mentions), .groups = "drop") %>%
-    mutate(label = format_count_pct(study_mentions))
+    add_count_pct(count_col = "study_mentions")
 
   adverse_plot <- adverse_plot_data %>%
     ggplot(aes(reorder(event, study_mentions), study_mentions)) +

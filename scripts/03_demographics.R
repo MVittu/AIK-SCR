@@ -52,9 +52,9 @@ sex_plot_data <- sex_summary %>%
   pivot_longer(everything(), names_to = "sex", values_to = "estimated_n") %>%
   mutate(
     sex = recode(sex, estimated_male_n = "Male", estimated_female_n = "Female"),
-    estimated_n = round(estimated_n, 1),
-    label = format_count_pct(estimated_n)
-  )
+    estimated_n = round(estimated_n, 1)
+  ) %>%
+  add_count_pct(count_col = "estimated_n")
 
 sex_plot <- ggplot(sex_plot_data, aes(sex, estimated_n, fill = sex)) +
   geom_col(show.legend = FALSE) +

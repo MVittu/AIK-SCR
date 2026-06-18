@@ -55,19 +55,28 @@ trend_summary <- tibble(
 
 design_distribution <- tab1_clean %>%
   count(design_group, sort = TRUE) %>%
+  add_count_pct()
+
+design_broad_distribution <- tab1_clean %>%
   mutate(
-    relative_frequency = n / sum(n),
-    label = format_count_pct(n)
-  )
+    design_broad = case_when(
+      str_detect(str_to_lower(study_design), "observational|cross-sectional|retrospective") ~ "observational",
+      str_detect(str_to_lower(study_design), "experimental|random|rct|trial|crossover|before-after") ~ "experimental",
+      TRUE ~ "unclear"
+    )
+  ) %>%
+  count(design_broad, sort = TRUE) %>%
+  add_count_pct()
 
 sport_distribution <- tab1_clean %>%
+  distinct(paper_id, sport_discipline) %>%
   separate_rows(sport_discipline, sep = "\\s*;\\s*") %>%
-  mutate(sport_discipline = replace_na(str_to_lower(sport_discipline), "unclear")) %>%
-  count(sport_discipline, sort = TRUE) %>%
   mutate(
-    relative_frequency = n / sum(n),
-    label = format_count_pct(n)
-  )
+    sport_discipline = replace_na(str_to_lower(sport_discipline), "unclear"),
+    sport_discipline = recode(sport_discipline, none = "not sport-specific")
+  ) %>%
+  count(sport_discipline, sort = TRUE) %>%
+  add_count_pct()
 
 write_table_outputs(
   list(
@@ -75,6 +84,7 @@ write_table_outputs(
     trend_models = trend_summary,
     trend_predictions = trend_predictions,
     study_designs = design_distribution,
+    study_designs_broad = design_broad_distribution,
     sports = sport_distribution
   ),
   "table1_bibliometric_methodological"
@@ -108,6 +118,15 @@ design_plot <- design_distribution %>%
   labs(x = NULL, y = "Number of studies")
 save_plot(design_plot, "study_design_distribution.png")
 
+design_broad_plot <- design_broad_distribution %>%
+  ggplot(aes(reorder(design_broad, n), n)) +
+  geom_col(fill = "#41AB5D") +
+  geom_text(aes(label = label), hjust = -0.05, size = 3.2) +
+  coord_flip() +
+  expand_limits(y = max(design_broad_distribution$n, na.rm = TRUE) * 1.25) +
+  labs(x = NULL, y = "Number of studies")
+save_plot(design_broad_plot, "study_design_broad_distribution.png")
+
 sport_plot_data <- sport_distribution %>%
   slice_max(n, n = 15)
 
@@ -116,6 +135,7 @@ sport_plot <- sport_plot_data %>%
   geom_col(fill = "#756BB1") +
   geom_text(aes(label = label), hjust = -0.05, size = 3.2) +
   coord_flip() +
+  scale_y_continuous(breaks = seq(0, max(sport_plot_data$n, na.rm = TRUE) + 1, by = 1)) +
   expand_limits(y = max(sport_plot_data$n, na.rm = TRUE) * 1.25) +
   labs(x = NULL, y = "Number of study mentions")
 save_plot(sport_plot, "sport_distribution.png")

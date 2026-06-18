@@ -1,6 +1,6 @@
-event,bt_category,study_mentions,label
-dizziness,hyperventilation,1,1 (100.0%)
-heaviness,hyperventilation,1,1 (100.0%)
-numbness,hyperventilation,1,1 (100.0%)
-pulmonary_edema,other_unclear,1,1 (100.0%)
-tingling,hyperventilation,1,1 (100.0%)
+event,bt_category,study_mentions,event_total,relative_frequency,label
+dizziness,hyperventilation,1,1,1,1 (100.0%)
+heaviness,hyperventilation,1,1,1,1 (100.0%)
+numbness,hyperventilation,1,1,1,1 (100.0%)
+pulmonary_edema,other_unclear,1,1,1,1 (100.0%)
+tingling,hyperventilation,1,1,1,1 (100.0%)

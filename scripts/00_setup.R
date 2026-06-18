@@ -81,8 +81,15 @@ safe_weighted_mean <- function(x, w) {
 }
 
 format_count_pct <- function(n, total = sum(n, na.rm = TRUE), digits = 1) {
-  pct <- ifelse(total > 0, 100 * n / total, NA_real_)
+  pct <- if (total > 0) 100 * n / total else rep(NA_real_, length(n))
   paste0(n, " (", sprintf(paste0("%.", digits, "f"), pct), "%)")
+}
+
+add_count_pct <- function(data, count_col = "n", pct_col = "relative_frequency", label_col = "label") {
+  total <- sum(data[[count_col]], na.rm = TRUE)
+  data[[pct_col]] <- if (total > 0) data[[count_col]] / total else NA_real_
+  data[[label_col]] <- format_count_pct(data[[count_col]], total = total)
+  data
 }
 
 write_table_outputs <- function(sheets, workbook_name) {
