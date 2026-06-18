@@ -1,0 +1,62 @@
+document_id,document_name,paper_id,outcome_metric,ig_n,ig_mean,ig_dispersion,view_link,outcome_index,ig_n_num,ig_mean_num,ig_sd_num
+,,Durand2004,FEV1,11,4.7,0.2,,1,11,4.7,0.2
+,,Spiering2004,Active control,,,,,2,,,
+,,Lindholm2005,Active control,,,,,3,,,
+,,Malakhov2014,V mm s-1,38,37.76,29.0,,4,38,37.760000000000005,29
+,,Sakamoto2014,Resting Blood pH,13,7.366,0.021,,5,13,7.366,0.021
+,,Sakamoto2015,Peak Torque 60/s,15,237.1,56.8,,6,15,237.1,56.8
+,,Stavrou2015,HR After 50m,14,176.0,10.0,,7,14,176,10
+,,Hakked2017,MVV,14,115.45,31.44,,8,14,115.45,31.439999999999998
+,,Hakked2017,FVC,14,3.14,1.03,,9,14,3.14,1.03
+,,Hakked2017,Total Strokes per Breath,14,3.54,0.88,,10,14,3.54,0.88
+,,Sakamoto2018,Resting Blood pH,17,7.471,0.037,,11,17,7.471000000000001,0.037
+,,Sakamoto2018,PCO2,17,31.1,3.6,,12,17,31.1,3.6
+,,Fernandez2019,,,,,,13,,,
+,,Citherlet2021,Peak Power,15,501.3,115.6,,14,15,501.3,115.6
+,,Citherlet2021,Average Power,15,413.6,86.7,,15,15,413.6,86.7
+,,Citherlet2021,Fatigue Index,15,4.9,1.7,,16,15,4.9,1.7
+,,Citherlet2021,RPE Borg CR10,15,6.9,1.4,,17,15,6.9,1.4
+,,Taylor2021,Reaction Time,47,694.1,266.68,,18,47,694.1,266.68
+,,Taylor2021,Normalized Movement Time,47,281.83,226.5,,19,47,281.83,226.5
+,,Vaidya2021,Active control,,,,,20,,,
+,,,23,0.83,0.42,23,,21,0.8300000000000001,0.42000000000000004,23
+,,Marko2022,Minute Ventilation,11,101.93,14.74,,22,11,101.93,14.739999999999998
+,,Marko2022,Tidal Volume,11,2.32,0.63,,23,11,2.32,0.63
+,,You2023,RMSSD,75,97.62,43.81,,24,75,97.61999999999999,43.809999999999995
+,,You2023,Heart Rate,75,68.46,10.45,,25,75,68.46000000000001,10.450000000000001
+,,Braham2024,Sprints Completed,8,22.6,0.9,,26,8,22.6,0.9
+,,Li2024,Overall Repetitions,22,76.4,2.11,,27,22,76.4,2.11
+,,Li2024,Maximum PHR,22,157.0,3.41,,28,22,157,3.4099999999999997
+,,Merlin2024,General Recovery,7,5.17,1.01,,29,7,5.17,1.01
+,,Merlin2024,Subjective Training Performance,7,11.0,1.41,,30,7,11,1.41
+,,Sikora2024,Vital Capacity,38,5.49,1.13,,31,38,5.49,1.1300000000000001
+,,Sikora2024,Forced Vital Capacity,38,6.18,1.18,,32,38,6.18,1.1800000000000002
+,,Woorons2024,Sdec,10,20.4,6.5,,33,10,20.4,6.5
+,,Woorons2024,RPE,10,8.5,0.4,,34,10,8.5,0.4
+,,Deniz2025,Completed Sets,12,23.83,0.58,,35,12,23.830000000000002,0.58
+,,Deniz2025,Training Volume,12,2437.92,361.38,,36,12,2437.92,361.38
+,,Deniz2025,RPE Score,12,5.96,2.21,,37,12,5.96,2.21
+,,Fernandez2025,SpO2 at 30s,13,96.0,4.3,,38,13,96,4.3
+,,Fesseler2025,Cumulative Elevation Gain,36,83.24,27.57,,39,36,83.24000000000001,27.57
+,,Fesseler2025,Sprint 1 Lactate,36,12.75,3.0,,40,36,12.75,3
+,,Fox2025,Energy,142,0.97,0.16,,41,142,0.97,0.16
+,,Kasap2025,Final Heart Rate,40,164.65,9.4,,42,40,164.65,9.4
+,,Kasap2025,Perceived Exertion Borg,40,17.27,1.3,,43,40,17.27,1.3
+,,Yilmaz2025,Relative Peak Power,17,12.7,1.55,,44,17,12.7,1.55
+,,Yilmaz2025,Relative Mean Power,17,9.0,0.65,,45,17,9,0.65
+,,Yilmaz2025,ATP-PCr Pct,17,38.9,5.5,,46,17,38.9,5.5
+,,Chiron2026,400m Performance Time,11,54.42,6.65,,47,11,54.42,6.6499999999999995
+,,Chiron2026,Morning Cortisol D6,11,0.332,0.135,,48,11,0.33199999999999996,0.135
+,,Devipriya2026,Auditory Reaction Time Right Hand,60,168.73,16.28,,49,60,168.73,16.279999999999998
+,,FernandezBarradas2026,Cognitive Anxiety,34,12.76,3.27,,50,34,12.76,3.27
+,,FernandezBarradas2026,Somatic Anxiety,34,11.76,5.46,,51,34,11.76,5.46
+,,Iskra2026,RMSSD,38,24.24,8.28,,52,38,24.24,8.28
+,,Iskra2026,PEP,38,114.26,10.25,,53,38,114.26,10.25
+,,,,,,,,54,,,
+,,Iskra2026,Breathing Discomfort,38,5.09,2.96,,55,38,5.09,2.96
+,,,,,,,,56,,,
+,,Katz2026,Deadlift 1RM,40,163.6,47.1,,57,40,163.6,47.1
+,,Raidl2026,,,,,,58,,,
+,,Tomita2026,Delta STAI State,26,-2.0,9.5,,59,26,-2,9.5
+,,Tomita2026,Mean Power,26,153.3,13.5,,60,26,153.3,13.5
+,,Tomita2026,Fatigue Index,26,86.5,15.2,,61,26,86.5,15.2

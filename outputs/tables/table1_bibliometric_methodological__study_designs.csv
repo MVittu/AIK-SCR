@@ -1,5 +1,4 @@
 design_group,n,relative_frequency,label
-other_or_unclear,24,0.6857142857142857,24 (68.6%)
-parallel_or_controlled_trial,8,0.22857142857142856,8 (68.6%)
-single_group_or_observational,2,0.05714285714285714,2 (68.6%)
-unclear,1,0.02857142857142857,1 (68.6%)
+other_or_unclear,24,0.7058823529411765,24 (70.6%)
+parallel_or_controlled_trial,8,0.23529411764705882,8 (70.6%)
+single_group_or_observational,2,0.058823529411764705,2 (70.6%)

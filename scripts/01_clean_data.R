@@ -19,6 +19,18 @@ raw_ext <- utils::read.csv(
   mutate(across(everything(), ~ na_if(.x, ""))) %>%
   mutate(across(everything(), ~ na_if(.x, "--/--")))
 
+paper_id_pattern <- "\\b[A-Z][A-Za-z.'-]*20[0-9]{2}\\b"
+
+valid_paper_id <- function(x) {
+  !is.na(x) & str_detect(x, paste0("^", paper_id_pattern, "$"))
+}
+
+repair_paper_id <- function(paper_id, row_text) {
+  keep <- valid_paper_id(paper_id)
+  recovered <- str_extract(row_text, paper_id_pattern)
+  ifelse(keep, paper_id, recovered)
+}
+
 required_columns <- c(
   "paper_id", "publication_year", "study_design", "sport_discipline",
   "athlete_level", "n_total", "age_mean", "age_sd", "sex_ratio_male_pct",
@@ -95,6 +107,13 @@ normalize_study_design <- function(x) {
 }
 
 ext_clean <- raw_ext %>%
+  mutate(
+    source_row = row_number(),
+    source_row_text = apply(across(everything()), 1, paste, collapse = " "),
+    paper_id_original = paper_id,
+    paper_id = repair_paper_id(paper_id, source_row_text),
+    paper_id_repaired = !valid_paper_id(paper_id_original) & valid_paper_id(paper_id)
+  ) %>%
   mutate(
     publication_year_num = parse_numeric(publication_year),
     n_total_num = parse_numeric(n_total),
@@ -222,20 +241,26 @@ cleaned_data <- list(
   tab6 = tab6_clean
 )
 
-saveRDS(cleaned_data, file.path(outputs_dir, "cleaned_data.rds"))
+write_table_outputs(cleaned_data, "cleaned_data")
 
 data_quality <- bind_rows(
   ext_clean %>%
     distinct(paper_id, .keep_all = TRUE) %>%
-    transmute(table = "source_study_level", paper_id, issue = if_else(is.na(publication_year_num), "missing_publication_year", NA_character_)),
+    transmute(table = "source_study_level", paper_id, source_row, issue = if_else(is.na(publication_year_num), "missing_publication_year", NA_character_)),
+  ext_clean %>%
+    filter(!valid_paper_id(paper_id)) %>%
+    transmute(table = "source_rows", paper_id, source_row, issue = "missing_or_invalid_paper_id"),
+  ext_clean %>%
+    filter(paper_id_repaired) %>%
+    transmute(table = "source_rows", paper_id, source_row, issue = paste0("paper_id_repaired_from_", paper_id_original)),
   tab2_clean %>%
-    transmute(table = "demographics", paper_id, issue = if_else(is.na(n_total_num), "missing_or_unparseable_n_total", NA_character_)),
+    transmute(table = "demographics", paper_id, source_row = NA_integer_, issue = if_else(is.na(n_total_num), "missing_or_unparseable_n_total", NA_character_)),
   tab3_clean %>%
-    transmute(table = "interventions", paper_id, issue = if_else(bt_category == "other_unclear", "other_or_unclear_bt_category", NA_character_)),
+    transmute(table = "interventions", paper_id, source_row = NA_integer_, issue = if_else(bt_category == "other_unclear", "other_or_unclear_bt_category", NA_character_)),
   tab4_long %>%
-    transmute(table = "intervention_effects", paper_id, issue = if_else(is.na(ig_mean_num) | is.na(ig_sd_num) | is.na(ig_n_num), "incomplete_intervention_effect_fields", NA_character_)),
+    transmute(table = "intervention_effects", paper_id, source_row = NA_integer_, issue = if_else(is.na(ig_mean_num) | is.na(ig_sd_num) | is.na(ig_n_num), "incomplete_intervention_effect_fields", NA_character_)),
   tab5_long %>%
-    transmute(table = "control_effects", paper_id, issue = if_else(is.na(cg_mean_num) | is.na(cg_sd_num) | is.na(cg_n_num), "incomplete_control_effect_fields", NA_character_))
+    transmute(table = "control_effects", paper_id, source_row = NA_integer_, issue = if_else(is.na(cg_mean_num) | is.na(cg_sd_num) | is.na(cg_n_num), "incomplete_control_effect_fields", NA_character_))
 ) %>%
   filter(!is.na(issue))
 

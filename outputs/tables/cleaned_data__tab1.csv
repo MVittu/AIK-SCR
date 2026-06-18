@@ -1,0 +1,35 @@
+document_id,document_name,paper_id,publication_year,study_design,sport_discipline,athlete_level,view_link,design_group
+,,Durand2004,2004,Observational - Cross-sectional,Endurance,Competitive,,single_group_or_observational
+,,Spiering2004,2004,Experimental - Other,Various,Competitive,,other_or_unclear
+,,Lindholm2005,2005,Experimental - Other,Freediving,Elite,,other_or_unclear
+,,Malakhov2014,2014,Experimental - Other,Various,Competitive,,other_or_unclear
+,,Sakamoto2014,2014,Experimental - Other,Various,Competitive,,other_or_unclear
+,,Sakamoto2015,2015,Experimental - Other,Various,Competitive,,other_or_unclear
+,,Stavrou2015,2015,Experimental - RCT,Swimming,Competitive,,parallel_or_controlled_trial
+,,Hakked2017,2017,Experimental - RCT,Swimming,Competitive,,parallel_or_controlled_trial
+,,Sakamoto2018,2018,Experimental - Other,Various,Competitive,,other_or_unclear
+,,Fernandez2019,2019,Experimental - Other,Freediving,Elite,,other_or_unclear
+,,Citherlet2021,2021,Experimental - Other,Running,Recreational,,other_or_unclear
+,,Taylor2021,2021,Experimental - Other,None,Recreational,,other_or_unclear
+,,Vaidya2021,2021,Experimental - Other,Cricket,Competitive,,other_or_unclear
+,,,,Running,Competitive,46,,other_or_unclear
+,,Marko2022,2022,Experimental - RCT,Running,Elite,,parallel_or_controlled_trial
+,,You2023,2023,Experimental - Other,None,Recreational,,other_or_unclear
+,,Braham2024,2024,Experimental - RCT,Soccer,Competitive,,parallel_or_controlled_trial
+,,Li2024,2024,Experimental - Other,None,Recreational,,other_or_unclear
+,,Merlin2024,2024,Experimental - RCT,Swimming,Elite,,parallel_or_controlled_trial
+,,Sikora2024,2024,Observational - Cross-sectional,Various,Competitive,,single_group_or_observational
+,,Woorons2024,2024,Experimental - RCT,Judo,Elite,,parallel_or_controlled_trial
+,,Deniz2025,2025,Experimental - Other,Resistance Training,Recreational,,other_or_unclear
+,,Fernandez2025,2025,Experimental - Other,Freediving,Elite,,other_or_unclear
+,,Fesseler2025,2025,Experimental - Other,Running,Recreational,,other_or_unclear
+,,Fox2025,2025,Experimental - RCT,None,Recreational,,parallel_or_controlled_trial
+,,Kasap2025,2025,Experimental - Other,Cycling,Recreational,,other_or_unclear
+,,Yilmaz2025,2025,Experimental - Other,Team sports,Competitive,,other_or_unclear
+,,Chiron2026,2026,Experimental - RCT,Track and Field,Elite,,parallel_or_controlled_trial
+,,Devipriya2026,2026,Experimental - Before-After,None,Recreational,,other_or_unclear
+,,FernandezBarradas2026,2026,Experimental - Before-After,American Football,Competitive,,other_or_unclear
+,,Iskra2026,2026,Experimental - Other,None,Recreational,,other_or_unclear
+,,Katz2026,2026,Experimental - Other,Resistance Training,Recreational,,other_or_unclear
+,,Raidl2026,2026,Experimental - Other,None,Recreational,,other_or_unclear
+,,Tomita2026,2026,Experimental - Other,Skating,Competitive,,other_or_unclear
