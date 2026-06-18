@@ -1,0 +1,66 @@
+paper_id,outcome_index,outcome_metric,reason
+Durand2000.pdf,1,"PaO2, PaCO2",missing_or_invalid_group_n_mean_or_sd
+Spiering2004.pdf,2,Target Ventilation (VEmax),missing_or_invalid_group_n_mean_or_sd
+Lindholm2005.pdf,3,"VC, RV",missing_or_invalid_group_n_mean_or_sd
+Woorons2008.pdf,4,VO2max,missing_or_invalid_group_n_mean_or_sd
+Sakamoto2014.pdf,5,"Peak Power, Mean Power",missing_or_invalid_group_n_mean_or_sd
+Guimard2014.pdf,6,Swimming performance and HR,missing_or_invalid_group_n_mean_or_sd
+Malakhov2014.pdf,7,Mean velocity of CP displacement,missing_or_invalid_group_n_mean_or_sd
+Jacob2015.pdf,8,Average velocity,missing_or_invalid_group_n_mean_or_sd
+Sakamoto2015.pdf,9,"Peak Torque, EMG amplitude",missing_or_invalid_group_n_mean_or_sd
+Stavrou2015.pdf,10,50m and 400m time,missing_or_invalid_group_n_mean_or_sd
+Fujii2015.pdf,11,Power achieved during 30-s WAnT,missing_or_invalid_group_n_mean_or_sd
+Woorons2016.pdf,12,"Swimming performance (100m, 200m, 400m)",missing_or_invalid_group_n_mean_or_sd
+Hakked2017.pdf,13,Pulmonary function,missing_or_invalid_group_n_mean_or_sd
+Kacoglu2017.pdf,14,"CMJ, SJ, 10-m, 20-m sprint",missing_or_invalid_group_n_mean_or_sd
+Pelka2017.pdf,15,"Max speed, max power output",missing_or_invalid_group_n_mean_or_sd
+Trincat2017.pdf,16,Number of sprints,missing_or_invalid_group_n_mean_or_sd
+Burtch2017.pdf,17,"MIP, MEP, 200-yd swim time",missing_or_invalid_group_n_mean_or_sd
+Woorons2017.pdf,18,SpO2 and Muscle oxygenation,missing_or_invalid_group_n_mean_or_sd
+FornasierSantos2018.pdf,19,RSA performance,missing_or_invalid_group_n_mean_or_sd
+Gray2018.pdf,20,no clear difference,missing_or_invalid_group_n_mean_or_sd
+Lim2018.pdf,21,"VO2, VCO2",missing_or_invalid_group_n_mean_or_sd
+Sakamoto2018.pdf,22,"POpeak, POmean",missing_or_invalid_group_n_mean_or_sd
+Fernandez2019.pdf,23,SaO2,missing_or_invalid_group_n_mean_or_sd
+Laborde2019.pdf,24,Stroop interference (accuracy and RT),missing_or_invalid_group_n_mean_or_sd
+Woorons2019.pdf,25,Cerebral and muscle oxygenation,missing_or_invalid_group_n_mean_or_sd
+Woorons2019b.pdf,26,Mean power output,missing_or_invalid_group_n_mean_or_sd
+Bouten2020.pdf,27,3-km cycling time,missing_or_invalid_group_n_mean_or_sd
+Lapointe2020.pdf,28,RSASdec,missing_or_invalid_group_n_mean_or_sd
+Robertson2020.pdf,29,400-m freestyle time,missing_or_invalid_group_n_mean_or_sd
+Sakamoto2020.pdf,30,Lifting repetitions and velocity,missing_or_invalid_group_n_mean_or_sd
+Woorons2020.pdf,31,,missing_or_invalid_group_n_mean_or_sd
+Bahensky2021.pdf,32,,missing_or_invalid_group_n_mean_or_sd
+Citherlet2021.pdf,33,,missing_or_invalid_group_n_mean_or_sd
+Dobashi2021.pdf,34,Wingate peak/mean power,missing_or_invalid_group_n_mean_or_sd
+Grossman2021.pdf,35,"VO2, VCO2, HHb",missing_or_invalid_group_n_mean_or_sd
+Taylor2021.pdf,36,RT and MT,missing_or_invalid_group_n_mean_or_sd
+Vaidya2021.pdf,37,,missing_or_invalid_group_n_mean_or_sd
+Brocherie2022.pdf,38,RSA performance,missing_or_invalid_group_n_mean_or_sd
+Conlon2022.pdf,39,,missing_or_invalid_group_n_mean_or_sd
+Marko2022.pdf,40,Breathing economy,missing_or_invalid_group_n_mean_or_sd
+You2023.pdf,41,"RMSSD, LF-HRV",missing_or_invalid_group_n_mean_or_sd
+Braham2024.pdf,42,,missing_or_invalid_group_n_mean_or_sd
+Buxton2024.pdf,43,Power Performance,missing_or_invalid_group_n_mean_or_sd
+Li2024.pdf,44,"Post-exercise oxygen consumption, HR",missing_or_invalid_group_n_mean_or_sd
+Merlin2024.pdf,45,"Subjective performance, recovery",missing_or_invalid_group_n_mean_or_sd
+Rosa2024.pdf,46,"PPO, MPO, RSAdec",missing_or_invalid_group_n_mean_or_sd
+Sikora2024.pdf,47,,missing_or_invalid_group_n_mean_or_sd
+Woorons2024.pdf,48,MPOmean(5-8),missing_or_invalid_group_n_mean_or_sd
+Deniz2025.pdf,49,"HRV, Blood Pressure, Volume, RPE",missing_or_invalid_group_n_mean_or_sd
+Fernandez2025.pdf,50,SpO2 Recovery,missing_or_invalid_group_n_mean_or_sd
+Fesseler2025.pdf,51,"Cumulative elevation gain, post-sprint lactate",missing_or_invalid_group_n_mean_or_sd
+Fox2025.pdf,52,"HRV, Sleep, Respiration",missing_or_invalid_group_n_mean_or_sd
+Kasap2025.pdf,53,HR recovery,missing_or_invalid_group_n_mean_or_sd
+Liapaki2025.pdf,54,"HR, blood gases",missing_or_invalid_group_n_mean_or_sd
+Lorinczi2025.pdf,55,,missing_or_invalid_group_n_mean_or_sd
+Yilmaz2025.pdf,56,,missing_or_invalid_group_n_mean_or_sd
+Chiron2026.pdf,57,"HRV, salivary biomarkers, sleep",missing_or_invalid_group_n_mean_or_sd
+Devipriya2026.pdf,58,Reaction time,missing_or_invalid_group_n_mean_or_sd
+FernandezBarradas2026.pdf,59,,missing_or_invalid_group_n_mean_or_sd
+Iskra2026.pdf,60,"HRV (RMSSD), PEP",missing_or_invalid_group_n_mean_or_sd
+Jing2026.pdf,61,"lung capacity, HR, BP",missing_or_invalid_group_n_mean_or_sd
+Jones2026.pdf,62,"HF-HRV, HRR",missing_or_invalid_group_n_mean_or_sd
+Katz2026.pdf,63,Deadlift improvement,missing_or_invalid_group_n_mean_or_sd
+Raidl2026.pdf,64,,missing_or_invalid_group_n_mean_or_sd
+Tomita2026.pdf,65,"STAI, POMS",missing_or_invalid_group_n_mean_or_sd

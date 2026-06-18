@@ -1,0 +1,4 @@
+cluster,k,pooled_g,ci_lower,ci_upper,p_value,tau2,q_statistic,q_p_value,i2,status
+hypoventilation_rsa,0,,,,,,,,,fewer_than_two_effects
+hyperventilation_power,0,,,,,,,,,fewer_than_two_effects
+paced_breathing_reaction,0,,,,,,,,,fewer_than_two_effects

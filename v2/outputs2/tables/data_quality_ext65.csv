@@ -1,0 +1,71 @@
+severity,paper_id,source_row,field,issue,value,expected_action
+warning,Jacob2015.pdf,9,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,Fujii2015.pdf,12,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,Hakked2017.pdf,14,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,Gray2018.pdf,21,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,Woorons2019.pdf,26,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,Robertson2020.pdf,30,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,Woorons2020.pdf,32,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,Bahensky2021.pdf,33,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,Citherlet2021.pdf,34,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,Vaidya2021.pdf,38,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,Marko2022.pdf,41,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,Braham2024.pdf,43,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,Liapaki2025.pdf,55,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,Lorinczi2025.pdf,56,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,Yilmaz2025.pdf,57,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,FernandezBarradas2026.pdf,60,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,Jing2026.pdf,62,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,Raidl2026.pdf,65,N_Total,missing_or_unparseable_total_sample_size,NR,Add total sample size if reported; otherwise keep NR.
+warning,Woorons2020.pdf,32,Primary_Outcome_Measure,primary_outcome_not_reported_in_extraction,NR,Extract the main outcome measure whenever possible.
+warning,Bahensky2021.pdf,33,Primary_Outcome_Measure,primary_outcome_not_reported_in_extraction,NR,Extract the main outcome measure whenever possible.
+warning,Citherlet2021.pdf,34,Primary_Outcome_Measure,primary_outcome_not_reported_in_extraction,NR,Extract the main outcome measure whenever possible.
+warning,Vaidya2021.pdf,38,Primary_Outcome_Measure,primary_outcome_not_reported_in_extraction,,Extract the main outcome measure whenever possible.
+warning,Conlon2022.pdf,40,Primary_Outcome_Measure,primary_outcome_not_reported_in_extraction,NR,Extract the main outcome measure whenever possible.
+warning,Braham2024.pdf,43,Primary_Outcome_Measure,primary_outcome_not_reported_in_extraction,NR,Extract the main outcome measure whenever possible.
+warning,Sikora2024.pdf,48,Primary_Outcome_Measure,primary_outcome_not_reported_in_extraction,NR,Extract the main outcome measure whenever possible.
+warning,Lorinczi2025.pdf,56,Primary_Outcome_Measure,primary_outcome_not_reported_in_extraction,NR,Extract the main outcome measure whenever possible.
+warning,Yilmaz2025.pdf,57,Primary_Outcome_Measure,primary_outcome_not_reported_in_extraction,NR,Extract the main outcome measure whenever possible.
+warning,FernandezBarradas2026.pdf,60,Primary_Outcome_Measure,primary_outcome_not_reported_in_extraction,NR,Extract the main outcome measure whenever possible.
+warning,Raidl2026.pdf,65,Primary_Outcome_Measure,primary_outcome_not_reported_in_extraction,NR,Extract the main outcome measure whenever possible.
+warning,Lindholm2005.pdf,4,Breathing_Category,low_information_category_used,other breath-regulation,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Sakamoto2014.pdf,6,Athlete_Level,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Fujii2015.pdf,12,Athlete_Level,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Hakked2017.pdf,14,Study_Design,low_information_category_used,other experimental,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Hakked2017.pdf,14,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Burtch2017.pdf,18,Breathing_Category,low_information_category_used,other breath-regulation,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Gray2018.pdf,21,Study_Design,low_information_category_used,other experimental,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Gray2018.pdf,21,Athlete_Level,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Gray2018.pdf,21,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Woorons2020.pdf,32,Study_Design,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Woorons2020.pdf,32,Athlete_Level,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Woorons2020.pdf,32,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Bahensky2021.pdf,33,Athlete_Level,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Bahensky2021.pdf,33,Breathing_Category,low_information_category_used,other breath-regulation,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Bahensky2021.pdf,33,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Grossman2021.pdf,36,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Taylor2021.pdf,37,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Vaidya2021.pdf,38,Study_Design,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Vaidya2021.pdf,38,Sport_Category,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Vaidya2021.pdf,38,Athlete_Level,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Vaidya2021.pdf,38,Breathing_Category,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Vaidya2021.pdf,38,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Conlon2022.pdf,40,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Marko2022.pdf,41,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Braham2024.pdf,43,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Buxton2024.pdf,44,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Li2024.pdf,45,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Merlin2024.pdf,46,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Rosa2024.pdf,47,Athlete_Level,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Rosa2024.pdf,47,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Deniz2025.pdf,50,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Fernandez2025.pdf,51,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Lorinczi2025.pdf,56,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Yilmaz2025.pdf,57,Study_Design,low_information_category_used,other experimental,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Yilmaz2025.pdf,57,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,FernandezBarradas2026.pdf,60,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Jing2026.pdf,62,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Katz2026.pdf,64,Study_Design,low_information_category_used,other experimental,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Katz2026.pdf,64,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Raidl2026.pdf,65,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.
+warning,Tomita2026.pdf,66,Comparator_Type,low_information_category_used,NR,Use a broader defensible category where possible and explain uncertainty in Extraction_Notes.

@@ -1,0 +1,5 @@
+event,bt_category,study_mentions,event_total,relative_frequency,label
+dizziness,hyperventilation,1,1,1,1 (100.0%)
+pulmonary_edema,breath_holding,1,2,0.5,1 (50.0%)
+pulmonary_edema,hook_breathing,1,2,0.5,1 (50.0%)
+tingling,hyperventilation,1,1,1,1 (100.0%)

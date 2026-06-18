@@ -1,0 +1,12 @@
+source(file.path("v2", "scripts2", "00_setup.R"))
+source(file.path(scripts_dir, "00_data_quality_check.R"))
+source(file.path(scripts_dir, "01_clean_data.R"))
+source(file.path(scripts_dir, "02_bibliometric_methodology.R"))
+source(file.path(scripts_dir, "03_demographics.R"))
+source(file.path(scripts_dir, "04_intervention_parameters.R"))
+source(file.path(scripts_dir, "05_effect_sizes_meta_analysis.R"))
+source(file.path(scripts_dir, "06_feasibility_safety.R"))
+
+message("V2 analysis complete.")
+message("CSV tables written to: ", tables_dir)
+message("Plots written to: ", plots_dir)
