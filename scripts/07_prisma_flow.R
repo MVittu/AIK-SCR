@@ -69,7 +69,7 @@ figures_dir <- normalizePath(
 dir.create(figures_dir, recursive = TRUE, showWarnings = FALSE)
 
 output_png <- file.path(figures_dir, "prisma_flow.png")
-PRISMA_save(prisma_plot, filename = output_png, filetype = "PNG", overwrite = TRUE)
+PRISMA_save(prisma_plot, filename = output_png, filetype = "PNG", overwrite = TRUE, width = 4000)
 
 file.copy(output_png, file.path(plots_dir, "prisma_flow.png"), overwrite = TRUE)
 message("PRISMA flow diagram saved to: ", output_png)
