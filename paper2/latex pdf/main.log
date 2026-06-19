@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.1.19)  19 JUN 2026 00:46
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.1.19)  19 JUN 2026 01:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1223,21 +1223,175 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 
-[2] (./tables/prisma_flow.tex
+[2]
+
+[3] (./tables/prisma_flow.tex
 File: figures/prisma_AIK.png Graphic file (type bmp)
 <figures/prisma_AIK.png>
 )
-
-[3]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[4] (./tables/table1_study_level.tex
+[4]
 
-[5]
+[5] (./tables/table1_baseline.tex)
+File: figures/publication_trend.png Graphic file (type bmp)
+<figures/publication_trend.png>
+
+
+[6]
+File: figures/sex_distribution.png Graphic file (type bmp)
+<figures/sex_distribution.png>
+
+
+[7] (./tables/table2_map.tex
+Underfull \hbox (badness 7030) in paragraph at lines 16--16
+[]|\TU/TeXGyreTermes(0)/m/n/10.95 Hyperventilation: 16 (24.6%); hypoventilation
+: 14 (21.5%);
+ []
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 16--16
+[]|\TU/TeXGyreTermes(0)/m/n/10.95 23 parseable reports; median 1 session/week; 
+IQR 1–2.5 ses-
+ []
+
+)
+File: figures/study_design_broad_distribution.png Graphic file (type bmp)
+<figures/study_design_broad_distribution.png>
+
+
+[8]
+File: figures/study_design_distribution.png Graphic file (type bmp)
+<figures/study_design_distribution.png>
+File: figures/sport_distribution.png Graphic file (type bmp)
+<figures/sport_distribution.png>
+
+
+[9]
+File: figures/bt_category_distribution.png Graphic file (type bmp)
+<figures/bt_category_distribution.png>
+
+
+[10]
+File: figures/intervention_duration_distribution.png Graphic file (type bmp)
+<figures/intervention_duration_distribution.png>
+ (./tables/table3_meta.tex
+Underfull \hbox (badness 1917) in paragraph at lines 15--15
+\TU/TeXGyreTermes(0)/m/n/10.95 direction favoring breath-
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 15--15
+\TU/TeXGyreTermes(0)/m/n/10.95 ing intervention, but un-
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 15--15
+\TU/TeXGyreTermes(0)/m/n/10.95 in reported adverse-event
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 15--15
+\TU/TeXGyreTermes(0)/m/n/10.95 and reporting limitations
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\TU/TeXGyreTermes(0)/m/n/10.95 No clear difference in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/TeXGyreTermes(0)/m/n/10.95 dropout risk between
+ []
+
+)
+
+[11]
+File: figures/meta65_forest_efficacy_performance.png Graphic file (type bmp)
+<figures/meta65_forest_efficacy_performance.png>
+
+
+[12]
+Overfull \vbox (236.35274pt too high) has occurred while \output is active []
+
+
+
+[13]
+File: figures/meta65_forest_efficacy_physiological.png Graphic file (type bmp)
+<figures/meta65_forest_efficacy_physiological.png>
+
+
+[14]
+Overfull \vbox (118.40388pt too high) has occurred while \output is active []
+
+
+
+[15] (./tables/table4_safety.tex)
+File: figures/adverse_events_by_bt.png Graphic file (type bmp)
+<figures/adverse_events_by_bt.png>
+
+
+[16]
+File: figures/dropout_rates.png Graphic file (type bmp)
+<figures/dropout_rates.png>
+
+
+[17]
+File: figures/meta65_forest_safety_adverse_events_rr.png Graphic file (type bmp
+)
+<figures/meta65_forest_safety_adverse_events_rr.png>
+
+
+[18]
+Overfull \vbox (542.63313pt too high) has occurred while \output is active []
+
+
+
+[19]
+File: figures/meta65_forest_feasibility_dropout_rr.png Graphic file (type bmp)
+<figures/meta65_forest_feasibility_dropout_rr.png>
+
+
+[20]
+Overfull \vbox (723.24088pt too high) has occurred while \output is active []
+
+
+
+[21]
+
+[22]
+Underfull \hbox (badness 1117) in paragraph at lines 270--271
+\TU/TeXGyreTermes(0)/m/n/12 components are specified. Sport-derived breathing r
+outines should be tested with clear
+ []
+
+
+
+[23]
+
+[24] (./tables/prisma_scr_checklist.tex
+Underfull \hbox (badness 2582) in paragraph at lines 15--15
+[]|\TU/TeXGyreTermes(0)/m/n/12 Methods describe eligible breathing techniques,
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 21--21
+[]|\TU/TeXGyreTermes(0)/m/n/12 Discussion describes database/source-set, extrac
+-
+ []
+
+[25])
+
+[26] (./tables/table1_study_level.tex
+
+[27
+
+]
 Overfull \hbox (702.78308pt too wide) detected at line 8
 []
  []
@@ -1302,376 +1456,234 @@ Underfull \hbox (badness 10000) in alignment at lines 22--88
 [] [] [] [] [] [] [] []
  []
 
-[6
+[28
 
-] [7] [8]
+] [29] [30]
 
-[9]) (./tables/table1_baseline.tex)
-File: figures/publication_trend.png Graphic file (type bmp)
-<figures/publication_trend.png>
-
-
-[10
-
-]
-File: figures/sex_distribution.png Graphic file (type bmp)
-<figures/sex_distribution.png>
-
-
-[11] (./tables/table2_map.tex
-Underfull \hbox (badness 7030) in paragraph at lines 16--16
-[]|\TU/TeXGyreTermes(0)/m/n/10.95 Hyperventilation: 16 (24.6%); hypoventilation
-: 14 (21.5%);
- []
-
-
-Underfull \hbox (badness 3189) in paragraph at lines 16--16
-[]|\TU/TeXGyreTermes(0)/m/n/10.95 23 parseable reports; median 1 session/week; 
-IQR 1–2.5 ses-
- []
-
-)
-
-[12]
-File: figures/study_design_broad_distribution.png Graphic file (type bmp)
-<figures/study_design_broad_distribution.png>
-
-
-[13]
-File: figures/study_design_distribution.png Graphic file (type bmp)
-<figures/study_design_distribution.png>
-File: figures/sport_distribution.png Graphic file (type bmp)
-<figures/sport_distribution.png>
-
-
-[14]
-File: figures/bt_category_distribution.png Graphic file (type bmp)
-<figures/bt_category_distribution.png>
-
-
-[15]
-File: figures/intervention_duration_distribution.png Graphic file (type bmp)
-<figures/intervention_duration_distribution.png>
- (./tables/table3_meta.tex
-Underfull \hbox (badness 1917) in paragraph at lines 15--15
-\TU/TeXGyreTermes(0)/m/n/10.95 direction favoring breath-
- []
-
-
-Underfull \hbox (badness 2368) in paragraph at lines 15--15
-\TU/TeXGyreTermes(0)/m/n/10.95 ing intervention, but un-
- []
-
-
-Underfull \hbox (badness 1490) in paragraph at lines 15--15
-\TU/TeXGyreTermes(0)/m/n/10.95 in reported adverse-event
- []
-
-
-Underfull \hbox (badness 3199) in paragraph at lines 15--15
-\TU/TeXGyreTermes(0)/m/n/10.95 and reporting limitations
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-[]|\TU/TeXGyreTermes(0)/m/n/10.95 No clear difference in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-\TU/TeXGyreTermes(0)/m/n/10.95 dropout risk between
- []
-
-)
-
-[16]
-File: figures/meta65_forest_efficacy_performance.png Graphic file (type bmp)
-<figures/meta65_forest_efficacy_performance.png>
-
-
-[17]
-Overfull \vbox (236.35274pt too high) has occurred while \output is active []
-
-
-
-[18]
-File: figures/meta65_forest_efficacy_physiological.png Graphic file (type bmp)
-<figures/meta65_forest_efficacy_physiological.png>
-
-
-[19]
-Overfull \vbox (118.40388pt too high) has occurred while \output is active []
-
-
-
-[20] (./tables/table4_safety.tex)
-File: figures/adverse_events_by_bt.png Graphic file (type bmp)
-<figures/adverse_events_by_bt.png>
-
-
-[21]
-File: figures/dropout_rates.png Graphic file (type bmp)
-<figures/dropout_rates.png>
-
-
-[22]
-File: figures/meta65_forest_safety_adverse_events_rr.png Graphic file (type bmp
-)
-<figures/meta65_forest_safety_adverse_events_rr.png>
-
-
-[23]
-Overfull \vbox (542.63313pt too high) has occurred while \output is active []
-
-
-
-[24]
-File: figures/meta65_forest_feasibility_dropout_rr.png Graphic file (type bmp)
-<figures/meta65_forest_feasibility_dropout_rr.png>
-
-
-[25]
-Overfull \vbox (723.24088pt too high) has occurred while \output is active []
-
-
-
-[26]
-Underfull \hbox (badness 2384) in paragraph at lines 251--252
-\TU/TeXGyreTermes(0)/m/n/12 technique-specific evidence, and heterogeneous prot
-ocols limited firm recommendations
- []
-
-
-
-[27]
-
-[28] (./tables/prisma_scr_checklist.tex
-Underfull \hbox (badness 2582) in paragraph at lines 15--15
-[]|\TU/TeXGyreTermes(0)/m/n/12 Methods describe eligible breathing techniques,
- []
-
-
-Underfull \hbox (badness 1515) in paragraph at lines 21--21
-[]|\TU/TeXGyreTermes(0)/m/n/12 Discussion describes database/source-set, extrac
--
- []
-
-[29])
+[31])
 File: "../docs/strings.md"  (verbatim)
 
 
-[30]
+[32
 
-[31]
-Overfull \hbox (20.61578pt too wide) in paragraph at lines 280--280
+]
+
+[33]
+Overfull \hbox (20.61578pt too wide) in paragraph at lines 307--307
 []  \TU/lmtt/m/n/12 "breath holding" OR "breath-holding" OR "breath hold*" OR "
 breath-hold*" OR[] 
  []
 
 
-Overfull \hbox (88.59584pt too wide) in paragraph at lines 280--280
+Overfull \hbox (88.59584pt too wide) in paragraph at lines 307--307
 []  \TU/lmtt/m/n/12 "breathing exercise*" OR "controlled breathing" OR "control
 led frequency breathing" OR[] 
  []
 
 
-Overfull \hbox (138.0358pt too wide) in paragraph at lines 280--280
+Overfull \hbox (138.0358pt too wide) in paragraph at lines 307--307
 []  \TU/lmtt/m/n/12 "slow breathing" OR "slow-paced breathing" OR "coherent bre
 athing" OR "coherence breathing" OR[] 
  []
 
 
-Overfull \hbox (8.25583pt too wide) in paragraph at lines 280--280
+Overfull \hbox (8.25583pt too wide) in paragraph at lines 307--307
 []  \TU/lmtt/m/n/12 "diaphragmatic breathing" OR "abdominal breathing" OR "deep
  breathing" OR[] 
  []
 
 
 
-[32]
-Overfull \hbox (14.4358pt too wide) in paragraph at lines 280--280
+[34]
+Overfull \hbox (14.4358pt too wide) in paragraph at lines 307--307
 []  \TU/lmtt/m/n/12 performance OR endurance OR competition OR sprint* OR power
  OR strength OR[] 
  []
 
 
-Overfull \hbox (416.13571pt too wide) in paragraph at lines 280--280
+Overfull \hbox (416.13571pt too wide) in paragraph at lines 307--307
 []    \TU/lmtt/m/n/12 athlete* OR sport* OR "physically active" OR "recreationa
 lly active" OR trained OR exercis* OR swimmer* OR cyclist* OR runner* OR player
 *[] 
  []
 
 
-Overfull \hbox (416.13571pt too wide) in paragraph at lines 280--280
+Overfull \hbox (416.13571pt too wide) in paragraph at lines 307--307
 []    \TU/lmtt/m/n/12 athlete* OR sport* OR "physically active" OR "recreationa
 lly active" OR trained OR exercis* OR swimmer* OR cyclist* OR runner* OR player
 *[] 
  []
 
 
-Overfull \hbox (131.85574pt too wide) in paragraph at lines 280--280
+Overfull \hbox (131.85574pt too wide) in paragraph at lines 307--307
 []    \TU/lmtt/m/n/12 "breath holding" OR "breath-holding" OR "breath hold*" OR
  "breath-hold*" OR apnea OR apnoea[] 
  []
 
 
-Overfull \hbox (100.95583pt too wide) in paragraph at lines 280--280
+Overfull \hbox (100.95583pt too wide) in paragraph at lines 307--307
 []    \TU/lmtt/m/n/12 OR "breathing exercise*" OR "controlled breathing" OR "co
 ntrolled frequency breathing"[] 
  []
 
 
-Overfull \hbox (181.2958pt too wide) in paragraph at lines 280--280
+Overfull \hbox (181.2958pt too wide) in paragraph at lines 307--307
 []    \TU/lmtt/m/n/12 OR "paced breathing" OR "paced respiration" OR "metronome
  breathing" OR "metronome-paced breathing"[] 
  []
 
 
-Overfull \hbox (150.39578pt too wide) in paragraph at lines 280--280
+Overfull \hbox (150.39578pt too wide) in paragraph at lines 307--307
 []    \TU/lmtt/m/n/12 OR "slow breathing" OR "slow-paced breathing" OR "coheren
 t breathing" OR "coherence breathing"[] 
  []
 
 
-Overfull \hbox (20.61581pt too wide) in paragraph at lines 280--280
+Overfull \hbox (20.61581pt too wide) in paragraph at lines 307--307
 []    \TU/lmtt/m/n/12 OR "diaphragmatic breathing" OR "abdominal breathing" OR 
 "deep breathing"[] 
  []
 
 
-
-[33]
-Overfull \hbox (243.0958pt too wide) in paragraph at lines 280--280
+Overfull \hbox (243.0958pt too wide) in paragraph at lines 307--307
 []    \TU/lmtt/m/n/12 OR "nostril breathing" OR "alternate nostril" OR "alterna
 te-nostril" OR "uni-nostril" OR "unilateral nostril"[] 
- []
-
-
-Overfull \hbox (131.85574pt too wide) in paragraph at lines 280--280
-[]    \TU/lmtt/m/n/12 "breath holding" OR "breath-holding" OR "breath hold*" OR
- "breath-hold*" OR apnea OR apnoea[] 
- []
-
-
-Overfull \hbox (100.95583pt too wide) in paragraph at lines 280--280
-[]    \TU/lmtt/m/n/12 OR "breathing exercise*" OR "controlled breathing" OR "co
-ntrolled frequency breathing"[] 
- []
-
-
-Overfull \hbox (181.2958pt too wide) in paragraph at lines 280--280
-[]    \TU/lmtt/m/n/12 OR "paced breathing" OR "paced respiration" OR "metronome
- breathing" OR "metronome-paced breathing"[] 
- []
-
-
-Overfull \hbox (150.39578pt too wide) in paragraph at lines 280--280
-[]    \TU/lmtt/m/n/12 OR "slow breathing" OR "slow-paced breathing" OR "coheren
-t breathing" OR "coherence breathing"[] 
- []
-
-
-Overfull \hbox (20.61581pt too wide) in paragraph at lines 280--280
-[]    \TU/lmtt/m/n/12 OR "diaphragmatic breathing" OR "abdominal breathing" OR 
-"deep breathing"[] 
- []
-
-
-Overfull \hbox (243.0958pt too wide) in paragraph at lines 280--280
-[]    \TU/lmtt/m/n/12 OR "nostril breathing" OR "alternate nostril" OR "alterna
-te-nostril" OR "uni-nostril" OR "unilateral nostril"[] 
- []
-
-
-Overfull \hbox (107.13577pt too wide) in paragraph at lines 280--280
-[]    \TU/lmtt/m/n/12 performance OR endurance OR competition OR sprint* OR pow
-er OR strength OR "time trial"[] 
- []
-
-
-Overfull \hbox (144.21577pt too wide) in paragraph at lines 280--280
-[]    \TU/lmtt/m/n/12 OR "repeated sprint*" OR recovery OR fatigue OR "athletic
- performance" OR "sport performance"[] 
- []
-
-
-Overfull \hbox (107.13577pt too wide) in paragraph at lines 280--280
-[]    \TU/lmtt/m/n/12 performance OR endurance OR competition OR sprint* OR pow
-er OR strength OR "time trial"[] 
- []
-
-
-Overfull \hbox (144.21577pt too wide) in paragraph at lines 280--280
-[]    \TU/lmtt/m/n/12 OR "repeated sprint*" OR recovery OR fatigue OR "athletic
- performance" OR "sport performance"[] 
- []
-
-
-Overfull \hbox (94.77577pt too wide) in paragraph at lines 280--280
-[]    \TU/lmtt/m/n/12 review OR "systematic review" OR "scoping review" OR meta
--analysis OR "meta analysis"[] 
- []
-
-
-Overfull \hbox (236.91574pt too wide) in paragraph at lines 280--280
-[]    \TU/lmtt/m/n/12 OR COPD OR asthma OR "sleep apnea" OR "sleep apnoea" OR s
-troke OR "pulmonary disease" OR dyspnea OR dyspnoea[] 
- []
-
-
-
-[34]
-Overfull \hbox (32.97578pt too wide) in paragraph at lines 280--280
-[]    \TU/lmtt/m/n/12 "systematic review" OR "scoping review" OR meta-analysis 
-OR "meta analysis"[] 
- []
-
-
-Overfull \hbox (236.91574pt too wide) in paragraph at lines 280--280
-[]    \TU/lmtt/m/n/12 OR COPD OR asthma OR "sleep apnea" OR "sleep apnoea" OR s
-troke OR "pulmonary disease" OR dyspnea OR dyspnoea[] 
  []
 
 
 
 [35]
-Underfull \hbox (badness 2158) in paragraph at lines 284--284
-[][]\TU/TeXGyreTermes(0)/m/n/12 Dobashi, K., Fujii, N., Ichinose, M., Fujimoto,
- T., & Nishiyasu, T. (2021). Voluntary
+Overfull \hbox (131.85574pt too wide) in paragraph at lines 307--307
+[]    \TU/lmtt/m/n/12 "breath holding" OR "breath-holding" OR "breath hold*" OR
+ "breath-hold*" OR apnea OR apnoea[] 
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 284--284
-\TU/TeXGyreTermes(0)/m/n/12 hypocapnic hyperventilation lasting 5 min and 20 mi
-n similarly reduce aerobic
+Overfull \hbox (100.95583pt too wide) in paragraph at lines 307--307
+[]    \TU/lmtt/m/n/12 OR "breathing exercise*" OR "controlled breathing" OR "co
+ntrolled frequency breathing"[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--284
-\TU/TeXGyreTermes(0)/m/n/12 https://onlinelibrary.wiley.com/doi/pdf/10.1080/174
-61391.2020.1812728]. \TU/TeXGyreTermes(0)/m/it/12 European
+Overfull \hbox (181.2958pt too wide) in paragraph at lines 307--307
+[]    \TU/lmtt/m/n/12 OR "paced breathing" OR "paced respiration" OR "metronome
+ breathing" OR "metronome-paced breathing"[] 
+ []
+
+
+Overfull \hbox (150.39578pt too wide) in paragraph at lines 307--307
+[]    \TU/lmtt/m/n/12 OR "slow breathing" OR "slow-paced breathing" OR "coheren
+t breathing" OR "coherence breathing"[] 
+ []
+
+
+Overfull \hbox (20.61581pt too wide) in paragraph at lines 307--307
+[]    \TU/lmtt/m/n/12 OR "diaphragmatic breathing" OR "abdominal breathing" OR 
+"deep breathing"[] 
+ []
+
+
+Overfull \hbox (243.0958pt too wide) in paragraph at lines 307--307
+[]    \TU/lmtt/m/n/12 OR "nostril breathing" OR "alternate nostril" OR "alterna
+te-nostril" OR "uni-nostril" OR "unilateral nostril"[] 
+ []
+
+
+Overfull \hbox (107.13577pt too wide) in paragraph at lines 307--307
+[]    \TU/lmtt/m/n/12 performance OR endurance OR competition OR sprint* OR pow
+er OR strength OR "time trial"[] 
+ []
+
+
+Overfull \hbox (144.21577pt too wide) in paragraph at lines 307--307
+[]    \TU/lmtt/m/n/12 OR "repeated sprint*" OR recovery OR fatigue OR "athletic
+ performance" OR "sport performance"[] 
+ []
+
+
+Overfull \hbox (107.13577pt too wide) in paragraph at lines 307--307
+[]    \TU/lmtt/m/n/12 performance OR endurance OR competition OR sprint* OR pow
+er OR strength OR "time trial"[] 
+ []
+
+
+Overfull \hbox (144.21577pt too wide) in paragraph at lines 307--307
+[]    \TU/lmtt/m/n/12 OR "repeated sprint*" OR recovery OR fatigue OR "athletic
+ performance" OR "sport performance"[] 
+ []
+
+
+Overfull \hbox (94.77577pt too wide) in paragraph at lines 307--307
+[]    \TU/lmtt/m/n/12 review OR "systematic review" OR "scoping review" OR meta
+-analysis OR "meta analysis"[] 
+ []
+
+
+Overfull \hbox (236.91574pt too wide) in paragraph at lines 307--307
+[]    \TU/lmtt/m/n/12 OR COPD OR asthma OR "sleep apnea" OR "sleep apnoea" OR s
+troke OR "pulmonary disease" OR dyspnea OR dyspnoea[] 
+ []
+
+
+Overfull \hbox (32.97578pt too wide) in paragraph at lines 307--307
+[]    \TU/lmtt/m/n/12 "systematic review" OR "scoping review" OR meta-analysis 
+OR "meta analysis"[] 
+ []
+
+
+Overfull \hbox (236.91574pt too wide) in paragraph at lines 307--307
+[]    \TU/lmtt/m/n/12 OR COPD OR asthma OR "sleep apnea" OR "sleep apnoea" OR s
+troke OR "pulmonary disease" OR dyspnea OR dyspnoea[] 
  []
 
 
 
 [36]
-Underfull \hbox (badness 1552) in paragraph at lines 284--284
-\TU/TeXGyreTermes(0)/m/n/12 pressure, and lung CT imaging - The Journal of Spor
-ts Medicine and Physical
- []
-
-
-Underfull \hbox (badness 1062) in paragraph at lines 284--284
-\TU/TeXGyreTermes(0)/m/n/12 Fitness 2026 February;66(2):204-14. (n.d.). Retriev
-ed June 18, 2026, from [][]$[][][][][] []
- []
-
-
 
 [37]
+Underfull \hbox (badness 2158) in paragraph at lines 311--311
+[][]\TU/TeXGyreTermes(0)/m/n/12 Dobashi, K., Fujii, N., Ichinose, M., Fujimoto,
+ T., & Nishiyasu, T. (2021). Voluntary
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 311--311
+\TU/TeXGyreTermes(0)/m/n/12 hypocapnic hyperventilation lasting 5 min and 20 mi
+n similarly reduce aerobic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\TU/TeXGyreTermes(0)/m/n/12 https://onlinelibrary.wiley.com/doi/pdf/10.1080/174
+61391.2020.1812728]. \TU/TeXGyreTermes(0)/m/it/12 European
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 311--311
+\TU/TeXGyreTermes(0)/m/n/12 formance during ice hockey off-season - Franck Broc
+herie, Gregory Cantamessi,
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 311--311
+[][]\TU/TeXGyreTermes(0)/m/n/12 Effects of underwater breath-holding training o
+n athletesâ€™ lung capacity, heart rate,
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 311--311
+\TU/TeXGyreTermes(0)/m/n/12 ical Fitness 2026 February;66(2):204-14. (n.d.). Re
+trieved June 18, 2026, from
+ []
+
+
 
 [38]
-Overfull \hbox (0.29286pt too wide) in paragraph at lines 284--284
+
+[39]
+
+[40]
+Overfull \hbox (0.29286pt too wide) in paragraph at lines 311--311
 \TU/TeXGyreTermes(0)/m/n/12 sponses during High-Intensity Interval Training in 
 Swimming. \TU/TeXGyreTermes(0)/m/it/12 Journal of human kinetics\TU/TeXGyreTerm
 es(0)/m/n/12 ,
@@ -1679,19 +1691,31 @@ es(0)/m/n/12 ,
 
 
 
-[39]
-
-[40]
-
 [41]
 
-[42] (C:/Users/vittu/Documents/AIK/AIK-SCR/paper2/latex pdf/main.aux)
+[42]
+Underfull \hbox (badness 1406) in paragraph at lines 311--311
+[][]\TU/TeXGyreTermes(0)/m/n/12 Tomita, Y., Yokoo, M., Shimoda, K., Iizuka, T.,
+ Sakamoto, E., Irisawa, K., Tozato, F.,
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 311--311
+\TU/TeXGyreTermes(0)/m/n/12 & Tsuchiya, K. (2026). Focused Attention Meditation
+ as a Pre-Exercise Strategy
+ []
+
+
+
+[43]
+
+[44] (C:/Users/vittu/Documents/AIK/AIK-SCR/paper2/latex pdf/main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5D95EEF54C07106A9F104CB98DB3E5BC;3801.
+(rerunfilecheck)             Checksum: 3EC2CBE28ECB76CDFE566D0064B186F4;5013.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1699,11 +1723,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  35179 strings out of 473832
  746653 string characters out of 5733158
- 2056170 words of memory out of 5000000
+ 2101756 words of memory out of 5000000
  57731 multiletter control sequences out of 15000+600000
  563994 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,10n,93p,3049b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,10n,93p,3057b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on C:/Users/vittu/Documents/AIK/AIK-SCR/paper2/latex pdf/main.xd
-v (42 pages, 697452 bytes).
+v (44 pages, 741736 bytes).

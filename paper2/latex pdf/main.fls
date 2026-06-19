@@ -355,11 +355,6 @@ INPUT ./tables/prisma_flow.tex
 INPUT tables/prisma_flow.tex
 INPUT ./figures/prisma_AIK.png
 INPUT ./figures/prisma_AIK.png
-INPUT ./tables/table1_study_level.tex
-INPUT ./tables/table1_study_level.tex
-INPUT ./tables/table1_study_level.tex
-INPUT ./tables/table1_study_level.tex
-INPUT tables/table1_study_level.tex
 INPUT ./tables/table1_baseline.tex
 INPUT ./tables/table1_baseline.tex
 INPUT ./tables/table1_baseline.tex
@@ -411,6 +406,11 @@ INPUT ./tables/prisma_scr_checklist.tex
 INPUT ./tables/prisma_scr_checklist.tex
 INPUT ./tables/prisma_scr_checklist.tex
 INPUT tables/prisma_scr_checklist.tex
+INPUT ./tables/table1_study_level.tex
+INPUT ./tables/table1_study_level.tex
+INPUT ./tables/table1_study_level.tex
+INPUT ./tables/table1_study_level.tex
+INPUT tables/table1_study_level.tex
 INPUT C:/Users/vittu/Documents/AIK/AIK-SCR/paper2/latex pdf/../docs/strings.md
 INPUT C:/Users/vittu/Documents/AIK/AIK-SCR/paper2/latex pdf/../docs/strings.md
 INPUT C:/Users/vittu/Documents/AIK/AIK-SCR/paper2/latex pdf/../docs/strings.md
