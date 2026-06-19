@@ -1,0 +1,66 @@
+Paper_ID,Sport,Sport_Category,Athlete_Level,N_Total,Age_Mean,Age_SD,Sex_Male_Pct
+Durand2000.pdf,"Cycling, Triathlon, Running",endurance,elite,22,23.9,1.3,100
+Spiering2004.pdf,Winter sports,winter sports,elite,78,,,32
+Lindholm2005.pdf,Breath-hold diving,freediving,competitive,5,,,
+Woorons2008.pdf,Running,running,competitive,16,27.1,6.0,
+Sakamoto2014.pdf,Cycling,cycling,competitive,15,,,
+Guimard2014.pdf,Swimming,swimming,competitive,15,21.9,0.9,100
+Malakhov2014.pdf,"Field athletics, team sports",mixed/various sports,competitive,66,19.8,1.0,44
+Jacob2015.pdf,Swimming,swimming,competitive,14,,,
+Sakamoto2015.pdf,Resistance training,resistance/strength,competitive,15,21.2,3.7,73
+Stavrou2015.pdf,Fin-swimming,swimming,competitive,28,,,50
+Fujii2015.pdf,Cycling,cycling,unclear,11,,,
+Woorons2016.pdf,Swimming,swimming,competitive,16,,,75
+Hakked2017.pdf,Swimming,swimming,competitive,30,,,
+Kacoglu2017.pdf,Jumping and sprinting,running,healthy active,14,,,
+Pelka2017.pdf,Sprinting,running,competitive,27,25.22,1.08,70
+Trincat2017.pdf,Swimming,swimming,competitive,16,15.55,1.8,56
+Burtch2017.pdf,Swimming,swimming,competitive,25,,,
+Woorons2017.pdf,Cycling,cycling,competitive,9,27.2,9.3,89
+FornasierSantos2018.pdf,Rugby,team sports,competitive,35,,,100
+Gray2018.pdf,Swimming,swimming,competitive,7,,,0
+Lim2018.pdf,Cycling,cycling,recreational,10,24,3,100
+Sakamoto2018.pdf,Cycling,cycling,competitive,17,,,88
+Fernandez2019.pdf,Freediving,freediving,competitive,25,,,100
+Laborde2019.pdf,Burpees,non-sport exercise/performance,healthy active,120,25.57,2.52,58
+Woorons2019.pdf,Shuttle run sprints,running,competitive,10,,,
+Woorons2019b.pdf,Cycling,cycling,competitive,18,34.6,11,100
+Bouten2020.pdf,Cycling,cycling,competitive,11,22.1,1.5,
+Lapointe2020.pdf,Basketball,team sports,competitive,17,22.3,1.2,71
+Robertson2020.pdf,Swimming,swimming,competitive,9,19,1.5,67
+Sakamoto2020.pdf,"Bench press, leg press",resistance/strength,competitive,11,22.5,4.3,100
+Woorons2020.pdf,Team sports,team sports,competitive,16,,,
+Bahensky2021.pdf,Unclear,non-sport exercise/performance,unclear,46,,,
+Citherlet2021.pdf,Repeated sprinting,running,competitive,16,,,
+Dobashi2021.pdf,Cycling,cycling,mixed,11,24,2,91
+Grossman2021.pdf,Cycling,cycling,healthy active,10,23.7,2.5,100
+Taylor2021.pdf,Memory-guided force pulse,non-sport exercise/performance,healthy active,47,21.3,2.8,36
+Vaidya2021.pdf,Cricket,team sports,competitive,30,,,
+Brocherie2022.pdf,Ice hockey,team sports,elite,43,16.7,1.5,100
+Conlon2022.pdf,Shooting,mixed/various sports,competitive,67,,,
+Marko2022.pdf,Cycling,cycling,healthy active,23,,,
+You2023.pdf,Unclear,non-sport exercise/performance,healthy active,78,22.32,2.11,71
+Braham2024.pdf,Soccer,team sports,competitive,16,,,0
+Buxton2024.pdf,Back squat,resistance/strength,recreational,18,20.7,1.4,100
+Li2024.pdf,Burpees,non-sport exercise/performance,healthy active,30,19.6,1.2,82
+Merlin2024.pdf,Swimming,swimming,elite,13,13.9,0.38,38
+Rosa2024.pdf,Arm cycle ergometer,non-sport exercise/performance,unclear,14,,,
+Sikora2024.pdf,Unclear,mixed/various sports,competitive,69,,,
+Woorons2024.pdf,Judo,combat sports,elite,20,20.6,2.5,50
+Deniz2025.pdf,Bench press,resistance/strength,recreational,12,27.92,7.38,100
+Fernandez2025.pdf,Freediving,freediving,competitive,13,42,9,
+Fesseler2025.pdf,Sprint intervals,running,recreational,36,24.0,1.8,50
+Fox2025.pdf,General,non-sport exercise/performance,healthy active,404,37,9.95,44
+Kasap2025.pdf,Cycle ergometer,cycling,healthy active,40,20.95,1.75,63
+Liapaki2025.pdf,Running,running,competitive,15,24.7,3.1,
+Lorinczi2025.pdf,Soccer,team sports,competitive,20,,,
+Yilmaz2025.pdf,Wingate,cycling,healthy active,12,,,
+Chiron2026.pdf,Running,running,elite,22,22.3,3.0,68
+Devipriya2026.pdf,Unclear,non-sport exercise/performance,healthy active,60,21.35,1.78,50
+FernandezBarradas2026.pdf,American football,team sports,competitive,34,16.97,0.80,
+Iskra2026.pdf,Unclear,non-sport exercise/performance,healthy active,58,,,
+Jing2026.pdf,Swimming,swimming,competitive,20,,,
+Jones2026.pdf,Rowing,endurance,healthy active,77,21.0,3.0,71
+Katz2026.pdf,Deadlift,resistance/strength,recreational,40,24.8,6.8,80
+Raidl2026.pdf,Sprint interval training,running,competitive,20,,,
+Tomita2026.pdf,Speed skating,winter sports,elite,26,,,

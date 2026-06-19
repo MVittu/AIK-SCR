@@ -30,6 +30,7 @@ meta_data <- meta_raw %>%
     row_id = row_number(),
     paper_id = str_remove(paper_id, "\\.pdf$"),
     year_num = num(year),
+    n_total_num = num(n_total),
     ig_n_num = num(ig_n),
     ig_mean_num = num(ig_mean),
     ig_sd_num = num(ig_sd),
@@ -63,6 +64,10 @@ meta_data <- meta_raw %>%
       !is.na(ig_sd_num) & !is.na(cg_sd_num) &
       ig_n_num > 1 & cg_n_num > 1 & ig_sd_num > 0 & cg_sd_num > 0
   )
+
+shifted_sample_size_fields <- meta_raw %>%
+  filter(if_any(c(ig_n, cg_n, n_allocated_ig, n_allocated_cg), ~ str_detect(.x %||% "", "^p\\s*[<=>]"))) %>%
+  select(paper_id, outcome_metric, ig_n, cg_n, n_allocated_ig, n_allocated_cg, reported_effect, notes)
 
 effect_input <- meta_data %>% filter(complete_for_smd)
 effect_exclusions <- meta_data %>%
@@ -206,6 +211,7 @@ rr_summary <- bind_rows(
 write_table_outputs(
   list(
     extracted_meta_data = meta_data,
+    shifted_sample_size_fields = shifted_sample_size_fields,
     efficacy_effect_sizes = smd,
     efficacy_meta_summary = efficacy_summary,
     efficacy_excluded = effect_exclusions,
