@@ -1,0 +1,7 @@
+paper_id,outcome_domain,outcome_metric,reason
+Lindholm2005,Physiological,VC,missing_or_invalid_n_mean_or_sd
+Woorons2008,Physiological,VO2max,missing_or_invalid_n_mean_or_sd
+Trincat2017,Physiological,Time at SpO2 <= 88% (s),missing_or_invalid_n_mean_or_sd
+Citherlet2021,physiological,SpO2,missing_or_invalid_n_mean_or_sd
+Devipriya2026,Performance,Visual Reaction Time (VRT) Right Hand (ms),missing_or_invalid_n_mean_or_sd
+FernandezBarradas2026,Psychological,Cognitive anxiety,missing_or_invalid_n_mean_or_sd

@@ -1,0 +1,15 @@
+field,present
+paper_id,TRUE
+row_type,TRUE
+year,TRUE
+design,TRUE
+n_total,TRUE
+bt_classification,TRUE
+outcome_domain,TRUE
+outcome_metric,TRUE
+ig_n,TRUE
+ig_mean,TRUE
+ig_sd,TRUE
+cg_n,TRUE
+cg_mean,TRUE
+cg_sd,TRUE

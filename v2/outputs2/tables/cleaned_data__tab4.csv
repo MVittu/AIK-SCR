@@ -1,66 +1,66 @@
-document_id,document_name,paper_id,outcome_metric,ig_n,ig_mean,ig_dispersion,view_link,outcome_index,ig_n_num,ig_mean_num,ig_sd_num,primary_outcome_domain,primary_result_direction,primary_effect_value,primary_uncertainty,secondary_outcome,efficacy_summary
-,Evidence for an inadequate hyperventilation inducing arterial hypoxemia,Durand2000.pdf,"PaO2, PaCO2",12,,,,1,12,,,Cardiorespiratory response,,Fall in PaO2 > 10 mmHg,,Alveolo-arterial difference in O2,Highly trained athletes exhibited EIH
-,An Evaluation of Standardizing Target Ventilation,Spiering2004.pdf,Target Ventilation (VEmax),78,,,,2,78,,,Ventilation,,88% VEmax,9% SD,Fall in FEV1,30x FEV1 represents a variable relative intensity of maximum voluntary ventilation
-,Studies on inspiratory and expiratory glossopharyngeal breathing,Lindholm2005.pdf,"VC, RV",5,,,,3,5,,,Lung volumes,favors breathing intervention,VC+GI 7.8-11.9L vs VC 6.2-9.5L,,Intrathoracic blood volume,Glossopharyngeal breathing increases air volume above TLC and decreases below RV
-,Effects of a 4-week training with voluntary hypoventilation,Woorons2008.pdf,VO2max,8,,,,4,8,,,Aerobic performance,no clear difference,54.1 vs 53.4,3.2,"Blood gases, lactate",VH training failed to induce improvement in aerobic performance
-,Hyperventilation as a strategy for improved repeated sprint performance,Sakamoto2014.pdf,"Peak Power, Mean Power",15,,,,5,15,,,Sprint Performance,favors breathing intervention,,,"Blood pH, PCO2, Lactate",Attenuate performance decrements in later exercise bouts
-,Acute apnea swimming: Metabolic responses and performance,Guimard2014.pdf,Swimming performance and HR,15,,,,6,15,,,Performance,favors breathing intervention,,,Metabolic responses,
-,The Influence of Different Modes of Ventilation on Standing Balance of Athletes,Malakhov2014.pdf,Mean velocity of CP displacement,38,,,,7,38,,,Postural control,favors comparator/control,V increased to 37.76 (hyperventilation) vs 7.06 (quiet breath),SD 29.00,Respiratory amplitude and frequency,"Breath holding and hyperventilation impaired postural stability, though athletes compensated better than controls."
-,Pre-exercise hyperventilation can significantly increase performance,Jacob2015.pdf,Average velocity,,,,,8,,,,Performance,favors breathing intervention,higher under HV,p<0.05,Coordination (IdC),Velocity significantly higher under HV conditions
-,Hyperventilation-induced respiratory alkalosis falls short of countering fatigue,Sakamoto2015.pdf,"Peak Torque, EMG amplitude",15,,,,9,15,,,Muscular Performance,no clear difference,,p>0.05,"Blood pH, PCO2, Lactate","Minor ergogenic effect at 60/s, but not effective overall at attenuating decrement"
-,Yogic breathing practices improve lung functions of competitive young swimmers,Stavrou2015.pdf,50m and 400m time,14,,,,10,14,,,Performance,favors breathing intervention,Greater improvement in IBH group,p<0.05,"FEV1, FVC, PEF, SpO2",IBH significantly improved lung function and performance compared to SBF
-,Effect of voluntary hypocapnic hyperventilation on the metabolic response during Wingate anaerobic test,Fujii2015.pdf,Power achieved during 30-s WAnT,,,,,11,,,,Performance,no clear difference,626 vs 639 W,SD 74 vs 80 W,Aerobic metabolic rate,Reduces aerobic metabolic rate without affecting exercise performance.
-,Hypoventilation Training at Supramaximal Intensity Improves Swimming Performance,Woorons2016.pdf,"Swimming performance (100m, 200m, 400m)",8,,,,12,8,,,Performance,favors breathing intervention,200m +1.79,1.3 mmol,Lactate,VHL improved performance and increased anaerobic glycolysis
-,Yogic breathing practices improve lung functions of competitive young swimmers,Hakked2017.pdf,Pulmonary function,,,,,13,,,,Lung function,favors breathing intervention,,,,Yogic practices improve lung function
-,The Acute Effects of Hyperventilation on Jumping and Sprinting Performance,Kacoglu2017.pdf,"CMJ, SJ, 10-m, 20-m sprint",14,,,,14,14,,,Performance,no clear difference,-0.019s in 10m sprint,95% CI -0.371 to -0.001,,No significant diff in jumping/20m sprint. Marginal 1% enhancement in 10m sprint.
-,Acute effects of psychological relaxation techniques between two physical tasks,Pelka2017.pdf,"Max speed, max power output",,,,,15,,,,Performance,favors breathing intervention,t=-2.13,p=0.043,"Heart rate, Recovery/Stress State",Systemic breathing recommended during 25min recovery
-,Repeated Sprint Training in Hypoxia Induced by Voluntary Hypoventilation in Swimming,Trincat2017.pdf,Number of sprints,8,,,,16,8,,,Performance,favors breathing intervention,7.1 to 9.6 sprints,2.5,Blood lactate,Number of sprints significantly increased in RSH-VHL
-,Evidence of global respiratory muscle fatigue from a 2-minute swim race,Burtch2017.pdf,"MIP, MEP, 200-yd swim time",9,,,,17,9,,,Pulmonary function / Performance,no clear difference,-0.1 s change in 200yd time,1.5 s,"VO2max, Running economy",CFB training did not significantly improve performance
-,Acute effects of repeated cycling sprints in hypoxia induced by voluntary hypoventilation,Woorons2017.pdf,SpO2 and Muscle oxygenation,9,,,,18,9,,,Physiological,mixed,,,,Acute VHL induced hypoxia during repeated sprints.
-,Repeated-sprint training in hypoxia induced by voluntary hypoventilation improves running repeated-sprint ability,FornasierSantos2018.pdf,RSA performance,11,,,,19,11,,,Performance,favors breathing intervention,RSA performance largely improved,p<0.05,"Heart rate, lactate",4 weeks of RSH-VHL significantly improved RSA performance
-,,Gray2018.pdf,no clear difference,,,,,20,,,,,,,,,
-,Physiological resolution of periodic breath holding during heavy-intensity Fartlek exercise,Lim2018.pdf,"VO2, VCO2",10,,,,21,10,,,Metabolic response,mixed,VO2 lower during 5s breath hold,p<0.05,VE,Additional metabolic stress from combining sprint and BH disrupts homeostasis
-,Effects of hyperventilation on repeated pedaling sprint performance: short vs. long intervention duration,Sakamoto2018.pdf,"POpeak, POmean",15,,,,22,15,,,Performance,no clear difference,,,"Blood pH, PCO2, Lactate",No significant condition effect for POpeak and POmean
-,SaO2 Recovery in Freedivers,Fernandez2019.pdf,SaO2,,,,,23,,,,Recovery,,r=-0.67 for comets and SaO2,p<0.001,Lung comets,Low SaO2 after diving indicates pulmonary edema
-,Influence of slow-paced breathing on inhibition after physical exertion,Laborde2019.pdf,Stroop interference (accuracy and RT),60,,,,24,60,,,Cognitive Performance,favors breathing intervention,Lower errors,p<0.001,RMSSD,SPB improved inhibition via Stroop accuracy
-,Cerebral and Muscle Oxygenation during Repeated Shuttle Run Sprints with Hypoventilation,Woorons2019.pdf,Cerebral and muscle oxygenation,,,,,25,,,,Oxygenation,mixed,"No difference in muscle oxygenation, some diff in cerebral",p<0.05,SpO2,"SpO2 dropped, no diff in muscle O2Hb/HHb"
-,Physiological adaptations to repeated sprint training in hypoxia induced by voluntary hypoventilation,Woorons2019b.pdf,Mean power output,9,,,,26,9,,,Performance,favors breathing intervention,846 to 911 W,117 W,"VO2, Lactate, SpO2",RSH-VHL brought benefits to RSA and anaerobic performance
-,Acute Apnea Does Not Improve 3-km Cycling Time Trial Performance,Bouten2020.pdf,3-km cycling time,11,,,,27,11,,,Performance,no clear difference,,,Hb concentration,Does not provide added benefit to performance
-,Impact of repeated-sprint training with voluntary hypoventilation on repeated-sprint ability,Lapointe2020.pdf,RSASdec,8,,,,28,8,,,Performance,favors breathing intervention,-24.5% vs -5.9%,ES -0.44,"EMG, NIRS",VHL lowered RSASdec
-,Effects of pre-race apneas on 400-m freestyle swimming performance,Robertson2020.pdf,400-m freestyle time,,,,,29,,,,Performance,favors breathing intervention,275.79s vs 278.66s,12.88s,"Spleen volume, lactate",WUAP significantly improved 400m swim time
-,Hyperventilation-aided recovery for extra repetitions on bench press and leg press,Sakamoto2020.pdf,Lifting repetitions and velocity,11,,,,30,11,,,Performance,favors breathing intervention,"+27.1% reps BP, +35.2% reps LP",p=0.001,Blood pH,Increased repetitions and velocity
-,Transferable benefits of cycle hypoventilation training for run-based performance in team-sport athletes,Woorons2020.pdf,,,,,,31,,,,,,,,,
-,Impact of a Breathing Intervention on Engagement...,Bahensky2021.pdf,,,,,,32,,,,,,,,,
-,Wim Hof breathing method...,Citherlet2021.pdf,,,,,,33,,,,Performance,mixed,,,,Evaluated WHBM before repeated sprinting
-,Voluntary hypocapnic hyperventilation lasting 5 min and 20 min similarly reduce aerobic metabolism,Dobashi2021.pdf,Wingate peak/mean power,11,,,,34,11,,,,no clear difference,,,,Reduced aerobic metabolism without affecting power outputs
-,Frontiers in Physiology,Grossman2021.pdf,"VO2, VCO2, HHb",10,,,,35,10,,,,mixed,,,,Analyzed breath holding during exercise
-,Fast breathing facilitates reaction time and movement time of a memory-guided force pulse,Taylor2021.pdf,RT and MT,47,,,,36,47,,,,favors breathing intervention,Fast breathing reduced RT and MT,,,Fast breathing decreased RT and MT; slow increased RT
-,,Vaidya2021.pdf,,,,,,37,,,,,,,,,
-,Effects of a 5-week off-ice repeated-sprint training with voluntary hypoventilation...,Brocherie2022.pdf,RSA performance,16,,,,38,16,,,Performance,favors breathing intervention,,,,Greater improvements in RSA performance in RSH-VHL
-,The effects of breathing techniques on pressurized performance and stress-responses,Conlon2022.pdf,,,,,,39,,,,,no clear difference,,,,No significant main effect for Group for HRV or performance
-,Does Wim Hof Method Improve Breathing Economy during Exercise?,Marko2022.pdf,Breathing economy,,,,,40,,,,,,,,,
-,Single slow-paced Breathing Session at six cycles per minute,You2023.pdf,"RMSSD, LF-HRV",75,,,,41,75,,,,favors breathing intervention,,,,Control condition significantly lower CVA than all SPB conditions
-,Effects of a 6-Week Repeated-Sprint Training With Voluntary Hypoventilation,Braham2024.pdf,,,,,,42,,,,,favors breathing intervention,,,,
-,The Effects of Slow Breathing during Inter-Set Recovery on Power Performance in the Barbell Back Squat,Buxton2024.pdf,Power Performance,18,,,,43,18,,,,no clear difference,,,,
-,The Impact of Starting Positions and Breathing Rhythms on Cardiopulmonary Stress...,Li2024.pdf,"Post-exercise oxygen consumption, HR",22,,,,44,22,,,,favors breathing intervention,,,,Breath protocol significantly affects exercise performance
-,Psychophysiological Effects of Slow-Paced Breathing on Adolescent Swimmers' Subjective Performance,Merlin2024.pdf,"Subjective performance, recovery",7,,,,45,7,,,Performance,favors breathing intervention,,,,Experimental group reported higher subjective training performance and recovery
-,VHL during arm cycle ergometer,Rosa2024.pdf,"PPO, MPO, RSAdec",14,,,,46,14,,,,mixed,,,,"Lower VE, HR, Lactate in RS-VHL"
-,Differences between diaphragmatic and abdominal breathing patterns in spirometric...,Sikora2024.pdf,,,,,,47,,,,,,,,,Differences between diaphragmatic and abdominal breathing patterns not statistically significant
-,Hypoventilation training including maximal end-expiratory breath holding improves...,Woorons2024.pdf,MPOmean(5-8),10,,,,48,10,,,Performance,favors breathing intervention,,,,"MPOmean(5-8) higher in RSH-VHL, fatigue lower"
-,The effect of breathing strategy on lifted load during the bench press,Deniz2025.pdf,"HRV, Blood Pressure, Volume, RPE",12,,,,49,12,,,Cardiorespiratory,mixed,,,,Significant correlations between breathing phases and HR
-,Effects of Hook Maneuver on Oxygen Saturation Recovery After -40 m Apnea Dive,Fernandez2025.pdf,SpO2 Recovery,13,,,,50,13,,,Recovery,favors breathing intervention,1.64 to 5.08%,p=0.022,,Hook maneuver improves SpO2 recovery
-,Pre-exercise hyperventilation does not improve performance...,Fesseler2025.pdf,"Cumulative elevation gain, post-sprint lactate",35,,,,51,35,,,Performance,no clear difference,,,,Pre-exercise hyperventilation did not improve performance
-,Wim Hof Method,Fox2025.pdf,"HRV, Sleep, Respiration",273,,,,52,273,,,Physiological,favors breathing intervention,,p<0.05,,WHM-remote showed lower respiratory rate and lower resting HR relative to WHM
-,Box breathing or six breaths per minute: Which strategy improves athletes post-HIIT cardiovascular recovery?,Kasap2025.pdf,HR recovery,40,,,,53,40,,,Recovery,favors breathing intervention,,,,Box breathing and 6 bpm impact cardiovascular recovery
-,Effects of apnoea versus normal breathing on physiological responses during HIIT,Liapaki2025.pdf,"HR, blood gases",,,,,54,,,,Physiological,mixed,,,,Changes in blood gases
-,Additional Benefits of Repeated-Sprint Training With Prolonged End-Expiratory Breath Holding,Lorinczi2025.pdf,,,,,,55,,,,Performance,favors breathing intervention,,,,Improves RSA in soccer players
-,Evaluating bioenergetic pathway contributions...,Yilmaz2025.pdf,,,,,,56,,,,Physiological,mixed,,,,Assessed metabolic responses
-,Exploring the influence of coherent breathing on psychophysiological stress,Chiron2026.pdf,"HRV, salivary biomarkers, sleep",11,,,,57,11,,,Physiological,favors breathing intervention,,p<0.01,,"Coherent breathing modulated stress, increased parasympathetic activity, improved sleep"
-,Evaluation of Immediate Changes in Reaction Time Following Bhramari Pranayama,Devipriya2026.pdf,Reaction time,60,,,,58,60,,,Performance,favors breathing intervention,,,,Evaluated reaction time after pranayama
-,Slow paced breathing and power posing: a pre-competitive ritual,FernandezBarradas2026.pdf,,,,,,59,,,,Psychological,favors breathing intervention,,,,Used as a pre-competitive ritual to manage anxiety
-,Fast-paced breathing,Iskra2026.pdf,"HRV (RMSSD), PEP",38,,,,60,38,,,Physiological,favors breathing intervention,,,,55 CPM elicited significant increase in cardiac contractility
-,Effects of underwater breath-holding training,Jing2026.pdf,"lung capacity, HR, BP",,,,,61,,,,Physiological,favors breathing intervention,,,,"Explored effects on lung capacity, HR, BP"
-,Box Breathing vs Cyclic Sighing,Jones2026.pdf,"HF-HRV, HRR",42,,,,62,42,,,Physiological,mixed,,p<0.05,,Assessed recovery from physiological strain
-,Responder Analysis,Katz2026.pdf,Deadlift improvement,,,,,63,,,,Performance,mixed,,,,7 subjects classified as responders for deadlift improvement
-,No Evidence for the Efficacy of Slow-Paced Breathing as a Recovery Strategy,Raidl2026.pdf,,,,,,64,,,,Recovery,no clear difference,,,,No evidence for efficacy
-,Effects of Breathing Intervention on HIIT,Tomita2026.pdf,"STAI, POMS",26,,,,65,26,,,Psychological,favors breathing intervention,,,,Completed intervention without adverse events
+document_id,document_name,paper_id,outcome_metric,ig_n,ig_mean,ig_dispersion,view_link,outcome_index,ig_n_num,ig_mean_num,ig_sd_num,outcome_domain,timepoint,lower_is_better,dispersion_note,efficacy_source,complete_for_smd
+,Studies on inspiratory and expiratory glossopharyngeal breathing,Lindholm2005,VC,5,9.7,,,3,5,9.7,,Physiological,Post-test,FALSE,No dispersion reported,primary,False
+,Effects of a 4-week training with voluntary hypoventilation,Woorons2008,VO2max,8,43.7,,,4,8,43.7,,Physiological,Post-test,FALSE,SE,primary,False
+,The Influence of Different Modes of Ventilation on Standing Balance of Athletes,Malakhov2014,S (mm2),38,386.7,245.6,,7,38,386.7,245.6,performance,post-exercise,TRUE,,additional,True
+,The Influence of Different Modes of Ventilation on Standing Balance of Athletes,Malakhov2014,"Mean velocity of CP displacement (V, mm/s)",38,37.76,29.00,,8,38,37.76,29,Performance,Post-exercise,TRUE,,primary,True
+,Hyperventilation-induced respiratory alkalosis falls short of countering fatigue,Sakamoto2015,Peak Torque 60/s (Nm),15,237.1,56.8,,10,15,237.1,56.8,Performance,Pre-exercise,FALSE,,primary,True
+,Yogic breathing practices improve lung functions of competitive young swimmers,Stavrou2015,FVC,14,4.3,0.7,,11,14,4.3,0.7,physiological,post-training,FALSE,,additional,True
+,Yogic breathing practices improve lung functions of competitive young swimmers,Stavrou2015,FEV1,14,4.1,0.8,,12,14,4.1,0.8,Physiological,Post-training (16 weeks),FALSE,SD assumed,primary,True
+,Yogic breathing practices improve lung functions of competitive young swimmers,Hakked2017,Maximum Voluntary Ventilation (MVV),14,3.54,0.88,,15,14,3.54,0.88,Physiological,Post (30 days),FALSE,,primary,True
+,The Acute Effects of Hyperventilation on Jumping and Sprinting Performance,Kacoglu2017,10-m sprint time (s),14,1.94,0.11,,16,14,1.94,0.11,Performance,Post-exercise,TRUE,,primary,True
+,Repeated Sprint Training in Hypoxia Induced by Voluntary Hypoventilation in Swimming,Trincat2017,Time at SpO2 <= 88% (s),8,34,0.7,,18,8,34,0.7,Physiological,During test,TRUE,,primary,False
+,Evidence of global respiratory muscle fatigue from a 2-minute swim race,Burtch2017,VO2max,13,53,5,,19,13,53,5,physiological,post-training,FALSE,,additional,True
+,Evidence of global respiratory muscle fatigue from a 2-minute swim race,Burtch2017,200-yard time trial (s),13,114,7,,20,13,114,7,Performance,Post-training,TRUE,,primary,True
+,Acute effects of repeated cycling sprints in hypoxia induced by voluntary hypoventilation,Woorons2017,Breathing frequency,9,44.5,5.8,,21,9,44.5,5.8,physiological,during exercise,FALSE,,additional,True
+,Acute effects of repeated cycling sprints in hypoxia induced by voluntary hypoventilation,Woorons2017,Tidal Volume (Vt) S1 (L),9,2.50,0.5,,22,9,2.5,0.5,Physiological,During exercise,FALSE,,primary,True
+,Repeated-sprint training in hypoxia induced by voluntary hypoventilation,FornasierSantos2018,RV,11,7.07,0.3,,23,11,7.07,0.3,performance,post-training,FALSE,,additional,True
+,Effects of deep-breathing protocols on swimming performance,Gray2018,Blood lactate,7,3.8,1.06,,24,7,3.8,1.06,physiological,post-exercise,TRUE,,additional,True
+,Effects of deep-breathing protocols on swimming performance,Gray2018,50-yard freestyle time (s),7,1.77,0.10,,25,7,1.77,0.1,Performance,Post-exercise,TRUE,,primary,True
+,Physiological resolution of periodic breath holding during heavy-intensity Fartlek exercise,Lim2018,VCO2p,10,2.29,0.64,,26,10,2.29,0.64,physiological,post-exercise,FALSE,,additional,True
+,Physiological resolution of periodic breath holding during heavy-intensity Fartlek exercise,Lim2018,VO2p (L/min),10,2.15,0.42,,27,10,2.15,0.42,Physiological,Post-exercise,FALSE,,primary,True
+,Effects of hyperventilation on repeated pedaling sprint performance,Sakamoto2018,VE,15,153.1,27.0,,28,15,153.1,27,physiological,during exercise,FALSE,,additional,True
+,Effects of hyperventilation on repeated pedaling sprint performance,Sakamoto2018,VO2 (ml/min) SP1,15,1767.5,214.6,,29,15,1767.5,214.6,Physiological,During exercise,FALSE,,primary,True
+,Influence of slow-paced breathing on inhibition after physical exertion,Laborde2019,Stroop errors,60,0.50,0.70,,31,60,0.5,0.7,cognitive,post-intervention,TRUE,,additional,True
+,Influence of slow-paced breathing on inhibition after physical exertion,Laborde2019,Number of Burpees,60,64.27,11.54,,32,60,64.27,11.54,Performance,Post-intervention,FALSE,,primary,True
+,Cerebral and Muscle Oxygenation during Repeated Shuttle Run Sprints with Hypoventilation,Woorons2019,PETO2,10,109.9,3.6,,33,10,109.9,3.6,physiological,during exercise,FALSE,,additional,True
+,Cerebral and Muscle Oxygenation during Repeated Shuttle Run Sprints with Hypoventilation,Woorons2019,SpO2,10,109.9,3.6,,34,10,109.9,3.6,Physiological,Post-test,FALSE,,primary,True
+,Physiological adaptations to repeated sprint training in hypoxia,Woorons2019b,RSA Sdec,9,-8.2,7,,35,9,-8.2,7,performance,post-training,FALSE,,additional,True
+,Physiological adaptations to repeated sprint training in hypoxia,Woorons2019b,RSA mean MPO (W),9,911,117,,36,9,911,117,Performance,Post-training (3 weeks),FALSE,,primary,True
+,Impact of repeated-sprint training with voluntary hypoventilation on repeated-sprint ability,Lapointe2020,VIFT,7,18.78,1.68,,38,7,18.78,1.68,performance,post-training,FALSE,,additional,True
+,Impact of repeated-sprint training with voluntary hypoventilation on repeated-sprint ability,Lapointe2020,RSASdec (%),7,5.49,2.70,,39,7,5.49,2.7,Performance,Post-training (4 weeks),TRUE,,primary,True
+,Effects of pre-race apneas on 400-m freestyle swimming performance,Robertson2020,Blood lactate,10,9.52,2.12,,40,10,9.52,2.12,physiological,post-time-trial,TRUE,,additional,True
+,Effects of pre-race apneas on 400-m freestyle swimming performance,Robertson2020,400-m freestyle time (s),10,275.79,12.88,,41,10,275.79,12.88,Performance,Post-exercise,TRUE,,primary,True
+,Impact of a Breathing Intervention on Engagement,Bahensky2021,Subclavian pressure,22,2.83,0.88,,44,22,2.83,0.88,physiological,post-training,FALSE,,additional,True
+,Impact of a Breathing Intervention on Engagement,Bahensky2021,Abdominal pressure at 3W/kg,22,2.83,0.88,,45,22,2.83,0.88,Physiological,Post (8 weeks),FALSE,,primary,True
+,Wim Hof breathing method,Citherlet2021,SpO2,15,99,0,,46,15,99,0,physiological,acute pre-exercise,FALSE,,additional,False
+,Breath holding during heavy-intensity Fartlek exercise,Grossman2021,VCO2,10,2.43,0.70,,48,10,2.43,0.7,physiological,post-exercise,FALSE,,additional,True
+,Breath holding during heavy-intensity Fartlek exercise,Grossman2021,VO2 (L/min),10,2.20,0.45,,49,10,2.2,0.45,Physiological,Post-exercise,FALSE,,primary,True
+,Fast breathing facilitates reaction time and movement time of a memory-guided force pulse,Taylor2021,NMT,47,281.83,226.50,,50,47,281.83,226.5,performance,during task,TRUE,,additional,True
+,Fast breathing facilitates reaction time and movement time of a memory-guided force pulse,Taylor2021,Reaction Time (RT) (ms),47,694.10,266.68,,51,47,694.1,266.68,Performance,During task,TRUE,,primary,True
+,The effects of breathing techniques on pressurized performance and stress-responses,Conlon2022,RMSSD,22,67.55,42.19,,54,22,67.55,42.19,physiological,post-intervention,FALSE,,additional,True
+,The effects of breathing techniques on pressurized performance and stress-responses,Conlon2022,Shooting Accuracy,23,32.30,20.27,,55,23,32.3,20.27,Performance,Post-intervention (Pressure test),FALSE,,primary,True
+,Does Wim Hof Method Improve Breathing Economy during Exercise?,Marko2022,VT,11,1.67,0.25,,56,11,1.67,0.25,physiological,post-test,FALSE,,additional,True
+,Does Wim Hof Method Improve Breathing Economy during Exercise?,Marko2022,VE,11,70.68,22.52,,57,11,70.68,22.52,Physiological,Post-test,FALSE,,primary,True
+,Single slow-paced Breathing Session at six cycles per minute,You2023,SDNN,75,141.37,45.35,,58,75,141.37,45.35,physiological,post-intervention,FALSE,,additional,True
+,Single slow-paced Breathing Session at six cycles per minute,You2023,RMSSD (ms),75,97.62,43.81,,59,75,97.62,43.81,Physiological,Post-intervention,FALSE,,primary,True
+,The Impact of Starting Positions and Breathing Rhythms on Cardiopulmonary Stress,Li2024,Average POCR,22,14.3,1.28,,62,22,14.3,1.28,physiological,post-exercise,FALSE,,additional,True
+,The Impact of Starting Positions and Breathing Rhythms on Cardiopulmonary Stress,Li2024,Average Heart Rate (bpm),22,94.9,3.80,,63,22,94.9,3.8,Physiological,During exercise,TRUE,,primary,True
+,Psychophysiological Effects of Slow-Paced Breathing on Adolescent Swimmers,Merlin2024,Total recovery,7,4.96,1.12,,64,7,4.96,1.12,psychological,post-intervention,FALSE,,additional,True
+,Differences between diaphragmatic and abdominal breathing patterns in spirometric,Sikora2024,FEV1,38,5.13,1.01,,66,38,5.13,1.01,physiological,baseline,FALSE,,additional,True
+,Differences between diaphragmatic and abdominal breathing patterns in spirometric,Sikora2024,Vital Capacity (VC) (L),38,5.495,1.13,,67,38,5.495,1.13,Physiological,Baseline,FALSE,,primary,True
+,Hypoventilation training including maximal end-expiratory breath holding improves,Woorons2024,Sdec,9,20.4,6.5,,68,9,20.4,6.5,performance,post-training,TRUE,,additional,True
+,Hypoventilation training including maximal end-expiratory breath holding improves,Woorons2024,MPOmean(5-8) (W),9,266,67,,69,9,266,67,Performance,Post-training 1,FALSE,,primary,True
+,The effect of breathing strategy on lifted load during the bench press,Deniz2025,Post-exercise SBP,12,125.00,9.40,,70,12,125,9.4,physiological,post-exercise,TRUE,,additional,True
+,The effect of breathing strategy on lifted load during the bench press,Deniz2025,Total Volume Lifted (kg),12,2410.42,395.06,,71,12,2410.42,395.06,Performance,Post-exercise,FALSE,,primary,True
+,Effects of Hook Maneuver on Oxygen Saturation Recovery After -40 m Apnea Dive,Fernandez2025,SpO2 at 30s (%),13,92,9,,72,13,92,9,Physiological,30s Post-apnea,FALSE,,primary,True
+,The effect of pre-exercise hyperventilation on repeated high-intensity inclined sprint performance,Fesseler2025,Cumulative elevation gain (Sprint 1),36,-12.89,2.78,,73,36,-12.89,2.78,Performance,Post-sprint,FALSE,,primary,True
+,Box breathing or six breaths per minute: Which strategy improves athletes post-HIIT cardiovascular recovery?,Kasap2025,Final Heart Rate (bpm),40,164.65,9.40,,75,40,164.65,9.4,Physiological,Post-exercise,TRUE,,primary,True
+,Exploring the influence of coherent breathing on psychophysiological stress,Chiron2026,Heart Rate,11,55.97,8.32,,79,11,55.97,8.32,physiological,post-test,TRUE,,additional,True
+,Exploring the influence of coherent breathing on psychophysiological stress,Chiron2026,RMSSD (ms),11,72.95,35.22,,80,11,72.95,35.22,Physiological,Post-test,FALSE,,primary,True
+,Evaluation of Immediate Changes in Reaction Time Following Bhramari Pranayama,Devipriya2026,Visual Reaction Time (VRT) Right Hand (ms),60,201.35,,,81,60,201.35,,Performance,Post-session,TRUE,No dispersion reported,primary,False
+,Slow paced breathing and power posing: a pre-competitive ritual,FernandezBarradas2026,Cognitive anxiety,34,16,,,82,34,16,,Psychological,Post-test,TRUE,No dispersion reported,primary,False
+,Fast-paced breathing,Iskra2026,PEP,38,114.46,11.16,,83,38,114.46,11.16,physiological,during intervention,FALSE,,additional,True
+,Fast-paced breathing,Iskra2026,RMSSD (ms),38,75.97,28.48,,84,38,75.97,28.48,Physiological,During intervention,FALSE,,primary,True
+,Box Breathing vs Cyclic Sighing,Jones2026,HRR3,21,119.9,18.9,,86,21,119.9,18.9,physiological,post-exercise,FALSE,,additional,True
+,Box Breathing vs Cyclic Sighing,Jones2026,Heart Rate Recovery 1 min (bpm),21,129.5,12.6,,87,21,129.5,12.6,Physiological,Post-exercise,FALSE,,primary,True
+,The acute effect of a diaphragmatic breathing warm-up on maximal deadlift performance,Katz2026,Deadlift 1RM (kg),40,163.6,47.1,,88,40,163.6,47.1,Performance,Post-test,FALSE,,primary,True

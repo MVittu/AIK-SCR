@@ -1,66 +1,66 @@
-document_id,document_name,paper_id,n_total,age_mean,age_sd,sex_ratio,view_link,n_total_num,age_mean_num,age_sd_num,sex_ratio_prop,male_n,female_n,age_range,race_ethnicity_reported,baseline_anthropometrics,baseline_fitness
-,Evidence for an inadequate hyperventilation inducing arterial hypoxemia,Durand2000.pdf,22,23.9,1.3,100,,22,23.9,1.3,1,22,0,,,"H: 182.2cm, 72.7kg",VO2max > 60 mL/min/kg
-,An Evaluation of Standardizing Target Ventilation,Spiering2004.pdf,78,,,32,,78,,,0.32,25,53,,,,VO2max tests performed previously
-,Studies on inspiratory and expiratory glossopharyngeal breathing,Lindholm2005.pdf,5,,,,,5,,,,,,,,,
-,Effects of a 4-week training with voluntary hypoventilation,Woorons2008.pdf,16,27.1,6.0,,,16,27.1,6,,,,,,"HYPO: 180.8cm, 75.6kg; CONT: 178.3cm, 69.6kg",VO2max 54.1 mL/kg/min
-,Hyperventilation as a strategy for improved repeated sprint performance,Sakamoto2014.pdf,15,,,,,15,,,,,,,,,Peak power 833W
-,Acute apnea swimming: Metabolic responses and performance,Guimard2014.pdf,15,21.9,0.9,100,,15,21.9,0.9,1,15,0,,,"180.1 cm, 69.5 kg",5-12 years swimming experience
-,The Influence of Different Modes of Ventilation on Standing Balance of Athletes,Malakhov2014.pdf,66,19.8,1.0,44,,66,19.8,1,0.44,29,37,,,,Trained 11.2 hours a week
-,Pre-exercise hyperventilation can significantly increase performance,Jacob2015.pdf,,,,,,,,,,,,,,,
-,Hyperventilation-induced respiratory alkalosis falls short of countering fatigue,Sakamoto2015.pdf,15,21.2,3.7,73,,15,21.2,3.7,0.73,11,4,18-34,,"173.3 cm, 79.9 kg",Resistance training experience 5.3 years
-,Yogic breathing practices improve lung functions of competitive young swimmers,Stavrou2015.pdf,28,,,50,,28,,,0.5,14,14,,,,
-,Effect of voluntary hypocapnic hyperventilation on the metabolic response during Wingate anaerobic test,Fujii2015.pdf,,,,,,,,,,,,,,,
-,Hypoventilation Training at Supramaximal Intensity Improves Swimming Performance,Woorons2016.pdf,16,,,75,,16,,,0.75,12,4,,,,Triathletes
-,Yogic breathing practices improve lung functions of competitive young swimmers,Hakked2017.pdf,,,,,,,,,,,,,,,
-,The Acute Effects of Hyperventilation on Jumping and Sprinting Performance,Kacoglu2017.pdf,14,,,,,14,,,,,,,,,
-,Acute effects of psychological relaxation techniques between two physical tasks,Pelka2017.pdf,27,25.22,1.08,70,,27,25.22,1.08,0.7,19,8,23-32,,BMI 22.83,8.08 h sport/week
-,Repeated Sprint Training in Hypoxia Induced by Voluntary Hypoventilation in Swimming,Trincat2017.pdf,16,15.55,1.8,56,,16,15.55,1.8,0.56,9,7,,,"168cm, 55kg (VHL); 174cm, 64kg (RSN)",FINA points 481 (VHL)
-,Evidence of global respiratory muscle fatigue from a 2-minute swim race,Burtch2017.pdf,20,,,,,20,,,,,,,,,
-,Acute effects of repeated cycling sprints in hypoxia induced by voluntary hypoventilation,Woorons2017.pdf,9,27.2,9.3,89,,9,27.2,9.3,0.89,8,1,,,"179.0 cm, 74.7 kg","Cyclists training 4-5 times/week, team sports 3-4 times/week"
-,Repeated-sprint training in hypoxia induced by voluntary hypoventilation improves running repeated-sprint ability,FornasierSantos2018.pdf,35,,,100,,35,,,1,35,0,,,,Highly trained rugby players
-,,Gray2018.pdf,,,,,,,,,,,,,,,
-,Physiological resolution of periodic breath holding during heavy-intensity Fartlek exercise,Lim2018.pdf,10,24,3,100,,10,24,3,1,10,0,,,"179 cm, 80 kg",Recreationally active
-,Effects of hyperventilation on repeated pedaling sprint performance: short vs. long intervention duration,Sakamoto2018.pdf,17,,,88,,17,,,0.88,15,2,,,,Rugby/Judo/Cycling athletes
-,SaO2 Recovery in Freedivers,Fernandez2019.pdf,25,,,100,,25,,,1,25,0,,,,Personal best in FIM over 45m
-,Influence of slow-paced breathing on inhibition after physical exertion,Laborde2019.pdf,120,25.57,2.52,58,,120,25.57,2.52,0.58,35,25,19-40,,BMI 23.62,Students
-,Cerebral and Muscle Oxygenation during Repeated Shuttle Run Sprints with Hypoventilation,Woorons2019.pdf,,,,,,,,,,,,,,,Combat sports / team sports
-,Physiological adaptations to repeated sprint training in hypoxia induced by voluntary hypoventilation,Woorons2019b.pdf,18,34.6,11,100,,18,34.6,11,1,18,0,,,"177.7 cm, 73.2 kg","Cyclists, training 4-5 times/week"
-,Acute Apnea Does Not Improve 3-km Cycling Time Trial Performance,Bouten2020.pdf,11,,,,,11,,,,,,,,,well-trained
-,Impact of repeated-sprint training with voluntary hypoventilation on repeated-sprint ability,Lapointe2020.pdf,17,22.3,1.2,71,,17,22.3,1.2,0.71,12,5,,,"185.5cm, 88.6kg",8 sessions/week
-,Effects of pre-race apneas on 400-m freestyle swimming performance,Robertson2020.pdf,,,,,,,,,,,,,,,
-,Hyperventilation-aided recovery for extra repetitions on bench press and leg press,Sakamoto2020.pdf,11,22.5,4.3,100,,11,22.5,4.3,1,11,0,,,,"Power-trained men, 8.3 yrs exp"
-,Transferable benefits of cycle hypoventilation training for run-based performance in team-sport athletes,Woorons2020.pdf,,,,,,,,,,,,,,,
-,Impact of a Breathing Intervention on Engagement...,Bahensky2021.pdf,,,,,,,,,,,,,,,
-,Wim Hof breathing method...,Citherlet2021.pdf,,,,,,,,,,,,,,,
-,Voluntary hypocapnic hyperventilation lasting 5 min and 20 min similarly reduce aerobic metabolism,Dobashi2021.pdf,11,24,2,91,,11,24,2,0.91,10,1,,,"1.73m, 68.7kg",
-,Frontiers in Physiology,Grossman2021.pdf,10,23.7,2.5,100,,10,23.7,2.5,1,10,0,,,,
-,Fast breathing facilitates reaction time and movement time of a memory-guided force pulse,Taylor2021.pdf,50,21.3,2.8,36,,50,21.3,2.8,0.36,17,30,,,,
-,,Vaidya2021.pdf,,,,,,,,,,,,,,,
-,Effects of a 5-week off-ice repeated-sprint training with voluntary hypoventilation...,Brocherie2022.pdf,43,16.7,1.5,100,,43,16.7,1.5,1,35,0,,,,
-,The effects of breathing techniques on pressurized performance and stress-responses,Conlon2022.pdf,64,,,,,64,,,,,,,,,
-,Does Wim Hof Method Improve Breathing Economy during Exercise?,Marko2022.pdf,,,,,,,,,,,,,,,
-,Single slow-paced Breathing Session at six cycles per minute,You2023.pdf,78,22.32,2.11,71,,78,22.32,2.11,0.71,53,22,19-31,,BMI 22.93,
-,Effects of a 6-Week Repeated-Sprint Training With Voluntary Hypoventilation,Braham2024.pdf,,,,,,,,,,,,,,,
-,The Effects of Slow Breathing during Inter-Set Recovery on Power Performance in the Barbell Back Squat,Buxton2024.pdf,18,,,100,,18,,,1,18,0,,,,
-,The Impact of Starting Positions and Breathing Rhythms on Cardiopulmonary Stress...,Li2024.pdf,30,,,,,30,,,,,,,,,
-,Psychophysiological Effects of Slow-Paced Breathing on Adolescent Swimmers' Subjective Performance,Merlin2024.pdf,13,13.9,0.38,38,,13,13.9,0.38,0.38,5,8,,,164.9 cm,16 h per week
-,VHL during arm cycle ergometer,Rosa2024.pdf,14,,,,,14,,,,,,,,,
-,Differences between diaphragmatic and abdominal breathing patterns in spirometric...,Sikora2024.pdf,69,,,,,69,,,,,,,,,
-,Hypoventilation training including maximal end-expiratory breath holding improves...,Woorons2024.pdf,20,20.6,2.5,50,,20,20.6,2.5,0.5,10,10,,,167.4 cm,20 h per week
-,The effect of breathing strategy on lifted load during the bench press,Deniz2025.pdf,12,27.92,7.38,100,,12,27.919999999999998,7.38,1,12,0,20-45,,BMI 26.86,8.17 yrs training
-,Effects of Hook Maneuver on Oxygen Saturation Recovery After -40 m Apnea Dive,Fernandez2025.pdf,13,42,9,,,13,42,9,,,,32-65,,BMI NR,
-,Pre-exercise hyperventilation does not improve performance...,Fesseler2025.pdf,36,,,,,36,,,,,,,,,
-,Wim Hof Method,Fox2025.pdf,404,37,9.95,44,,404,37,9.950000000000001,0.44,177,226,19-65,,,
-,Box breathing or six breaths per minute: Which strategy improves athletes post-HIIT cardiovascular recovery?,Kasap2025.pdf,40,,,,,40,,,,,,,,,
-,Effects of apnoea versus normal breathing on physiological responses during HIIT,Liapaki2025.pdf,,24.7,3.1,,,,24.7,3.1,,,,,,68.2 kg,VO2max 53.36
-,Additional Benefits of Repeated-Sprint Training With Prolonged End-Expiratory Breath Holding,Lorinczi2025.pdf,,,,,,,,,,,,,,,
-,Evaluating bioenergetic pathway contributions...,Yilmaz2025.pdf,,,,,,,,,,,,,,,
-,Exploring the influence of coherent breathing on psychophysiological stress,Chiron2026.pdf,22,22.8,3.3,68,,22,22.8,3.3,0.68,15,7,,,178cm,
-,Evaluation of Immediate Changes in Reaction Time Following Bhramari Pranayama,Devipriya2026.pdf,60,,,50,,60,,,0.5,30,30,,,,
-,Slow paced breathing and power posing: a pre-competitive ritual,FernandezBarradas2026.pdf,,,,,,,,,,,,,,,
-,Fast-paced breathing,Iskra2026.pdf,38,,,,,38,,,,,,,,,
-,Effects of underwater breath-holding training,Jing2026.pdf,,,,,,,,,,,,,,,
-,Box Breathing vs Cyclic Sighing,Jones2026.pdf,62,21.0,3.0,70,,62,21,3,0.7,44,18,,,BMI 25.7,ROTC cadets
-,Responder Analysis,Katz2026.pdf,40,,,,,40,,,,,,,,,
-,No Evidence for the Efficacy of Slow-Paced Breathing as a Recovery Strategy,Raidl2026.pdf,,,,,,,,,,,,,,,
-,Effects of Breathing Intervention on HIIT,Tomita2026.pdf,26,,,,,26,,,,,,,,,
+document_id,document_name,paper_id,n_total,age_mean,age_sd,sex_ratio,view_link,n_total_num,age_mean_num,age_sd_num,sex_ratio_prop,male_n,female_n
+,Evidence for an inadequate hyperventilation inducing arterial hypoxemia,Durand2000,22,23.9,1.3,100,,22,23.9,1.3,1,22,0
+,An Evaluation of Standardizing Target Ventilation,Spiering2004,78,,,32,,78,,,0.32,24.96,53.03999999999999
+,Studies on inspiratory and expiratory glossopharyngeal breathing,Lindholm2005,5,,,,,5,,,,,
+,Effects of a 4-week training with voluntary hypoventilation,Woorons2008,16,27.1,6.0,,,16,27.1,6,,,
+,Acute apnea swimming: Metabolic responses and performance,Guimard2014,15,21.9,0.9,100,,15,21.9,0.9,1,15,0
+,The Influence of Different Modes of Ventilation on Standing Balance of Athletes,Malakhov2014,66,19.8,1.0,44,,66,19.8,1,0.44,29.04,36.96
+,Hyperventilation as a strategy for improved repeated sprint performance,Sakamoto2014,15,,,,,15,,,,,
+,Effect of voluntary hypocapnic hyperventilation on the metabolic response,Fujii2015,11,,,,,11,,,,,
+,Pre-exercise hyperventilation can significantly increase performance,Jacob2015,14,,,,,14,,,,,
+,Hyperventilation-induced respiratory alkalosis falls short of countering fatigue,Sakamoto2015,15,21.2,3.7,73,,15,21.2,3.7,0.73,10.95,4.050000000000001
+,Yogic breathing practices improve lung functions of competitive young swimmers,Stavrou2015,28,,,50,,28,,,0.5,14,14
+,Hypoventilation Training at Supramaximal Intensity Improves Swimming Performance,Woorons2016,16,,,75,,16,,,0.75,12,4
+,Evidence of global respiratory muscle fatigue from a 2-minute swim race,Burtch2017,25,,,,,25,,,,,
+,Yogic breathing practices improve lung functions of competitive young swimmers,Hakked2017,30,,,,,30,,,,,
+,The Acute Effects of Hyperventilation on Jumping and Sprinting Performance,Kacoglu2017,14,,,,,14,,,,,
+,Acute effects of psychological relaxation techniques,Pelka2017,27,25.22,1.08,70,,27,25.22,1.08,0.7,18.9,8.100000000000001
+,Repeated Sprint Training in Hypoxia Induced by Voluntary Hypoventilation in Swimming,Trincat2017,16,15.55,1.8,56,,16,15.55,1.8,0.56,8.96,7.039999999999999
+,Acute effects of repeated cycling sprints in hypoxia induced by voluntary hypoventilation,Woorons2017,9,27.2,9.3,89,,9,27.2,9.3,0.89,8.01,0.9899999999999999
+,Repeated-sprint training in hypoxia induced by voluntary hypoventilation,FornasierSantos2018,35,,,100,,35,,,1,35,0
+,Effects of deep-breathing protocols on swimming performance,Gray2018,7,,,0,,7,,,0,0,7
+,Physiological resolution of periodic breath holding during heavy-intensity Fartlek exercise,Lim2018,10,24,3,100,,10,24,3,1,10,0
+,Effects of hyperventilation on repeated pedaling sprint performance,Sakamoto2018,17,,,88,,17,,,0.88,14.96,2.04
+,SaO2 Recovery in Freedivers,Fernandez2019,25,,,100,,25,,,1,25,0
+,Influence of slow-paced breathing on inhibition after physical exertion,Laborde2019,120,25.57,2.52,58,,120,25.57,2.52,0.58,69.6,50.400000000000006
+,Cerebral and Muscle Oxygenation during Repeated Shuttle Run Sprints with Hypoventilation,Woorons2019,10,,,,,10,,,,,
+,Physiological adaptations to repeated sprint training in hypoxia,Woorons2019b,18,34.6,11,100,,18,34.6,11,1,18,0
+,Acute Apnea Does Not Improve 3-km Cycling Time Trial Performance,Bouten2020,11,22.1,1.5,,,11,22.1,1.5,,,
+,Impact of repeated-sprint training with voluntary hypoventilation on repeated-sprint ability,Lapointe2020,17,22.3,1.2,71,,17,22.3,1.2,0.71,12.07,4.930000000000001
+,Effects of pre-race apneas on 400-m freestyle swimming performance,Robertson2020,9,19,1.5,67,,9,19,1.5,0.67,6.03,2.9699999999999998
+,Hyperventilation-aided recovery for extra repetitions on bench press and leg press,Sakamoto2020,11,22.5,4.3,100,,11,22.5,4.3,1,11,0
+,Transferable benefits of cycle hypoventilation training,Woorons2020,16,,,,,16,,,,,
+,Impact of a Breathing Intervention on Engagement,Bahensky2021,46,,,,,46,,,,,
+,Wim Hof breathing method,Citherlet2021,16,,,,,16,,,,,
+,Voluntary hypocapnic hyperventilation lasting 5 min and 20 min similarly reduce aerobic metabolism,Dobashi2021,11,24,2,91,,11,24,2,0.91,10.01,0.9899999999999997
+,Breath holding during heavy-intensity Fartlek exercise,Grossman2021,10,23.7,2.5,100,,10,23.7,2.5,1,10,0
+,Fast breathing facilitates reaction time and movement time of a memory-guided force pulse,Taylor2021,47,21.3,2.8,36,,47,21.3,2.8,0.36,16.919999999999998,30.080000000000002
+,Effect of Yoga on Performance and Physical Fitness in Cricket Bowlers,Vaidya2021,30,,,,,30,,,,,
+,Effects of a 5-week off-ice repeated-sprint training with voluntary hypoventilation,Brocherie2022,43,16.7,1.5,100,,43,16.7,1.5,1,43,0
+,The effects of breathing techniques on pressurized performance and stress-responses,Conlon2022,67,,,,,67,,,,,
+,Does Wim Hof Method Improve Breathing Economy during Exercise?,Marko2022,23,,,,,23,,,,,
+,Single slow-paced Breathing Session at six cycles per minute,You2023,78,22.32,2.11,71,,78,22.32,2.11,0.71,55.379999999999995,22.620000000000005
+,Effects of a 6-Week Repeated-Sprint Training With Voluntary Hypoventilation,Braham2024,16,,,0,,16,,,0,0,16
+,The Effects of Slow Breathing during Inter-Set Recovery on Power Performance in the Barbell Back Squat,Buxton2024,18,20.7,1.4,100,,18,20.7,1.4,1,18,0
+,The Impact of Starting Positions and Breathing Rhythms on Cardiopulmonary Stress,Li2024,30,19.6,1.2,82,,30,19.6,1.2,0.82,24.599999999999998,5.400000000000001
+,Psychophysiological Effects of Slow-Paced Breathing on Adolescent Swimmers,Merlin2024,13,13.9,0.38,38,,13,13.9,0.38,0.38,4.94,8.06
+,VHL during arm cycle ergometer,Rosa2024,14,,,,,14,,,,,
+,Differences between diaphragmatic and abdominal breathing patterns in spirometric,Sikora2024,69,,,,,69,,,,,
+,Hypoventilation training including maximal end-expiratory breath holding improves,Woorons2024,20,20.6,2.5,50,,20,20.6,2.5,0.5,10,10
+,The effect of breathing strategy on lifted load during the bench press,Deniz2025,12,27.92,7.38,100,,12,27.92,7.38,1,12,0
+,Effects of Hook Maneuver on Oxygen Saturation Recovery After -40 m Apnea Dive,Fernandez2025,13,42,9,,,13,42,9,,,
+,The effect of pre-exercise hyperventilation on repeated high-intensity inclined sprint performance,Fesseler2025,36,24.0,1.8,50,,36,24,1.8,0.5,18,18
+,Wim Hof Method,Fox2025,404,37,9.95,44,,404,37,9.95,0.44,177.76,226.24
+,Box breathing or six breaths per minute: Which strategy improves athletes post-HIIT cardiovascular recovery?,Kasap2025,40,20.95,1.75,63,,40,20.95,1.75,0.63,25.2,14.8
+,Apnea or normal breathing on physiological responses during HIIT,Liapaki2025,15,24.7,3.1,,,15,24.7,3.1,,,
+,Additional Benefits of Repeated-Sprint Training With Prolonged End-Expiratory Breath Holding,Lorinczi2025,20,,,,,20,,,,,
+,Evaluating bioenergetic pathway contributions,Yilmaz2025,12,,,,,12,,,,,
+,Exploring the influence of coherent breathing on psychophysiological stress,Chiron2026,22,22.3,3.0,68,,22,22.3,3,0.68,14.96,7.039999999999999
+,Evaluation of Immediate Changes in Reaction Time Following Bhramari Pranayama,Devipriya2026,60,21.35,1.78,50,,60,21.35,1.78,0.5,30,30
+,Slow paced breathing and power posing: a pre-competitive ritual,FernandezBarradas2026,34,16.97,0.80,,,34,16.97,0.8,,,
+,Fast-paced breathing,Iskra2026,58,,,,,58,,,,,
+,Effects of underwater breath-holding training on athletes' lung capacity,Jing2026,20,,,,,20,,,,,
+,Box Breathing vs Cyclic Sighing,Jones2026,77,21.0,3.0,71,,77,21,3,0.71,54.669999999999995,22.330000000000002
+,The acute effect of a diaphragmatic breathing warm-up on maximal deadlift performance,Katz2026,40,24.8,6.8,80,,40,24.8,6.8,0.8,32,7.999999999999998
+,No Evidence for the Efficacy of Slow-Paced Breathing as a Recovery Strategy After Sprint Interval Training,Raidl2026,20,,,,,20,,,,,
+,Focused Attention Meditation as a Pre-Exercise Strategy,Tomita2026,26,,,,,26,,,,,

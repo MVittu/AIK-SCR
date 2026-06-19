@@ -239,10 +239,11 @@ tab6_clean <- study_level %>%
     paper_id,
     adverse_events = ae_description,
     adherence_rate = adherence_rate_ig,
+    dropout_n_total = coalesce(dropout_n_ig_num, 0) + coalesce(dropout_n_cg_num, 0),
+    allocated_n_total = coalesce(n_allocated_ig_num, 0) + coalesce(n_allocated_cg_num, 0),
     dropout_rate = if_else(
-      !is.na(dropout_n_ig_num + dropout_n_cg_num) & !is.na(n_allocated_ig_num + n_allocated_cg_num) &
-        (n_allocated_ig_num + n_allocated_cg_num) > 0,
-      as.character((dropout_n_ig_num + dropout_n_cg_num) / (n_allocated_ig_num + n_allocated_cg_num)),
+      allocated_n_total > 0,
+      as.character(dropout_n_total / allocated_n_total),
       NA_character_
     ),
     feasibility_score = completion_note,

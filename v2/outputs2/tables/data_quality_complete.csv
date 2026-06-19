@@ -1,0 +1,7 @@
+table,paper_id,outcome_metric,issue
+efficacy_outcomes,Lindholm2005.pdf,VC,incomplete_numeric_fields_for_smd
+efficacy_outcomes,Woorons2008.pdf,VO2max,incomplete_numeric_fields_for_smd
+efficacy_outcomes,Trincat2017.pdf,Time at SpO2 <= 88% (s),incomplete_numeric_fields_for_smd
+efficacy_outcomes,Citherlet2021.pdf,SpO2,incomplete_numeric_fields_for_smd
+efficacy_outcomes,Devipriya2026.pdf,Visual Reaction Time (VRT) Right Hand (ms),incomplete_numeric_fields_for_smd
+efficacy_outcomes,FernandezBarradas2026.pdf,Cognitive anxiety,incomplete_numeric_fields_for_smd

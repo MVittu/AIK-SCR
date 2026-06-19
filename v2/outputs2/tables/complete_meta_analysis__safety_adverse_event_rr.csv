@@ -1,0 +1,4 @@
+paper_id,bt_classification,ai,bi,ci,di,yi,vi,analysis_group
+Sakamoto2020,hyperventilation,0,11,0,11,0,3.8333333333333335,safety_adverse_events_rr
+Fernandez2025,hook breathing,4,9,4,9,0,0.3015873015873016,safety_adverse_events_rr
+Tomita2026,controlled breathing,0,26,0,26,0,3.9259259259259256,safety_adverse_events_rr

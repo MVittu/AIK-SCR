@@ -129,7 +129,7 @@ plot_forest <- function(data, group_name, filename, xlab = "Hedges' g") {
   on.exit(grDevices::dev.off(), add = TRUE)
   par(mar = c(9, 10, 4, 8))
   weight_x <- -5.2
-  metafor::forest(model, slab = labels, ilab = sprintf("%.1f%%", weights_pct), ilab.lab = "Weight", ilab.xpos = weight_x, header = "Study / outcome", xlab = xlab, mlab = expression(bold("Random-effects model")), refline = 0, shade = TRUE, addpred = TRUE, cex = 0.95, xlim = c(-16, 8), alim = c(-2, 2), textpos = c(-16, 8), slab.just = "left")
+  metafor::forest(model, slab = labels, ilab = sprintf("%.1f%%", weights_pct), ilab.lab = "Weight", ilab.xpos = weight_x, header = "Study / outcome", xlab = xlab, mlab = expression(bold("Random-effects model")), refline = 0, shade = TRUE, addpred = TRUE, cex = 0.95, xlim = c(-16, 8), alim = c(-2, 2), textpos = c(-16, 8))
   text(weight_x, -1, "100%", cex = 1.0, font = 2)
   mtext(sprintf("Heterogeneity: Q = %.2f, df = %d, p = %.3f; I^2 = %.1f%%; tau^2 = %.3f", model$QE, model$k - model$p, model$QEp, model$I2, model$tau2), side = 1, line = 5.8, adj = 0, cex = 1.0)
 }
@@ -169,7 +169,7 @@ plot_rr_forest <- function(data, filename, xlab = "Risk ratio", max_display_rr_u
   on.exit(grDevices::dev.off(), add = TRUE)
   par(mar = c(9, 10, 4, 8))
   weight_x <- -5.2
-  metafor::forest(model, slab = labels, atransf = exp, ilab = sprintf("%.1f%%", weights_pct), ilab.lab = "Weight", ilab.xpos = weight_x, header = "Study", xlab = xlab, mlab = expression(bold("Random-effects model")), refline = 0, shade = TRUE, addpred = TRUE, cex = 0.95, xlim = c(-16, 8), textpos = c(-16, 8), slab.just = "left")
+  metafor::forest(model, slab = labels, atransf = exp, ilab = sprintf("%.1f%%", weights_pct), ilab.lab = "Weight", ilab.xpos = weight_x, header = "Study", xlab = xlab, mlab = expression(bold("Random-effects model")), refline = 0, shade = TRUE, addpred = TRUE, cex = 0.95, xlim = c(-16, 8), textpos = c(-16, 8))
   text(weight_x, -1, "100%", cex = 1.0, font = 2)
   mtext(sprintf("Heterogeneity: Q = %.2f, df = %d, p = %.3f; I^2 = %.1f%%; tau^2 = %.3f", model$QE, model$k - model$p, model$QEp, model$I2, model$tau2), side = 1, line = 5.8, adj = 0, cex = 1.0)
 }
