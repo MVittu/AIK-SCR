@@ -1,0 +1,66 @@
+Paper_ID,N_Allocated_IG,N_Allocated_CG,Dropout_N_IG,Dropout_N_CG,Adherence_Rate_IG,Adherence_Rate_CG,Completion_Note,Source_Quote
+Durand2000.pdf,12,10,,,,,,
+Spiering2004.pdf,78,,,,,,,
+Lindholm2005.pdf,5,,,,,,,
+Woorons2008.pdf,8,8,,,,,,
+Sakamoto2014.pdf,15,15,,,,,,
+Guimard2014.pdf,15,15,,,,,,
+Malakhov2014.pdf,38,28,,,,,,
+Jacob2015.pdf,14,14,,,,,,
+Sakamoto2015.pdf,15,15,,,,,,
+Stavrou2015.pdf,14,14,0,0,,,,
+Fujii2015.pdf,11,11,,,,,,
+Woorons2016.pdf,8,8,0,1,,,"One dropout in CONT due to inability to breathe through snorkel.",
+Hakked2017.pdf,15,15,1,2,100,100,,
+Kacoglu2017.pdf,14,14,,,,,,
+Pelka2017.pdf,30,30,,,,,"3 dropouts occurred during habituation.","Dropouts occurred during habituation (3 out of 30). 27 analysed."
+Trincat2017.pdf,8,8,,,,,,
+Burtch2017.pdf,13,12,,,,,"5 total dropouts.","because of travel, illness, and failure to comply with required number of training sessions, only 20 subjects completed the final testing session."
+Woorons2017.pdf,9,9,,,,,,
+FornasierSantos2018.pdf,,,,,,,"14 subjects did not complete.","14 subjects did not complete"
+Gray2018.pdf,7,7,,,,,,
+Lim2018.pdf,10,10,,,,,,
+Sakamoto2018.pdf,17,17,,,,,"2 dropouts due to transducer error.","2 subjects were excluded from the data set because of a transducer error."
+Fernandez2019.pdf,25,,,,,,,
+Laborde2019.pdf,60,60,,,,,"ECG data lost for 13 participants in Exp 2.","Due to technical problems, the ECG data of the last 13 participants of Experiment 2 were lost"
+Woorons2019.pdf,10,10,,,,,,
+Woorons2019b.pdf,9,9,,,,,,
+Bouten2020.pdf,11,11,,,,,,
+Lapointe2020.pdf,9,8,2,2,,,,
+Robertson2020.pdf,10,10,,,,,,
+Sakamoto2020.pdf,11,11,,,,,,
+Woorons2020.pdf,,,,,,,,,
+Bahensky2021.pdf,23,23,1,0,,,,"One participant did not complete the intervention for medical reasons unrelated to the intervention and was excluded"
+Citherlet2021.pdf,16,16,,,,,"1 dropout due to injury.","1 participant was excluded because of a muscular injury"
+Dobashi2021.pdf,11,11,,,,,,
+Grossman2021.pdf,10,10,,,,,,
+Taylor2021.pdf,47,47,,,,,,
+Vaidya2021.pdf,,,,,,,,,
+Brocherie2022.pdf,43,,,,,,,"8 dropouts total.","Eight out of the 43 subjects were unable to complete the protocol due to injuries (n=3), unavailability (n=4) or club transfer (n=1)"
+Conlon2022.pdf,23,44,1,2,,,,,"Due to incomplete ECG recordings, three participants' physiological data could not be analysed (experimental group = one; comparative control group = two)."
+Marko2022.pdf,23,,,,,,,
+You2023.pdf,78,78,,,,,"3 dropouts total.",
+Braham2024.pdf,,,,,,,,,
+Buxton2024.pdf,18,18,,,,,,
+Li2024.pdf,30,30,,,,,"8 dropouts total.","Participants Exclusion (n=3) Have musculoskeletal injury... Lost Follow up (n=5)"
+Merlin2024.pdf,7,6,,,,,,
+Rosa2024.pdf,14,14,,,,,,
+Sikora2024.pdf,38,22,,,,,,
+Woorons2024.pdf,10,10,1,2,,,,
+Deniz2025.pdf,12,12,,,,,,
+Fernandez2025.pdf,13,13,,,,,,
+Fesseler2025.pdf,36,36,,,,,,
+Fox2025.pdf,273,131,,,,,"Total attrition 152. Daily intervention compliance 64.71%.","A total of 556 participants enrolled in the study, with a final sample size of 404 participants"
+Kasap2025.pdf,40,40,,,,,,
+Liapaki2025.pdf,15,15,,,,,,
+Lorinczi2025.pdf,,,,,,,,,
+Yilmaz2025.pdf,12,12,,,,,,
+Chiron2026.pdf,11,11,,,,,,
+Devipriya2026.pdf,60,60,,,,,,
+FernandezBarradas2026.pdf,34,,,,,,,,
+Iskra2026.pdf,58,58,,,,,"20 dropouts/exclusions total.","Three participants were excluded from the main analysis due to technical issues... An additional 17 participants were excluded... yielding 38 final datasets."
+Jing2026.pdf,,,,,,,,,
+Jones2026.pdf,42,20,,,,,"15 participants excluded due to technical issues.","Of these, 10 participants were excluded due to technical issues with the connectivity... An additional five participants were removed during data screening... final analyzed sample comprised 62 participants"
+Katz2026.pdf,40,40,,,,,,
+Raidl2026.pdf,,,,,,,,,
+Tomita2026.pdf,26,26,0,0,,,"All completed without adverse events.","All 26 participants completed the intervention and HIIT protocols without adverse events."

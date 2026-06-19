@@ -42,8 +42,11 @@ if (!dir.exists(file.path(project_root, "Data"))) {
 }
 
 data_dir <- file.path(project_root, "Data")
+data2_dir <- file.path(v2_dir, "data2")
 source_file_ext65 <- file.path(data_dir, "Data-ext-65.csv")
 source_file_meta65 <- file.path(data_dir, "Data-ext-65-meta.csv")
+source_file_complete <- file.path(data2_dir, "complete-analysis-dataset.csv")
+source_file_intervention65 <- file.path(data2_dir, "intervention-chars-65.csv")
 outputs_dir <- file.path(v2_dir, "outputs2")
 tables_dir <- file.path(outputs_dir, "tables")
 plots_dir <- file.path(outputs_dir, "plots")

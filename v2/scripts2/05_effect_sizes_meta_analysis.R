@@ -1,11 +1,11 @@
 if (!exists("scripts_dir")) source(file.path("v2", "scripts2", "00_setup.R"))
 
-if (!file.exists(source_file_meta65)) {
-  stop("Missing required meta-analysis file: ", source_file_meta65)
+if (!file.exists(source_file_complete)) {
+  stop("Missing required complete v2 data file: ", source_file_complete)
 }
 
 meta_raw <- utils::read.csv(
-  source_file_meta65,
+  source_file_complete,
   colClasses = "character",
   check.names = FALSE,
   stringsAsFactors = FALSE,
@@ -51,6 +51,7 @@ meta_data <- meta_raw %>%
     lower_by_metric = str_detect(outcome_lower, lower_is_better_pattern),
     lower_is_better_flag = case_when(
       str_to_upper(lower_is_better) %in% c("TRUE", "T", "YES", "1") ~ TRUE,
+      str_to_upper(lower_is_better) %in% c("FALSE", "F", "NO", "0") ~ FALSE,
       lower_by_metric ~ TRUE,
       TRUE ~ FALSE
     ),
@@ -65,13 +66,10 @@ meta_data <- meta_raw %>%
       ig_n_num > 1 & cg_n_num > 1 & ig_sd_num > 0 & cg_sd_num > 0
   )
 
-shifted_sample_size_fields <- meta_raw %>%
-  filter(if_any(c(ig_n, cg_n, n_allocated_ig, n_allocated_cg), ~ str_detect(.x %||% "", "^p\\s*[<=>]"))) %>%
-  select(paper_id, outcome_metric, ig_n, cg_n, n_allocated_ig, n_allocated_cg, reported_effect, notes)
+effect_input <- meta_data %>% filter(row_type == "efficacy_outcome", complete_for_smd)
 
-effect_input <- meta_data %>% filter(complete_for_smd)
 effect_exclusions <- meta_data %>%
-  filter(!complete_for_smd) %>%
+  filter(row_type == "efficacy_outcome", !complete_for_smd) %>%
   transmute(paper_id, outcome_domain, outcome_metric, reason = "missing_or_invalid_n_mean_or_sd")
 
 smd <- if (nrow(effect_input) > 0) {
@@ -96,6 +94,7 @@ smd <- if (nrow(effect_input) > 0) {
         str_to_lower(outcome_domain) == "performance" ~ "efficacy_performance",
         str_to_lower(outcome_domain) == "physiological" ~ "efficacy_physiological",
         str_to_lower(outcome_domain) == "psychological" ~ "efficacy_psychological",
+        str_to_lower(outcome_domain) == "cognitive" ~ "efficacy_cognitive",
         TRUE ~ "efficacy_other"
       )
     )
@@ -175,10 +174,12 @@ plot_rr_forest <- function(data, filename, xlab = "Risk ratio", max_display_rr_u
   mtext(sprintf("Heterogeneity: Q = %.2f, df = %d, p = %.3f; I^2 = %.1f%%; tau^2 = %.3f", model$QE, model$k - model$p, model$QEp, model$I2, model$tau2), side = 1, line = 5.8, adj = 0, cex = 1.0)
 }
 
-efficacy_groups <- c("efficacy_performance", "efficacy_physiological", "efficacy_psychological")
+efficacy_groups <- c("efficacy_performance", "efficacy_physiological", "efficacy_psychological", "efficacy_cognitive")
 efficacy_summary <- purrr::map_dfr(efficacy_groups, ~ fit_summary(smd, .x))
 
-ae_comparative <- meta_data %>%
+safety_level <- meta_data %>% distinct(paper_id, .keep_all = TRUE)
+
+ae_comparative <- safety_level %>%
   filter(!is.na(any_ae_n_ig_num), !is.na(any_ae_n_cg_num), !is.na(any_ae_total_ig_num), !is.na(any_ae_total_cg_num), any_ae_total_ig_num > 0, any_ae_total_cg_num > 0) %>%
   transmute(paper_id, bt_classification, ai = any_ae_n_ig_num, bi = any_ae_total_ig_num - any_ae_n_ig_num, ci = any_ae_n_cg_num, di = any_ae_total_cg_num - any_ae_n_cg_num)
 
@@ -190,7 +191,7 @@ ae_rr <- if (nrow(ae_comparative) > 0) {
   tibble()
 }
 
-dropout_comparative <- meta_data %>%
+dropout_comparative <- safety_level %>%
   filter(!is.na(dropout_n_ig_num), !is.na(dropout_n_cg_num), !is.na(n_allocated_ig_num), !is.na(n_allocated_cg_num), n_allocated_ig_num > 0, n_allocated_cg_num > 0) %>%
   transmute(paper_id, ai = dropout_n_ig_num, bi = n_allocated_ig_num - dropout_n_ig_num, ci = dropout_n_cg_num, di = n_allocated_cg_num - dropout_n_cg_num)
 
@@ -211,7 +212,6 @@ rr_summary <- bind_rows(
 write_table_outputs(
   list(
     extracted_meta_data = meta_data,
-    shifted_sample_size_fields = shifted_sample_size_fields,
     efficacy_effect_sizes = smd,
     efficacy_meta_summary = efficacy_summary,
     efficacy_excluded = effect_exclusions,
@@ -219,11 +219,12 @@ write_table_outputs(
     feasibility_dropout_rr = dropout_rr,
     safety_feasibility_summary = rr_summary
   ),
-  "meta65_analysis"
+  "complete_meta_analysis"
 )
 
-plot_forest(smd, "efficacy_performance", "meta65_forest_efficacy_performance.png")
-plot_forest(smd, "efficacy_physiological", "meta65_forest_efficacy_physiological.png")
-plot_forest(smd, "efficacy_psychological", "meta65_forest_efficacy_psychological.png")
-plot_rr_forest(ae_rr, "meta65_forest_safety_adverse_events_rr.png")
-plot_rr_forest(dropout_rr, "meta65_forest_feasibility_dropout_rr.png")
+plot_forest(smd, "efficacy_performance", "complete_forest_efficacy_performance.png")
+plot_forest(smd, "efficacy_physiological", "complete_forest_efficacy_physiological.png")
+plot_forest(smd, "efficacy_psychological", "complete_forest_efficacy_psychological.png")
+plot_forest(smd, "efficacy_cognitive", "complete_forest_efficacy_cognitive.png")
+plot_rr_forest(ae_rr, "complete_forest_safety_adverse_events_rr.png")
+plot_rr_forest(dropout_rr, "complete_forest_feasibility_dropout_rr.png")

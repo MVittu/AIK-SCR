@@ -1,0 +1,66 @@
+Paper_ID,Outcome_Domain,Outcome_Metric,Timepoint,Lower_Is_Better,IG_N,IG_Mean,IG_SD,CG_N,CG_Mean,CG_SD
+Durand2000.pdf,,,,,,,,,,
+Spiering2004.pdf,,,,,,,,,,
+Lindholm2005.pdf,,,,,,,,,,
+Woorons2008.pdf,,,,,,,,,,
+Sakamoto2014.pdf,,,,,,,,,,
+Guimard2014.pdf,,,,,,,,,,
+Malakhov2014.pdf,performance,S (mm2),post-exercise,TRUE,38,386.7,245.6,38,76.22,34.15
+Jacob2015.pdf,,,,,,,,,,
+Sakamoto2015.pdf,,,,,,,,,,
+Stavrou2015.pdf,physiological,FVC,post-training,FALSE,14,4.3,0.7,14,2.9,0.5
+Fujii2015.pdf,,,,,,,,,,
+Woorons2016.pdf,,,,,,,,,,
+Hakked2017.pdf,,,,,,,,,,
+Kacoglu2017.pdf,,,,,,,,,,
+Pelka2017.pdf,,,,,,,,,,
+Trincat2017.pdf,,,,,,,,,,
+Burtch2017.pdf,physiological,VO2max,post-training,FALSE,13,53,5,12,53,6
+Woorons2017.pdf,physiological,Breathing frequency,during exercise,FALSE,9,44.5,5.8,9,58.4,17.0
+FornasierSantos2018.pdf,performance,RV,post-training,FALSE,11,7.07,0.3,10,7.13,0.37
+Gray2018.pdf,physiological,Blood lactate,post-exercise,TRUE,7,3.8,1.06,7,2.9,1.58
+Lim2018.pdf,physiological,VCO2p,post-exercise,FALSE,10,2.29,0.64,10,2.30,0.55
+Sakamoto2018.pdf,physiological,VE,during exercise,FALSE,15,153.1,27.0,15,73.6,16.6
+Fernandez2019.pdf,,,,,,,,,,
+Laborde2019.pdf,cognitive,Stroop errors,post-intervention,TRUE,60,0.50,0.70,60,0.81,0.86
+Woorons2019.pdf,physiological,PETO2,during exercise,FALSE,10,109.9,3.6,10,114.6,3.6
+Woorons2019b.pdf,performance,RSA Sdec,post-training,FALSE,9,-8.2,7,9,-12.0,9
+Bouten2020.pdf,,,,,,,,,,
+Lapointe2020.pdf,performance,VIFT,post-training,FALSE,7,18.78,1.68,6,18.63,1.75
+Robertson2020.pdf,physiological,Blood lactate,post-time-trial,TRUE,10,9.52,2.12,10,9.84,3.67
+Sakamoto2020.pdf,,,,,,,,,,
+Woorons2020.pdf,,,,,,,,,,
+Bahensky2021.pdf,physiological,Subclavian pressure,post-training,FALSE,22,2.83,0.88,23,2.98,1.35
+Citherlet2021.pdf,physiological,SpO2,acute pre-exercise,FALSE,15,99,0,15,97,1
+Dobashi2021.pdf,,,,,,,,,,
+Grossman2021.pdf,physiological,VCO2,post-exercise,FALSE,10,2.43,0.70,10,2.55,0.65
+Taylor2021.pdf,performance,NMT,during task,TRUE,47,281.83,226.50,47,303.28,225.36
+Vaidya2021.pdf,,,,,,,,,,
+Brocherie2022.pdf,,,,,,,,,,
+Conlon2022.pdf,physiological,RMSSD,post-intervention,FALSE,22,67.55,42.19,21,61.29,28.05
+Marko2022.pdf,physiological,VT,post-test,FALSE,11,1.67,0.25,11,1.66,0.27
+You2023.pdf,physiological,SDNN,post-intervention,FALSE,75,141.37,45.35,75,98.23,40.70
+Braham2024.pdf,,,,,,,,,,
+Buxton2024.pdf,,,,,,,,,,
+Li2024.pdf,physiological,Average POCR,post-exercise,FALSE,22,14.3,1.28,22,11.0,0.93
+Merlin2024.pdf,psychological,Total recovery,post-intervention,FALSE,7,4.96,1.12,6,5.14,1.06
+Rosa2024.pdf,,,,,,,,,,
+Sikora2024.pdf,physiological,FEV1,baseline,FALSE,38,5.13,1.01,22,4.14,0.88
+Woorons2024.pdf,performance,Sdec,post-training,TRUE,9,20.4,6.5,8,24.4,4.2
+Deniz2025.pdf,physiological,Post-exercise SBP,post-exercise,TRUE,12,125.00,9.40,12,128.50,8.88
+Fernandez2025.pdf,,,,,,,,,,
+Fesseler2025.pdf,,,,,,,,,,
+Fox2025.pdf,,,,,,,,,,
+Kasap2025.pdf,,,,,,,,,,
+Liapaki2025.pdf,,,,,,,,,,
+Lorinczi2025.pdf,,,,,,,,,,
+Yilmaz2025.pdf,,,,,,,,,,
+Chiron2026.pdf,physiological,Heart Rate,post-test,TRUE,11,55.97,8.32,11,55.75,6.11
+Devipriya2026.pdf,,,,,,,,,,
+FernandezBarradas2026.pdf,,,,,,,,,,
+Iskra2026.pdf,physiological,PEP,during intervention,FALSE,38,114.46,11.16,38,116.17,11.75
+Jing2026.pdf,,,,,,,,,,
+Jones2026.pdf,physiological,HRR3,post-exercise,FALSE,21,119.9,18.9,20,124.0,15.7
+Katz2026.pdf,,,,,,,,,,
+Raidl2026.pdf,,,,,,,,,,
+Tomita2026.pdf,,,,,,,,,,

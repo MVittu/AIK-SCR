@@ -1,0 +1,66 @@
+Paper_ID,BT_Classification,Breathing_Category,Comparator,Arm_Structure,Timing,Total_Duration
+Durand2000.pdf,hypoventilation,hypoventilation,athletes without EIH,observational,during exercise,
+Spiering2004.pdf,voluntary hyperventilation,hyperventilation,baseline,observational,baseline/testing,6 min
+Lindholm2005.pdf,glossopharyngeal breathing,glossopharyngeal,baseline,observational,baseline/testing,
+Woorons2008.pdf,hypoventilation,hypoventilation,normal breathing,parallel,training intervention,4 weeks
+Sakamoto2014.pdf,hyperventilation,hyperventilation,control,crossover,acute pre-exercise,
+Guimard2014.pdf,breath holding,breath holding/apnea,normal breathing,crossover,during exercise,
+Malakhov2014.pdf,hyperventilation,hyperventilation,quiet breath,crossover,baseline/testing,
+Jacob2015.pdf,voluntary hyperventilation,hyperventilation,normal breathing,crossover,acute pre-exercise,
+Sakamoto2015.pdf,hyperventilation,hyperventilation,control,crossover,acute pre-exercise,
+Stavrou2015.pdf,intermittent breath holding,breath holding/apnea,self-selected breathing,parallel,training intervention,16 weeks
+Fujii2015.pdf,voluntary hyperventilation,hyperventilation,control,crossover,acute pre-exercise,
+Woorons2016.pdf,hypoventilation (VHL),hypoventilation,normal breathing,parallel,training intervention,5 weeks
+Hakked2017.pdf,pranayama/yogic breathing,yoga/pranayama,wait-list control,parallel,training intervention,30 days
+Kacoglu2017.pdf,hyperventilation,hyperventilation,normal ventilation,crossover,acute pre-exercise,
+Pelka2017.pdf,slow-paced breathing,paced breathing,control,crossover,post-exercise/recovery,
+Trincat2017.pdf,hypoventilation,hypoventilation,normal breathing,parallel,training intervention,2 weeks
+Burtch2017.pdf,controlled frequency breathing,paced breathing,matched control,parallel,training intervention,
+Woorons2017.pdf,hypoventilation (RSH-VHL),hypoventilation,normal breathing,crossover,during exercise,
+FornasierSantos2018.pdf,hypoventilation (VHL),hypoventilation,normal breathing,parallel,training intervention,4 weeks
+Gray2018.pdf,slow-paced breathing,paced breathing,no deep breathing,crossover,acute pre-exercise,
+Lim2018.pdf,breath holding,breath holding/apnea,free-breathing,crossover,during exercise,
+Sakamoto2018.pdf,hyperventilation,hyperventilation,control,crossover,acute pre-exercise,
+Fernandez2019.pdf,breath holding,breath holding/apnea,fast recovery,observational,post-exercise/recovery,
+Laborde2019.pdf,slow-paced breathing,paced breathing,active control,crossover,post-exercise/recovery,
+Woorons2019.pdf,hypoventilation,hypoventilation,normal breathing,crossover,during exercise,
+Woorons2019b.pdf,hypoventilation (RSH-VHL),hypoventilation,normal breathing,parallel,training intervention,3 weeks
+Bouten2020.pdf,breath holding/apnea,breath holding/apnea,placebo/control,crossover,acute pre-exercise,
+Lapointe2020.pdf,hypoventilation (VHL),hypoventilation,normal breathing,parallel,training intervention,4 weeks
+Robertson2020.pdf,pre-race apneas,breath holding/apnea,control,crossover,acute pre-exercise,
+Sakamoto2020.pdf,hyperventilation,hyperventilation,spontaneous breathing,crossover,post-exercise/recovery,
+Woorons2020.pdf,hypoventilation,hypoventilation,normal breathing,parallel,training intervention,
+Bahensky2021.pdf,yoga-based breathing,yoga/pranayama,normal training,parallel,training intervention,8 weeks
+Citherlet2021.pdf,Wim Hof Method,mixed protocol,spontaneous breathing,crossover,acute pre-exercise,12 min
+Dobashi2021.pdf,voluntary hyperventilation,hyperventilation,control,crossover,acute pre-exercise,"5 min, 20 min"
+Grossman2021.pdf,breath holding,breath holding/apnea,free-breathing,crossover,during exercise,
+Taylor2021.pdf,fast-paced breathing,paced breathing,slow-paced breathing,crossover,during exercise,
+Vaidya2021.pdf,yoga-based breathing,yoga/pranayama,control,parallel,training intervention,
+Brocherie2022.pdf,hypoventilation (VHL),hypoventilation,normal breathing,parallel,training intervention,5 weeks
+Conlon2022.pdf,slow diaphragmatic breathing,diaphragmatic,paced breathing,parallel,acute pre-exercise,5 min
+Marko2022.pdf,Wim Hof Method,mixed protocol,baseline,single-arm,acute pre-exercise,
+You2023.pdf,slow-paced breathing,paced breathing,usual breathing,crossover,baseline/testing,
+Braham2024.pdf,hypoventilation (VHL),hypoventilation,normal breathing,parallel,training intervention,6 weeks
+Buxton2024.pdf,slow-paced breathing,paced breathing,control,crossover,post-exercise/recovery,
+Li2024.pdf,regulated breathing,paced breathing,free breathing,crossover,during exercise,
+Merlin2024.pdf,slow-paced breathing,paced breathing,control,parallel,training intervention,6 weeks
+Rosa2024.pdf,hypoventilation (RS-VHL),hypoventilation,normal breathing,crossover,during exercise,
+Sikora2024.pdf,diaphragmatic breathing,diaphragmatic,thoracic breathing,observational,baseline/testing,
+Woorons2024.pdf,hypoventilation (RSH-VHL),hypoventilation,normal breathing,parallel,training intervention,4 weeks
+Deniz2025.pdf,exhalation,other,inhalation,crossover,during exercise,4 weeks
+Fernandez2025.pdf,hook breathing,other,usual breathing,crossover,post-exercise/recovery,
+Fesseler2025.pdf,pre-exercise hyperventilation,hyperventilation,spontaneous breathing,crossover,acute pre-exercise,30 s
+Fox2025.pdf,Wim Hof Method,mixed protocol,active control,parallel,training intervention,29 days
+Kasap2025.pdf,box breathing,paced breathing,spontaneous breathing,crossover,post-exercise/recovery,2 min
+Liapaki2025.pdf,breath holding/apnea,breath holding/apnea,normal breathing,crossover,during exercise,
+Lorinczi2025.pdf,breath holding/apnea (EEBH),breath holding/apnea,normal breathing,parallel,training intervention,
+Yilmaz2025.pdf,voluntary hyperventilation,hyperventilation,control,unclear,acute pre-exercise,
+Chiron2026.pdf,slow-paced breathing,paced breathing,control,parallel,training intervention,8 days
+Devipriya2026.pdf,Bhramari Pranayama,yoga/pranayama,baseline,single-arm,baseline/testing,
+FernandezBarradas2026.pdf,slow-paced breathing,paced breathing,baseline,single-arm,acute pre-exercise,8 weeks
+Iskra2026.pdf,slow-paced breathing,paced breathing,paced breathing,crossover,baseline/testing,2.5 min
+Jing2026.pdf,breath holding/apnea,breath holding/apnea,control,parallel,training intervention,
+Jones2026.pdf,box breathing,paced breathing,spontaneous breathing,parallel,post-exercise/recovery,3 min
+Katz2026.pdf,diaphragmatic breathing,diaphragmatic,control,crossover,acute pre-exercise,5 min
+Raidl2026.pdf,slow-paced breathing,paced breathing,control,parallel,post-exercise/recovery,
+Tomita2026.pdf,focused attention meditation,other,control,crossover,acute pre-exercise,
